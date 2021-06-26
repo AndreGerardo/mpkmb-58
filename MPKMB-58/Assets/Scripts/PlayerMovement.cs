@@ -50,22 +50,6 @@ public class PlayerMovement : MonoBehaviour {
             }
         }
 
-        if(Input.GetMouseButtonDown(0))
-        {
-            previousDistanceToTouchPos = 0;
-            currentDistanceToTouchPos = 0;
-            isMoving = true;
-            touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            touchPosition.z = 0;
-            whereToMove = (touchPosition - transform.position).normalized;
-            rb.velocity = new Vector2(whereToMove.x * moveSpeed, transform.position.y);
-
-            if (touchPosition.x > transform.position.x)
-                transform.eulerAngles = new Vector3(0, 0, 0);
-            if (touchPosition.x < transform.position.x)
-                transform.eulerAngles = new Vector3(0, -180, 0);
-        }
-
         // Mengecek jika karakter sudah sampai tujuan
         if (currentDistanceToTouchPos > previousDistanceToTouchPos) {
             isMoving = false;

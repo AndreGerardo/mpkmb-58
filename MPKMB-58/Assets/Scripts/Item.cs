@@ -8,7 +8,7 @@ public class Item : MonoBehaviour
     protected Inventory inventory;
     public GameObject itemButton;
     [SerializeField]
-    private string itemName;
+    public string itemName;
     public string ItemName
     {
         get { return itemName; }
@@ -18,27 +18,7 @@ public class Item : MonoBehaviour
     void Start()
     {
         inventory = FindObjectOfType<Inventory>();
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        // Triggernya
-        // Cek apakah kita mengklik object ini
-        if (Input.GetMouseButtonDown(0)) {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
-            
-            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
-            if(hit.collider == null){
-                return;
-            }
-            // Mengklik Object Tersebut
-            if (hit.collider.gameObject.Equals(gameObject)) {
-                Interact();
-                Debug.Log($"{hit.collider.gameObject.name} diklik!");
-            }
-        }
     }
 
     /// <summary>
@@ -77,5 +57,25 @@ public class Item : MonoBehaviour
             }
         }
         return false;
+    }
+
+    void OnTriggerStay2D(Collider2D other){
+        // Triggernya
+        // Cek apakah kita mengklik object ini
+        if (Input.GetMouseButtonDown(0)) {
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
+            
+            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
+            // RaycastHit2D hit = Physics2D.Raycast(mousePos2D, mousePos2D);
+            if(hit.collider == null){
+                return;
+            }
+            // Mengklik Object Tersebut
+            if (hit.collider.gameObject.Equals(gameObject)) {
+                Interact();
+                Debug.Log($"{hit.collider.gameObject.name} diklik!");
+            }
+        }
     }
 }

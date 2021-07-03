@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour {
                 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
                 touchPosition.z = 0;
                 whereToMove = (touchPosition - transform.position).normalized;
-                rb.velocity = new Vector2(whereToMove.x * moveSpeed, transform.position.y);
+                rb.velocity = new Vector2(whereToMove.x * moveSpeed, whereToMove.y * 0);
 
                 // Mengecek jika karakter harus menghadap kanan atau kiri
                 if (touchPosition.x > transform.position.x)
@@ -58,7 +58,7 @@ public class PlayerMovement : MonoBehaviour {
             touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             touchPosition.z = 0;
             whereToMove = (touchPosition - transform.position).normalized;
-            rb.velocity = new Vector2(whereToMove.x * moveSpeed, transform.position.y);
+            rb.velocity = new Vector2(whereToMove.x * moveSpeed, whereToMove.y * 0);
 
             if (touchPosition.x > transform.position.x)
                 transform.eulerAngles = new Vector3(0, 0, 0);

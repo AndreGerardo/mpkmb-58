@@ -16,4 +16,6 @@ MonoBehaviour:
   - 'im doneee
 
 '
-  responses: []
+  responses:
+  - responseText: okay
+    dialogueObject: {fileID: 0}

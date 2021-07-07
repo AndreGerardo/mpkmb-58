@@ -30,6 +30,7 @@ public class PlayerTest : MonoBehaviour
 
         rb.MovePosition(rb.position + input.normalized * (MovSpd * Time.fixedDeltaTime));
 
+        //klik objek buat interaksi
         if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0) || Input.touches.Any(x => x.phase == TouchPhase.Began))
         {
             Interactable?.Interact(this);

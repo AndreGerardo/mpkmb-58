@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
   m_Name: no
   m_EditorClassIdentifier: 
-  dialogue:
-  - Try Again
+  nameOfSpeaker: NPC No
+  dialogueIsi:
+  - Coba lagi
   responses:
-  - responseText: Retry
-    dialogueObject: {fileID: 11400000, guid: 5968a47d932c9d04a92eac678a3cf204, type: 2}
+  - responseText: Okay
+    dialogueObject: {fileID: 0}

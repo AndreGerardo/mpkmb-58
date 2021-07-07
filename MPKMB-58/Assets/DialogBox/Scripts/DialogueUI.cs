@@ -5,7 +5,9 @@ using TMPro;
 public class DialogueUI : MonoBehaviour
 {
     [SerializeField] private GameObject dialogueBox;
-    [SerializeField] private TMP_Text textLabel;
+    [SerializeField] private TMP_Text textContent;
+    [SerializeField] private TMP_Text textSpeaker;
+    [SerializeField] private int indexSpeaker;
 
     public bool IsOpen { get; private set; }
 
@@ -33,17 +35,19 @@ public class DialogueUI : MonoBehaviour
         responseHandler.AddResponseEvent(responseEvents);
     }
 
-    //Munculin teks yang ada di array
+    //Munculin teks yang ada di array ke layar
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
- 
+        textSpeaker.text = dialogueObject.NameOfSpeaker;
+
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
             string dialogue = dialogueObject.Dialogue[i];
 
+            /*yield return RunTypingEffectSpeaker(speaker);*/
             yield return RunTypingEffect(dialogue);
 
-            textLabel.text = dialogue;
+            textContent.text = dialogue;
 
             if(i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
 
@@ -65,7 +69,7 @@ public class DialogueUI : MonoBehaviour
 
     private IEnumerator RunTypingEffect(string dialogue)
     {
-        typewriterEffect.Run(dialogue, textLabel);
+        typewriterEffect.Run(dialogue, textContent);
 
         while (typewriterEffect.IsRunning)
         {
@@ -84,7 +88,7 @@ public class DialogueUI : MonoBehaviour
     {
         IsOpen = false;
         dialogueBox.SetActive(false);
-        textLabel.text = string.Empty;
+        textContent.text = string.Empty;
     }
 }
 

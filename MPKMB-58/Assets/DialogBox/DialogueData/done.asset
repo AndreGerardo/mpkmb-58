@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
   m_Name: done
   m_EditorClassIdentifier: 
-  dialogue:
-  - 'im doneee
-
-'
+  nameOfSpeaker: NPC Done
+  dialogueIsi:
+  - Coba ambil!
   responses:
-  - responseText: okay
+  - responseText: Ambil
     dialogueObject: {fileID: 0}

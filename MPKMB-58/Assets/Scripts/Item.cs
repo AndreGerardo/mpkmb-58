@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Item : MonoBehaviour
 {
+    public bool canBeTouched = false;
+    //public LayerMask raycastfilter;
     protected Inventory inventory;
     public GameObject itemButton;
     [SerializeField]
@@ -18,7 +20,6 @@ public class Item : MonoBehaviour
     void Start()
     {
         inventory = FindObjectOfType<Inventory>();
-
     }
 
     /// <summary>
@@ -59,23 +60,39 @@ public class Item : MonoBehaviour
         return false;
     }
 
-    void OnTriggerStay2D(Collider2D other){
-        // Triggernya
-        // Cek apakah kita mengklik object ini
-        if (Input.GetMouseButtonDown(0)) {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
-            
-            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
-            // RaycastHit2D hit = Physics2D.Raycast(mousePos2D, mousePos2D);
-            if(hit.collider == null){
-                return;
+    private void Update() {
+        if (Input.touchCount > 0) {
+            Touch touch = Input.GetTouch(0);
+
+            if (touch.phase == TouchPhase.Began) {
+                Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
+                
+                RaycastHit2D hit = Physics2D.Raycast(touchPosition, Vector2.zero);
+                if(hit.collider != null && hit.collider.gameObject.name == this.gameObject.name)
+                {
+                    canBeTouched = true;
+                    Debug.Log("Touched " + hit.collider.gameObject.name);
+                }
             }
-            // Mengklik Object Tersebut
-            if (hit.collider.gameObject.Equals(gameObject)) {
-                Interact();
-                Debug.Log($"{hit.collider.gameObject.name} diklik!");
-            }
+        }
+    }
+
+    private void OnMouseDown() {
+        canBeTouched = true;
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D other){
+        if(canBeTouched)
+        {
+            Interact();
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other) {
+        if(((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetMouseButtonDown(0)) && canBeTouched)
+        {
+            Interact();
         }
     }
 }

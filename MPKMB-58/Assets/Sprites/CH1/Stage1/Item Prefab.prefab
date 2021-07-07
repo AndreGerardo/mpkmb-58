@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5074797690201556503}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 3293517683670531881}
   - component: {fileID: 3293517683670531886}
   - component: {fileID: 3293517683670531883}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Item Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,9 +126,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc524f6845efbbb4fa08cb26dfd63acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canBeTouched: 0
+  raycastfilter:
+    serializedVersion: 2
+    m_Bits: 256
   itemButton: {fileID: 4703931177959799844, guid: 77e9e55e9e1824a4fb21fee3c6ed46a0,
     type: 3}
-  _instanceId: 0
+  itemName: 
 --- !u!61 &3293517683670531883
 BoxCollider2D:
   m_ObjectHideFlags: 0

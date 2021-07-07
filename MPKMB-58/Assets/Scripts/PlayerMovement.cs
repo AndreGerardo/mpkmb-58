@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour {
     Animator anim;
 
     Touch touch;
-    Vector3 touchPosition, whereToMove;
+    Vector2 touchPosition, whereToMove;
     bool isMoving = false;
     bool facingRight = true;
 
@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour {
 
         // Menghitung jarak tujuan dari karakter
         if (isMoving)
-            currentDistanceToTouchPos = (touchPosition - transform.position).magnitude;
+            currentDistanceToTouchPos = (touchPosition - (Vector2)transform.position).magnitude;
 
         if (Input.touchCount > 0) {
             touch = Input.GetTouch(0);
@@ -37,10 +37,9 @@ public class PlayerMovement : MonoBehaviour {
                 previousDistanceToTouchPos = 0;
                 currentDistanceToTouchPos = 0;
                 isMoving = true;
-                touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
-                touchPosition.z = 0;
-                whereToMove = (touchPosition - transform.position).normalized;
-                rb.velocity = new Vector2(whereToMove.x * moveSpeed, transform.position.y);
+                touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                whereToMove = (touchPosition - (Vector2)transform.position).normalized;
+                rb.velocity = new Vector2(whereToMove.x * moveSpeed, whereToMove.y * 0);
 
                 // Mengecek jika karakter harus menghadap kanan atau kiri
                 if (touchPosition.x > transform.position.x)
@@ -56,8 +55,7 @@ public class PlayerMovement : MonoBehaviour {
             currentDistanceToTouchPos = 0;
             isMoving = true;
             touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            touchPosition.z = 0;
-            whereToMove = (touchPosition - transform.position).normalized;
+            whereToMove = (touchPosition - (Vector2)transform.position).normalized;
             rb.velocity = new Vector2(whereToMove.x * moveSpeed, whereToMove.y * 0);
 
             if (touchPosition.x > transform.position.x)
@@ -76,7 +74,7 @@ public class PlayerMovement : MonoBehaviour {
         // Mengecek jika karakter bergerak
         if (isMoving) {
             anim.SetInteger("Direction", 1);
-            previousDistanceToTouchPos = (touchPosition - transform.position).magnitude;
+            previousDistanceToTouchPos = (touchPosition - (Vector2)transform.position).magnitude;
         }
     }
 }

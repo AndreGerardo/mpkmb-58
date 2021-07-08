@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: scene2_10
+  m_EditorClassIdentifier: 
+  nameOfSpeaker: NPC
+  dialogueIsi:
+  - Halo Om
+  - Gimana kabarlu?
+  responses:
+  - responseText: Baik
+    dialogueObject: {fileID: 11400000, guid: 1e745483f452dc34e8c7407a7168bb69, type: 2}
+  - responseText: Lagi sakit
+    dialogueObject: {fileID: 11400000, guid: 51d72629342e5a1408ea586c8a567470, type: 2}

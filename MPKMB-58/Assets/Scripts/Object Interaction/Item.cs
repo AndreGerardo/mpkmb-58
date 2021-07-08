@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Item : MonoBehaviour
 {
     public bool canBeTouched = false;
-    //public LayerMask raycastfilter;
+    public bool checkPlayer = false;
     protected Inventory inventory;
     public GameObject itemButton;
     [SerializeField]
@@ -75,6 +75,14 @@ public class Item : MonoBehaviour
                 }
             }
         }
+
+
+        if(((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetMouseButtonDown(0)) && canBeTouched && checkPlayer)
+        {
+            Interact();
+        }
+
+
     }
 
     private void OnMouseDown() {
@@ -87,12 +95,11 @@ public class Item : MonoBehaviour
         {
             Interact();
         }
+
+        checkPlayer = true;
     }
 
-    private void OnTriggerStay2D(Collider2D other) {
-        if(((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetMouseButtonDown(0)) && canBeTouched)
-        {
-            Interact();
-        }
+    private void OnTriggerExit(Collider other) {
+        checkPlayer = false;
     }
 }

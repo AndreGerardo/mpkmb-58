@@ -140,6 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBeTouched: 0
+  checkPlayer: 0
   itemButton: {fileID: 0}
   itemName: 
 --- !u!1 &159663195 stripped
@@ -161,6 +162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBeTouched: 0
+  checkPlayer: 0
   itemButton: {fileID: 4703931177959799844, guid: 77e9e55e9e1824a4fb21fee3c6ed46a0,
     type: 3}
   itemName: 
@@ -571,7 +573,7 @@ PrefabInstance:
     - target: {fileID: 8491695390238117903, guid: 5e544a9ce02f2924c94a06e0344c4d14,
         type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8491695390238117903, guid: 5e544a9ce02f2924c94a06e0344c4d14,
         type: 3}
@@ -592,6 +594,36 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 637476876}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &691433729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 691433730}
+  m_Layer: 0
+  m_Name: Interactable Border Reference
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &691433730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691433729}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5888604, y: 3.21, z: -0.9846398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1053460525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1190,7 +1222,7 @@ PrefabInstance:
     - target: {fileID: 8491695390238117903, guid: 5e544a9ce02f2924c94a06e0344c4d14,
         type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8491695390238117903, guid: 5e544a9ce02f2924c94a06e0344c4d14,
         type: 3}
@@ -1481,7 +1513,7 @@ PrefabInstance:
     - target: {fileID: 8491695390238117903, guid: 5e544a9ce02f2924c94a06e0344c4d14,
         type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8491695390238117903, guid: 5e544a9ce02f2924c94a06e0344c4d14,
         type: 3}
@@ -1622,7 +1654,7 @@ PrefabInstance:
     - target: {fileID: 8491695390238117903, guid: 5e544a9ce02f2924c94a06e0344c4d14,
         type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8491695390238117903, guid: 5e544a9ce02f2924c94a06e0344c4d14,
         type: 3}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Peternak
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Dika
+    content: 'Pak, permisi, apakah bapak akan ikut pelatihan nanti di balai desa?
+
+'
+  - speaker: NPC
+    content: 'Ikut dek, tapi nanti ya setelah saya menemukan anak ayam saya yang
+      hilang
+
+'
+  - speaker: Dika
+    content: 'Memangnya terakhir bapak lihat dimana?
+
+'
+  - speaker: NPC
+    content: 'Sebelumnya ada di kandang dek, tapi pas saya hitung lagi ternyata kurang
+      satu.
+
+'
+  - speaker: Dika
+    content: 'Oh baik pak, kalo saya menemukannya nanti saya bawa kesini pak
+
+'
+  - speaker: NPC
+    content: 'Terimakasih ya dek.
+
+'
+  responses: []

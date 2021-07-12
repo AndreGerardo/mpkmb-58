@@ -9,15 +9,22 @@ public class Item : MonoBehaviour
     public bool checkPlayer = false;
     protected Inventory inventory;
     public GameObject itemButton;
-    public PlayerMovement done;
     [SerializeField]
     public string itemName;
+    /// <summary>
+    /// Mengatur channel event scriptable objest
+    /// masukan InteractEvenetChannel ke dalam _voidEventChannelSO
+    /// </summary>
+    [Header("Configuration")]
+    [SerializeField] private VoidEventChannelSO _voidEventChannelSO = default;
+
+
     public string ItemName
     {
         get { return itemName; }
         set { itemName = value; }
     }
-    
+
     void Start()
     {
         inventory = FindObjectOfType<Inventory>();
@@ -26,21 +33,24 @@ public class Item : MonoBehaviour
     /// <summary>
     /// Panggil ketika item diinteraksi oleh player
     /// </summary>
-    public virtual void Interact(){
+    public virtual void Interact()
+    {
         MoveToInventory();
     }
-    
+
     /// <summary>
     /// Memindah object ke inventory
     /// </summary>
     /// <returns>True jika berhasil, false jika tidak berhasil</returns>
-    protected bool MoveToInventory(){
+    protected bool MoveToInventory()
+    {
         Sprite thisObjectSprite = gameObject.GetComponent<SpriteRenderer>().sprite;
         // Cek apakah inventory masih kosong
         for (int i = 0; i < inventory.itemSlots.Length; i++)
         {
             // Menemukan yang kosong
-            if(inventory.itemSlots[i].IsFull ==false){
+            if (inventory.itemSlots[i].IsFull == false)
+            {
                 // Buat jadi full
                 inventory.itemSlots[i].IsFull = true;
 
@@ -48,7 +58,7 @@ public class Item : MonoBehaviour
 
                 // Ubah UI image jadi sprite object ini
                 itemButton.gameObject.GetComponent<Image>().sprite = thisObjectSprite;
-                
+
                 // Ubah id
                 itemButton.gameObject.GetComponent<Slot>().ID = i;
 
@@ -61,53 +71,61 @@ public class Item : MonoBehaviour
         return false;
     }
 
-    private void Update() {
-        if (Input.touchCount > 0) {
+    private void Update()
+    {
+        if (Input.touchCount > 0)
+        {
             Touch touch = Input.GetTouch(0);
 
-            if (touch.phase == TouchPhase.Began) {
+            if (touch.phase == TouchPhase.Began)
+            {
                 Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
-                
+
                 RaycastHit2D hit = Physics2D.Raycast(touchPosition, Vector2.zero);
-                if(hit.collider != null && hit.collider.gameObject.name == this.gameObject.name)
+                if (hit.collider != null && hit.collider.gameObject.name == this.gameObject.name)
                 {
                     canBeTouched = true;
-                    Debug.Log("Tersentuh");
-                }
-                else
-                {
-                    canBeTouched = false;
+                    Debug.Log("Touched " + hit.collider.gameObject.name);
                 }
             }
         }
 
-        if(((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetMouseButtonDown(0)) && canBeTouched && checkPlayer)
+
+        if (((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetMouseButtonDown(0)) && canBeTouched && checkPlayer)
         {
             Interact();
-            /*canBeTouched = false;*/
         }
-        
+
+
     }
 
-    private void OnMouseDown() {
+    private void OnMouseDown()
+    {
         canBeTouched = true;
     }
 
-    private void OnTriggerEnter2D(Collider2D other){
-        
-        if(canBeTouched)
-        {
-            done.done = false;
-        }
-        checkPlayer = true;
-    }
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        done.done = false;
+        /*if(canBeTouched)
+        {
+            Interact();
+        }
+
+        checkPlayer = true;
+        */
+        _voidEventChannelSO.onEventRaised += Interact; //subcribe channel
     }
 
-    private void OnTriggerExit2D(Collider2D other) {
-        checkPlayer = false;
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Debug.Log("onTrigerExit");
+        _voidEventChannelSO.onEventRaised -= Interact; //subscribe channel
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        //checkPlayer = false;
+
     }
 }

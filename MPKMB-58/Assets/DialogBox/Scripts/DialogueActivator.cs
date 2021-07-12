@@ -1,44 +1,38 @@
 ﻿using UnityEngine;
 
-public class DialogueActivator : MonoBehaviour, IInteractable
+public class DialogueActivator : MonoBehaviour
 {
     [SerializeField] private DialogueObject dialogueObject;
+    [SerializeField] private DialogueUI dialogueUI;
+
+    [Header("Configuration")]
+    [SerializeField] private VoidEventChannelSO _voidEventChannelSO = default;
 
     public void UpdateDialogueObject(DialogueObject dialogueObject)
     {
         this.dialogueObject = dialogueObject;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.CompareTag("Player") && collision.TryGetComponent(out PlayerMovement player))
-        {
-            player.Interactable = this;
-        }
+        _voidEventChannelSO.onEventRaised += Interact;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && collision.TryGetComponent(out PlayerMovement player))
-        {
-            if (player.Interactable is DialogueActivator dialogueActivator && dialogueActivator == this)
-            {
-                player.Interactable = null;
-            }
-        }
+        _voidEventChannelSO.onEventRaised -= Interact;
     }
 
-    public void Interact(PlayerMovement player)
+    public void Interact()
     {
         foreach (DialogueResponseEvents responseEvents in GetComponents<DialogueResponseEvents>())
         {
-            if(responseEvents.DialogueObject == dialogueObject)
+            if (responseEvents.DialogueObject == dialogueObject)
             {
-                player.DialogueUI.AddResponseEvents(responseEvents.Events);
+                dialogueUI.AddResponseEvents(responseEvents.Events);
                 break;
             }
         }
-
-        player.DialogueUI.ShowDialogue(dialogueObject);
+        dialogueUI.ShowDialogue(dialogueObject);
     }
 }

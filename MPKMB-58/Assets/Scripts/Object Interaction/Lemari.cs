@@ -11,23 +11,24 @@ public class Lemari : Item
     public Sprite itemTakenSprite;
     public string itemTaken;
 
-    public override void Interact(){
-       /* if (hasBeenInteracted == false) TakeItem();*/
-    }
 
-    public void TakeItems()
+
+    public override void Interact()
     {
-        TakeItem();
+        if (hasBeenInteracted == false)
+            TakeItem();
     }
 
-    private bool TakeItem(){
+    private bool TakeItem()
+    {
         gameObject.GetComponent<SpriteRenderer>().sprite = changedSprite;
         hasBeenInteracted = true;
         // Cek apakah inventory masih kosong
         for (int i = 0; i < inventory.itemSlots.Length; i++)
         {
             // Menemukan yang kosong
-            if(inventory.itemSlots[i].IsFull ==false){
+            if (inventory.itemSlots[i].IsFull == false)
+            {
                 // Buat jadi full
                 inventory.itemSlots[i].IsFull = true;
 
@@ -35,7 +36,7 @@ public class Lemari : Item
 
                 // Ubah UI image jadi sprite object ini
                 itemButton.gameObject.GetComponent<Image>().sprite = itemTakenSprite;
-                
+
                 // Ubah id
                 itemButton.gameObject.GetComponent<Slot>().ID = i;
 

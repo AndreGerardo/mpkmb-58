@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
-  m_Name: scene2_10
+  m_Name: AmbilKunci
   m_EditorClassIdentifier: 
-  nameOfSpeaker: NPC
-  dialogueIsi:
-  - Halo Om
-  - Gimana kabarlu?
+  dialogue:
+  - speaker: Kunci
+    content: Ambilah diriku ini
+  - speaker: Player
+    content: Oke Gw ambil
+  - speaker: unc
+    content: Sekarang, gunakan aku untuk membuka pintu
   responses:
-  - responseText: Baik
-    dialogueObject: {fileID: 11400000, guid: 1e745483f452dc34e8c7407a7168bb69, type: 2}
-  - responseText: Lagi sakit
-    dialogueObject: {fileID: 11400000, guid: 51d72629342e5a1408ea586c8a567470, type: 2}
+  - responseText: Ambil
+    dialogueObject: {fileID: 0}

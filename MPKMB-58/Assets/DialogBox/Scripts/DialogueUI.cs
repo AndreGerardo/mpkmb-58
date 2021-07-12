@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class DialogueUI : MonoBehaviour
 {
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private TMP_Text textContent;
     [SerializeField] private TMP_Text textSpeaker;
-    [SerializeField] private int indexSpeaker;
 
     public bool IsOpen { get; private set; }
 
@@ -38,11 +38,12 @@ public class DialogueUI : MonoBehaviour
     //Munculin teks yang ada di array ke layar
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
-        textSpeaker.text = dialogueObject.NameOfSpeaker;
-
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
-            string dialogue = dialogueObject.Dialogue[i];
+            string dialogue = dialogueObject.Dialogue[i].content;
+            string speaker = dialogueObject.Dialogue[i].speaker;
+
+            textSpeaker.text = speaker;
 
             /*yield return RunTypingEffectSpeaker(speaker);*/
             yield return RunTypingEffect(dialogue);
@@ -52,8 +53,9 @@ public class DialogueUI : MonoBehaviour
             if(i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
 
             yield return null;
+
             //Tombol untuk next dialogue 
-            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0));
+            yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
         }
 
         //Munculin opsi kalo di array dialogue punya opsi
@@ -76,7 +78,7 @@ public class DialogueUI : MonoBehaviour
             yield return null;
 
             //Stop efek typewriter, kalimat langsung keluar semua
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0))
             {
                 typewriterEffect.Stop();
             }

@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class PlayerTest : MonoBehaviour
 {
-    [SerializeField] private DialogueUI dialogueUI;
-
     private const float MovSpd = 10f;
+
+    [SerializeField] private DialogueUI dialogueUI;
 
     public DialogueUI DialogueUI => dialogueUI;
 
@@ -33,7 +33,7 @@ public class PlayerTest : MonoBehaviour
         //klik objek buat interaksi
         if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0) || Input.touches.Any(x => x.phase == TouchPhase.Began))
         {
-            Interactable?.Interact(this);
+            /*Interactable?.Interact(this);*/
         }
     }
 }

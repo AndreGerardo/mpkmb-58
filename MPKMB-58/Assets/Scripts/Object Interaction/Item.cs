@@ -9,6 +9,7 @@ public class Item : MonoBehaviour
     public bool checkPlayer = false;
     protected Inventory inventory;
     public GameObject itemButton;
+    public PlayerMovement done;
     [SerializeField]
     public string itemName;
     public string ItemName
@@ -71,35 +72,42 @@ public class Item : MonoBehaviour
                 if(hit.collider != null && hit.collider.gameObject.name == this.gameObject.name)
                 {
                     canBeTouched = true;
-                    Debug.Log("Touched " + hit.collider.gameObject.name);
+                    Debug.Log("Tersentuh");
+                }
+                else
+                {
+                    canBeTouched = false;
                 }
             }
         }
 
-
         if(((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetMouseButtonDown(0)) && canBeTouched && checkPlayer)
         {
             Interact();
+            /*canBeTouched = false;*/
         }
-
-
+        
     }
 
     private void OnMouseDown() {
         canBeTouched = true;
     }
 
-
     private void OnTriggerEnter2D(Collider2D other){
+        
         if(canBeTouched)
         {
-            Interact();
+            done.done = false;
         }
-
         checkPlayer = true;
     }
 
-    private void OnTriggerExit(Collider other) {
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        done.done = false;
+    }
+
+    private void OnTriggerExit2D(Collider2D other) {
         checkPlayer = false;
     }
 }

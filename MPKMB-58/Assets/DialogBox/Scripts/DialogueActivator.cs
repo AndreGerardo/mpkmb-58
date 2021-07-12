@@ -4,14 +4,14 @@ public class DialogueActivator : MonoBehaviour, IInteractable
 {
     [SerializeField] private DialogueObject dialogueObject;
 
-    public void  UpdateDialogueObject(DialogueObject dialogueObject)
+    public void UpdateDialogueObject(DialogueObject dialogueObject)
     {
         this.dialogueObject = dialogueObject;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player") && collision.TryGetComponent(out PlayerTest player))
+        if (collision.CompareTag("Player") && collision.TryGetComponent(out PlayerMovement player))
         {
             player.Interactable = this;
         }
@@ -19,16 +19,16 @@ public class DialogueActivator : MonoBehaviour, IInteractable
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && collision.TryGetComponent(out PlayerTest player))
+        if (collision.CompareTag("Player") && collision.TryGetComponent(out PlayerMovement player))
         {
-            if(player.Interactable is DialogueActivator dialogueActivator && dialogueActivator == this)
+            if (player.Interactable is DialogueActivator dialogueActivator && dialogueActivator == this)
             {
                 player.Interactable = null;
             }
         }
     }
 
-    public void Interact(PlayerTest player)
+    public void Interact(PlayerMovement player)
     {
         foreach (DialogueResponseEvents responseEvents in GetComponents<DialogueResponseEvents>())
         {

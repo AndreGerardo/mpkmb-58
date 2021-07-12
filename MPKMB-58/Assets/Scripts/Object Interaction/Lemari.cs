@@ -12,8 +12,12 @@ public class Lemari : Item
     public string itemTaken;
 
     public override void Interact(){
-        if(hasBeenInteracted == false)
-            TakeItem();
+       /* if (hasBeenInteracted == false) TakeItem();*/
+    }
+
+    public void TakeItems()
+    {
+        TakeItem();
     }
 
     private bool TakeItem(){

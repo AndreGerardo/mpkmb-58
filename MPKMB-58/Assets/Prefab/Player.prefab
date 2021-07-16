@@ -99,6 +99,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  dialogueUI: {fileID: 0}
+  isInteracting: 0
+  _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
+    type: 2}
+  onEvenRaised:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!50 &2437128594512159253
 Rigidbody2D:
   serializedVersion: 4

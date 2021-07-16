@@ -17,7 +17,6 @@ public class PlayerMovement : MonoBehaviour
     Touch touch;
     Vector2 touchPosition, whereToMove;
     bool isMoving = false;
-    bool facingRight = true;
 
     float previousDistanceToTouchPos, currentDistanceToTouchPos;
     /// <summary>

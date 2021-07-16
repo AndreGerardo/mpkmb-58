@@ -19,5 +19,4 @@ public class Pintu : Item
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 
-
 }

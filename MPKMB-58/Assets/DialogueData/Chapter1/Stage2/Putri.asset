@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Putri
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Putri
+    content: 'Hai, Nay! Akhirnya kamu sampe juga. Kamu dicariin kepala desa
+
+'
+  - speaker: Naya
+    content: 'Waduh, ada apa nih?
+
+'
+  - speaker: Putri
+    content: 'Kayaknya dia butuh bantuan kamu
+
+'
+  - speaker: Naya
+    content: "Kalau begitu, kamu gimana?\r\n\t"
+  - speaker: Putri
+    content: 'Aku nganterin kamu aja, kita mainnya bisa di lain waktu kok
+
+'
+  - speaker: Naya
+    content: 'Oke deh Put, jadi kita pergi ke rumah kepala desa ya?
+
+'
+  - speaker: Putri
+    content: "Iya, yok ayok!\r"
+  responses: []

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: soal1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: soal
+    content: 1+1?
+  responses:
+  - responseText: 2
+    dialogueObject: {fileID: 11400000, guid: 7c6cbb203ac55274583961cd48db46ec, type: 2}
+  - responseText: 3
+    dialogueObject: {fileID: 11400000, guid: 375cf488fd4cda44a88547e9243123a0, type: 2}

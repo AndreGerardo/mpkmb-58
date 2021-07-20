@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Peternak-After
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Dika
+    content: 'Ini anak ayamnya pak.
+
+'
+  - speaker: NPC
+    content: Wahh, makasih ya dekk, kirain bapak ayamnya diburu sama anjing liar
+  - speaker: Dika
+    content: "Bukan pak, ternyata ayamnya dibawa main sama anaknya bu IRT.\r"
+  - speaker: NPC
+    content: 'Ngomong-ngomong bapak jadi kan ke balai desa?
+
+'
+  - speaker: NPC
+    content: "Iya dekk, sebentar ya bapak siap-siap dulu. Nanti bapak ke balai desa\r\n\t"
+  - speaker: Dika
+    content: 'Baik pak, saya tunggu ya di sana.
+
+'
+  - speaker: NPC
+    content: 'Hati-hati di jalan dekk.
+
+'
+  responses: []

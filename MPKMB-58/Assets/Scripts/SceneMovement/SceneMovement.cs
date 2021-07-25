@@ -7,11 +7,11 @@ public class SceneMovement : Item
     public Transform player;
     public Transform designatedPos;
     [Header("Change Parameters")]
-    public GameObject thisBackgroundGameObjectCollection;
-    public GameObject sceneButtonSwitch;
-    public GameObject gameObjectCollectionSwitch;
+    public int BACKGROUND_NUM = 1; //Background 1,2 atau,3
+    public List<Sprite> backgrounds;
+    public List<GameObject> sceneButtons;
+    public List<GameObject> backgroundCollections;
     public bool toTheRight = true;
-    public Sprite changeBackground;
     private SpriteRenderer background;
 
     void Start()
@@ -21,14 +21,53 @@ public class SceneMovement : Item
 
     public override void Interact()
     {
-        background.sprite = changeBackground; //Ganti Background
-        player.position = designatedPos.position; //Rubah posisi character
+        player.position = designatedPos.position;
 
-        thisBackgroundGameObjectCollection.SetActive(false); //matiiin collection gameobject background yang sekarang
+        if (toTheRight)
+        {
+            GoRight();
+        }else if(!toTheRight)
+        {
+            GoLeft();
+        }
 
-        sceneButtonSwitch.SetActive(true); //aktifin panah yang lain
-        gameObjectCollectionSwitch.SetActive(true); //Aktifin Collection gameobejct yang lain
-
-        gameObject.SetActive(false);
+        if(BACKGROUND_NUM != backgrounds.Count && BACKGROUND_NUM != 1)
+        {
+            sceneButtons[0].SetActive(true);
+            sceneButtons[1].SetActive(true);
+        }else if(BACKGROUND_NUM == 1)
+        {
+            sceneButtons[0].SetActive(true);
+            sceneButtons[1].SetActive(false);
+        }else if(BACKGROUND_NUM == backgrounds.Count)
+        {
+            sceneButtons[0].SetActive(false);
+            sceneButtons[1].SetActive(true);
+        }
     }
+
+    private void GoRight()
+    {
+        background.sprite = backgrounds[BACKGROUND_NUM];
+
+        foreach (var items in backgroundCollections)
+        {
+            items.SetActive(false);
+        }
+
+        backgroundCollections[BACKGROUND_NUM].SetActive(true);
+    }
+
+    private void GoLeft()
+    {
+        background.sprite = backgrounds[BACKGROUND_NUM-2];
+
+        foreach (var items in backgroundCollections)
+        {
+            items.SetActive(false);
+        }
+
+        backgroundCollections[BACKGROUND_NUM-2].SetActive(true);
+    }
+
 }

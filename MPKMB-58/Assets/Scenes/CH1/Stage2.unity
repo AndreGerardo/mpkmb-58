@@ -147,11 +147,17 @@ MonoBehaviour:
     type: 2}
   player: {fileID: 1517049973}
   designatedPos: {fileID: 1306250136}
-  thisBackgroundGameObjectCollection: {fileID: 0}
-  sceneButtonSwitch: {fileID: 1077132724}
-  gameObjectCollectionSwitch: {fileID: 0}
+  BACKGROUND_NUM: 2
+  backgrounds:
+  - {fileID: 21300000, guid: 73987ea980cf6f0499344a71b1d138b5, type: 3}
+  - {fileID: 21300000, guid: 3e43cb8fef1039342a1e32128bda9c40, type: 3}
+  sceneButtons:
+  - {fileID: 92387099}
+  - {fileID: 1077132724}
+  backgroundCollections:
+  - {fileID: 2071673098}
+  - {fileID: 1832394174}
   toTheRight: 0
-  changeBackground: {fileID: 21300000, guid: 73987ea980cf6f0499344a71b1d138b5, type: 3}
 --- !u!1 &134440498
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,7 +383,7 @@ PrefabInstance:
     - target: {fileID: 3293517683670531880, guid: bb17d8cd75359094792e71a92c837a51,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3293517683670531880, guid: bb17d8cd75359094792e71a92c837a51,
         type: 3}
@@ -804,11 +810,17 @@ MonoBehaviour:
     type: 2}
   player: {fileID: 1517049973}
   designatedPos: {fileID: 1529527319}
-  thisBackgroundGameObjectCollection: {fileID: 2071673098}
-  sceneButtonSwitch: {fileID: 92387099}
-  gameObjectCollectionSwitch: {fileID: 1832394174}
+  BACKGROUND_NUM: 1
+  backgrounds:
+  - {fileID: 21300000, guid: 73987ea980cf6f0499344a71b1d138b5, type: 3}
+  - {fileID: 21300000, guid: 3e43cb8fef1039342a1e32128bda9c40, type: 3}
+  sceneButtons:
+  - {fileID: 92387099}
+  - {fileID: 1077132724}
+  backgroundCollections:
+  - {fileID: 2071673098}
+  - {fileID: 1832394174}
   toTheRight: 1
-  changeBackground: {fileID: 21300000, guid: 3e43cb8fef1039342a1e32128bda9c40, type: 3}
 --- !u!1 &1173679631
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,7 +963,7 @@ PrefabInstance:
     - target: {fileID: 3293517683670531880, guid: bb17d8cd75359094792e71a92c837a51,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3293517683670531880, guid: bb17d8cd75359094792e71a92c837a51,
         type: 3}

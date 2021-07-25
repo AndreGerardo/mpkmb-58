@@ -6,10 +6,13 @@ public class SceneMovement : Item
 {
     public Transform player;
     public Transform designatedPos;
+    [Header("Change Parameters")]
+    public GameObject thisBackgroundGameObjectCollection;
     public GameObject sceneButtonSwitch;
+    public GameObject gameObjectCollectionSwitch;
     public bool toTheRight = true;
     public Sprite changeBackground;
-    public SpriteRenderer background;
+    private SpriteRenderer background;
 
     void Start()
     {
@@ -18,9 +21,14 @@ public class SceneMovement : Item
 
     public override void Interact()
     {
-        background.sprite = changeBackground;
-        player.position = designatedPos.position;
-        sceneButtonSwitch.SetActive(true);
+        background.sprite = changeBackground; //Ganti Background
+        player.position = designatedPos.position; //Rubah posisi character
+
+        thisBackgroundGameObjectCollection.SetActive(false); //matiiin collection gameobject background yang sekarang
+
+        sceneButtonSwitch.SetActive(true); //aktifin panah yang lain
+        gameObjectCollectionSwitch.SetActive(true); //Aktifin Collection gameobejct yang lain
+
         gameObject.SetActive(false);
     }
 }

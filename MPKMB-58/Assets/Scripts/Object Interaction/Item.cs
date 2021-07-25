@@ -107,13 +107,7 @@ public class Item : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        /*if(canBeTouched)
-        {
-            Interact();
-        }
 
-        checkPlayer = true;
-        */
         _voidEventChannelSO.onEventRaised += Interact; //subcribe channel
     }
 
@@ -121,12 +115,6 @@ public class Item : MonoBehaviour
     {
         Debug.Log("onTrigerExit");
         _voidEventChannelSO.onEventRaised -= Interact; //unsubscribe channel
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        //checkPlayer = false;
-
     }
 
     private void OnDestroy()

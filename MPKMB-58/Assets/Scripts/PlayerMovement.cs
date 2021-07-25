@@ -37,6 +37,8 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         anim.speed = 1;
+
+        dialogueUI = FindObjectOfType<DialogueUI>();
     }
 
     void Update()

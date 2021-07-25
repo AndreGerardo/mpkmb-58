@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
     float moveSpeed = 5f;
 
     public DialogueUI dialogueUI;
-
     Rigidbody2D rb;
 
     Animator anim;
@@ -74,13 +73,12 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (Input.GetMouseButtonDown(0))
-        {
-
-            isInteracting = true; //player sedang keadaan bergerak
-
+        {          
             touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if (touchPosition.y < 3.25f)
             {
+                isInteracting = true; //player sedang keadaan bergerak
+
                 previousDistanceToTouchPos = 0;
                 currentDistanceToTouchPos = 0;
                 isMoving = true;

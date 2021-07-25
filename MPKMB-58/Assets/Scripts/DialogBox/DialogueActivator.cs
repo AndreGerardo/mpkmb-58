@@ -15,14 +15,18 @@ public class DialogueActivator : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        _voidEventChannelSO.onEventRaised += Interact;
+        _voidEventChannelSO.onEventRaised += Interact; //subcribe channel
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        _voidEventChannelSO.onEventRaised -= Interact;
+        _voidEventChannelSO.onEventRaised -= Interact; //unsubscribe channel
     }
 
+    private void OnDestroy()
+    {
+        _voidEventChannelSO.onEventRaised -= Interact; //unsubscribe channel
+    }
     public void Interact()
     {
         foreach (DialogueResponseEvents responseEvents in GetComponents<DialogueResponseEvents>())

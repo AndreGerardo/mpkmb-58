@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
   m_Name: Lemari
   m_EditorClassIdentifier: 
-  dialogue:
-  - speaker: Bima
-    content: Ada kunci disini
+  nameOfSpeaker: Budi
+  dialogueIsi:
+  - aaaaaaaaa
   responses: []

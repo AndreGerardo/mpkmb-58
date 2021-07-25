@@ -120,12 +120,17 @@ public class Item : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         Debug.Log("onTrigerExit");
-        _voidEventChannelSO.onEventRaised -= Interact; //subscribe channel
+        _voidEventChannelSO.onEventRaised -= Interact; //unsubscribe channel
     }
 
     private void OnTriggerExit(Collider other)
     {
         //checkPlayer = false;
 
+    }
+
+    private void OnDestroy()
+    {
+        _voidEventChannelSO.onEventRaised -= Interact; //unsubscribe channel
     }
 }

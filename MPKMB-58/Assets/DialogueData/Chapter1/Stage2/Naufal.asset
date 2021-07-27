@@ -24,9 +24,11 @@ MonoBehaviour:
   - speaker: Naufal
     content: "Aku ingin menitipkan sesuatu\r...\n"
   - speaker: Naufal
-    content: "yaitu hatiku padamu\r :)\n"
+    content: "yaitu hatiku padamu\r.\n"
   - speaker: Naya
-    content: IDIH BUAYA
+    content: IDIH BUAYA!
   - speaker: Naufal
-    content: "Nay\u2026. jan pergi nay\u2026.\r\n"
+    content: 'Nay... jan pergi nay...
+
+'
   responses: []

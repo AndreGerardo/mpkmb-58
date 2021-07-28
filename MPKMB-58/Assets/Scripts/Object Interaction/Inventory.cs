@@ -129,6 +129,8 @@ public class Inventory : MonoBehaviour
         if (itemSlots[activeItem.ItemActiveIndex].ItemName == itemName && activeItem.HasActiveItem){
             return true;
         }
+        itemSlots[activeItem.ItemActiveIndex].Slot.GetComponent<Image>().color = new Color32(255,255,255,255);
+        activeItem.HasActiveItem = false;
         return false;
     }
 

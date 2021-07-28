@@ -43,9 +43,8 @@ public class DialogueUI : MonoBehaviour
             string dialogue = dialogueObject.Dialogue[i].content;
             string speaker = dialogueObject.Dialogue[i].speaker;
 
-            textSpeaker.text = speaker;
+            textSpeaker.text = "<b>" + speaker + "</b>";
 
-            /*yield return RunTypingEffectSpeaker(speaker);*/
             yield return RunTypingEffect(dialogue);
 
             textContent.text = dialogue;

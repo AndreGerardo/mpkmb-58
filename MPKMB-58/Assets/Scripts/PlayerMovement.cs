@@ -122,7 +122,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Interact()
     {
-        Debug.Log("player interact");
+        //Debug.Log("player interact");
         _voidEventChannelSO.RaiseEvent(); // memanggil event
     }
 }

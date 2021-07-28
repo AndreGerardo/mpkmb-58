@@ -113,7 +113,7 @@ public class Item : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("onTrigerExit");
+        //Debug.Log("onTrigerExit");
         _voidEventChannelSO.onEventRaised -= Interact; //unsubscribe channel
     }
 

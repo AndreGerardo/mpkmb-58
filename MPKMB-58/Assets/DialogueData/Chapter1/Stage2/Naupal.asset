@@ -10,15 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
-  m_Name: Ibu
+  m_Name: Naupal
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Ibu
-    content: "Naya!!! \nKamu dicariin tuh."
+  - speaker: Naufal
+    content: 'Eh Nay, kamu mau pergi kemana?
+
+'
   - speaker: Naya
-    content: "Sama siapa bu?\t"
-  - speaker: Ibu
-    content: Temenmu tuh, si <b>Putri</b>.
+    content: 'Mau ketemu Putri, emangnya kenapa?
+
+'
+  - speaker: Naufal
+    content: "Aku ingin menitipkan sesuatu\r kepadamu ...\n"
   - speaker: Naya
-    content: Oke bu, Naya mau  ketemu Putri dulu.
+    content: Nitip apaan?
+  - speaker: Naufal
+    content: Ini, aku titipkan hatiku padamu...
+  - speaker: Naya
+    content: APAAN SIH, DASAR BUAYA!!!
+  - speaker: Naufal
+    content: Eh Nay, jangan ergi Nay...
   responses: []

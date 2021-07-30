@@ -4,6 +4,7 @@ public class DialogueActivator : MonoBehaviour
 {
     [SerializeField] private DialogueObject dialogueObject;
     [SerializeField] private DialogueUI dialogueUI;
+    public bool isInteracted;
 
     [Header("Configuration")]
     [SerializeField] private VoidEventChannelSO _voidEventChannelSO = default;
@@ -38,5 +39,6 @@ public class DialogueActivator : MonoBehaviour
             }
         }
         dialogueUI.ShowDialogue(dialogueObject);
+        isInteracted = true;
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class DIalogueManager : MonoBehaviour
 {
     public List<DialogueActivator> objectsToInteract;
-    public GameObject dialogueUI;
+    public GameObject dialogueBox;
     private int currentBuildIndex;
     void Start()
     {
@@ -27,7 +27,7 @@ public class DIalogueManager : MonoBehaviour
                 return false;
             }
         }
-        if(dialogueUI.activeSelf == false)
+        if(dialogueBox.activeSelf == false)
             return true;
         else
             return false;

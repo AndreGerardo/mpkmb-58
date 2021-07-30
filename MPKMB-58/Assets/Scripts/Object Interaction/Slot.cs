@@ -22,6 +22,7 @@ public class Slot : MonoBehaviour
     /// Panggil ketika kita ingin interaksi dengan item ini
     /// </summary>
     public void Interact(){
+        Debug.Log("ItemCheck");
         inventory.InteractWithItem(id);
     }
 }

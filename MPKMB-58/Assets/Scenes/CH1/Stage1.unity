@@ -141,7 +141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBeTouched: 0
   checkPlayer: 0
-  itemButton: {fileID: 0}
+  itemButton: {fileID: 4703931177959799844, guid: 77e9e55e9e1824a4fb21fee3c6ed46a0,
+    type: 3}
   itemName: 
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class DialogueActivator : MonoBehaviour
 {
@@ -38,7 +39,13 @@ public class DialogueActivator : MonoBehaviour
                 break;
             }
         }
-        dialogueUI.ShowDialogue(dialogueObject);
+        StartCoroutine(DelayShowDialogue(0.1f));
         isInteracted = true;
+    }
+
+    IEnumerator DelayShowDialogue(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
+        dialogueUI.ShowDialogue(dialogueObject);
     }
 }

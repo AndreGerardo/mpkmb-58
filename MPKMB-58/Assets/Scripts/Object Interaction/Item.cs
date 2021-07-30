@@ -64,11 +64,17 @@ public class Item : MonoBehaviour
 
                 // Tambahkan ke UI inventory dan hancurkan gameobject ini
                 Instantiate(itemButton, inventory.itemSlots[i].Slot.transform, false);
-                Destroy(gameObject);
+                StartCoroutine(DestroyItem(0.2f));
                 return true;
             }
         }
         return false;
+    }
+
+    public IEnumerator DestroyItem(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
+        Destroy(gameObject);
     }
 
     private void Update()
@@ -90,12 +96,10 @@ public class Item : MonoBehaviour
             }
         }
 
-
         if (((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetMouseButtonDown(0)) && canBeTouched && checkPlayer)
         {
             Interact();
         }
-
 
     }
 
@@ -104,16 +108,13 @@ public class Item : MonoBehaviour
         canBeTouched = true;
     }
 
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-
         _voidEventChannelSO.onEventRaised += Interact; //subcribe channel
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("onTrigerExit");
         _voidEventChannelSO.onEventRaised -= Interact; //unsubscribe channel
     }
 

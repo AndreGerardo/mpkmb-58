@@ -10,15 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
-  m_Name: Ibu
+  m_Name: _Projektor
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Ibu
-    content: "Naya!!! \nKamu dicariin tuh."
-  - speaker: Naya
-    content: "Sama siapa bu?\t"
-  - speaker: Ibu
-    content: Temenmu tuh, si <b>Putri</b>.
-  - speaker: Naya
-    content: Oke bu, Naya mau  ketemu Putri dulu.
+  - speaker: Dika
+    content: "Akhirnya aku menemukan <b>Proyektor</b>. \nSekarang aku harus memberikannya
+      ke <b>Kepala Desa</b>."
   responses: []

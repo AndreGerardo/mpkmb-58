@@ -14,22 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Naya
-    content: Ngapain kamu Ndi?
+    content: Andi, kamu lagi ngapain?
   - speaker: Andi
-    content: "Lagi jualan dong! Pengen beli robot buat pertanian\r"
+    content: Eh Naya, ini lagi jualan. Lumayan biar bisa beli robot untuk pertanian.
   - speaker: Naya
-    content: "Robot buat pertanian?\r"
+    content: 'Ha???
+
+      Robot pertanian?'
   - speaker: Andi
-    content: 'Iya, robot tapi dipake untuk pertanian
+    content: 'Iya, robot untuk keperluan pertanian.
 
 '
   - speaker: Naya
-    content: Aku denger metode tradisional udah gak cocok lagi untuk mengejar pertumbuhan
-      penduduk
+    content: Aku dengar <b>metode tradisional udah gak cocok lagi untuk mengejar
+      pertumbuhan penduduk</b>.
   - speaker: Andi
-    content: 'Makanya dipakai metode modern kaya robot
+    content: 'Iya betul, makanya sekarang pakai metode modern, contohnya robot ini.
 
 '
   - speaker: Naya
-    content: "Oo, sukses ya!\r"
+    content: 'Ooo...
+
+      Okedeh semangat ya, aku pergi dulu.'
   responses: []

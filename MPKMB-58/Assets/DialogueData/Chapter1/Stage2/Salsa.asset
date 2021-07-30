@@ -17,13 +17,13 @@ MonoBehaviour:
     content: Kamu lagi ngapain Salsa?
   - speaker: Salsa
     content: 'Lagi nungguin Rita karena kita mau pergi ke peternakan dan kolam ikannya
-      Pak
+      Pak Kades.
 
 '
   - speaker: Salsa
-    content: '<b>Peternakan dan perikanan termasuk pertanian juga lho kak!</b>
+    content: '<b>Peternakan dan perikanan termasuk pertanian juga lho kak!</b>.
 
 '
   - speaker: Naya
-    content: "Keliatannya bakal seru ya, hati-hati di jalan\r"
+    content: "Keliatannya bakal seru ya, hati-hati ya di jalan.\r"
   responses: []

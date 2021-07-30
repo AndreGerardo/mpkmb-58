@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Putri
-    content: 'Hai, Nay! Akhirnya kamu sampe juga. Kamu dicariin kepala desa
+    content: 'Halo Naya! Akhirnya kamu sampai juga. Kamu dicariin kepala desa.
 
 '
   - speaker: Naya
-    content: 'Waduh, ada apa nih?
+    content: 'Eh kepala desa? ada apa?
 
 '
   - speaker: Putri
-    content: 'Kayaknya dia butuh bantuan kamu
+    content: 'Iya, kayaknya dia butuh bantuan kamu tuh.
 
 '
   - speaker: Naya
-    content: "Kalau begitu, kamu gimana?\r\n\t"
+    content: Eh, kamu gimana? gak jadi main dong ntar.
   - speaker: Putri
-    content: 'Aku nganterin kamu aja, kita mainnya bisa di lain waktu kok
+    content: 'Gapapa, aku nganterin kamu aja, kita bisa bermain di lain waktu kok.
 
 '
   - speaker: Naya
-    content: 'Oke deh Put, jadi kita pergi ke rumah kepala desa ya?
+    content: 'Oke deh Put, jadi sekarang kita pergi ke rumah kepala desa ya?
 
 '
   - speaker: Putri
-    content: "Iya, yok ayok!\r"
+    content: "Iya, yok gas!\r"
   responses: []

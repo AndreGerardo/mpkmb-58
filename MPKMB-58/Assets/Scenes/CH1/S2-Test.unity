@@ -316,8 +316,7 @@ MonoBehaviour:
   - {fileID: 133039586}
   dialogueBox: {fileID: 567324840}
   currentBuildIndex: 0
-  sceneManagement: {fileID: 0}
-  moveToScene: 0
+  sceneManagement: {fileID: 1788305058}
 --- !u!4 &319814951
 Transform:
   m_ObjectHideFlags: 0

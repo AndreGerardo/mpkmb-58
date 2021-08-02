@@ -17,25 +17,25 @@ MonoBehaviour:
     content: 'Pak, permisi, apakah bapak akan ikut pelatihan nanti di balai desa?
 
 '
-  - speaker: NPC
+  - speaker: Peternak Ayam
     content: 'Ikut dek, tapi nanti ya setelah saya menemukan anak ayam saya yang
-      hilang
+      hilang.
 
 '
   - speaker: Dika
     content: 'Memangnya terakhir bapak lihat dimana?
 
 '
-  - speaker: NPC
+  - speaker: Peternak Ayam
     content: 'Sebelumnya ada di kandang dek, tapi pas saya hitung lagi ternyata kurang
       satu.
 
 '
   - speaker: Dika
-    content: 'Oh baik pak, kalo saya menemukannya nanti saya bawa kesini pak
+    content: 'Oh baik pak, kalo saya menemukannya nanti saya bawa kesini pak.
 
 '
-  - speaker: NPC
+  - speaker: Peternak Ayam
     content: 'Terimakasih ya dek.
 
 '

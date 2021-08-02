@@ -1,22 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Remoting.Messaging;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
-
-public class Lemari : Item
+public class NPCv2 : NPC
 {
     bool hasBeenInteracted = false;
+    [Header("Take Item")]
     public Sprite changedSprite;
     public Sprite itemTakenSprite;
     public string itemTaken;
 
     public override void Interact()
     {
-        if (hasBeenInteracted == false)
+        ChangeDialogueByItem();
+        if (hasBeenInteracted == false && isTakingItem == true)
         {
             TakeItem();
             hasBeenInteracted = true;
+            isTakingItem = false;
             DoneInteract();
         }
     }

@@ -35,7 +35,10 @@ public class Item : MonoBehaviour
     /// </summary>
     public virtual void Interact()
     {
-        MoveToInventory();
+        if(MoveToInventory() == true)
+        {
+            DoneInteract();
+        }
     }
 
     /// <summary>
@@ -121,5 +124,14 @@ public class Item : MonoBehaviour
     private void OnDestroy()
     {
         _voidEventChannelSO.onEventRaised -= Interact; //unsubscribe channel
+    }
+
+    public void DoneInteract()
+    {
+        if(gameObject.tag != "Done")
+        {
+            gameObject.tag = "Done";
+        }
+        Debug.Log("Done Interact : " + gameObject.name);
     }
 }

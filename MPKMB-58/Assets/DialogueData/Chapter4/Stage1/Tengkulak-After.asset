@@ -14,21 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: 'Ini pak jagungnya
+    content: 'Ini pak jagungnya.
 
 '
-  - speaker: NPC
+  - speaker: Tengkulak
     content: "(loh kok bisa dapet?) \r\n"
-  - speaker: NPC
-    content: 'eee iya iya makasih.
+  - speaker: Tengkulak
+    content: 'Eh, a iya makasih.
 
 '
   - speaker: Dika
-    content: 'Iya pak, ngomong-ngomong bapak jadi ikut acara di balai desa kan?
+    content: 'Sama-sama pak, ngomong-ngomong bapak jadi ikut acara di balai desa
+      kan?
 
 '
-  - speaker: NPC
-    content: 'hmmm baiklah.
+  - speaker: Tengkulak
+    content: 'Hmmm baiklah.
 
 '
   responses: []

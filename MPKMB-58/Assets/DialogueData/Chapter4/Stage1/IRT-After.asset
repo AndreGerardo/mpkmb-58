@@ -17,15 +17,15 @@ MonoBehaviour:
     content: 'Ibu anaknya sudah pulang ya?
 
 '
-  - speaker: NPC
-    content: 'Iya lagi di dalam rumah, katanya kamu yang manggil dia ya? Terima kasih
-      banyak, nak. Ibu siap-siap dulu ya.
-
-'
+  - speaker: Ibu
+    content: "Iya lagi di dalam rumah, katanya kamu yang manggil dia ya? Terima kasih
+      banyak ya nak. \nOh iya ibu mau siap-siap dulu ya.\n"
   - speaker: Dika
-    content: "Iya bu, sama-sama, saya tunggu di balai desa ya buu\r"
-  - speaker: NPC
-    content: 'Iya nak, terimakasih ya sekali lagi, Hati-hati di jalan
+    content: 'Iya bu, sama-sama.
+
+      Saya tunggu di balai desa ya buu.'
+  - speaker: Ibu
+    content: 'Iya nak, hati-hati dijalan.
 
 '
   responses: []

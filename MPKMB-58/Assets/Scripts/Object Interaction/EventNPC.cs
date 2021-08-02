@@ -10,14 +10,20 @@ public class EventNPC : Item
 
     public override void Interact()
     {
+        ChangeDialogue();
+        StartCoroutine(DestroyNPC());
+    }
+
+    private void ChangeDialogue()
+    {
         /*ubah DataDialogue di DialogActivator Item / NPC dengan DataDialogue yang baru*/
         dialogActivator.UpdateDialogueObject(afterDialogue);
         Debug.Log("Kamu mendapatkan : " + itemCollected);
 
-        //Hancurkan objek saat dialog selesai
-        StartCoroutine(DestroyNPC());
+        dialogActivator.gameObject.tag = "Done";
     }
 
+    //Hancurkan objek saat dialog selesai
     IEnumerator DestroyNPC()
     {
         yield return new WaitForSeconds(0.15f);

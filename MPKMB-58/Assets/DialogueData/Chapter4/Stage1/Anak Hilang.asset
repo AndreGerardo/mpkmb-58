@@ -14,39 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: 'lagi ngapain dek?
+    content: 'Lagi ngapain dek?
 
 '
-  - speaker: NPC
-    content: 'lagi main sama ayam kak
+  - speaker: Anak Hilang
+    content: 'Lagi main sama ayam nih kak.
 
 '
-  - speaker: NPC
-    content: 'ayok main bareng kak
+  - speaker: Anak Hilang
+    content: Ayo main ayam bareng kak.
+  - speaker: Dika
+    content: '(lah ini kan <b>anak ayam milik Pak Kades yang hilang</b>)
 
 '
   - speaker: Dika
-    content: '(loh ini kak ayam yang ilang)
+    content: Oh iya, <b>kamu dicariin ibu kamu tuh.</b>
+  - speaker: Anak Hilang
+    content: 'Yah...
 
-'
+      Tapi aku masih mau main.'
   - speaker: Dika
-    content: 'Dicariin ibu kamu itu dek
-
-'
-  - speaker: NPC
-    content: 'yah masih mau main
-
-'
+    content: Nanti deh kita main bareng ya.
   - speaker: Dika
-    content: 'nanti bisa main bareng kakak
-
-'
-  - speaker: Dika
-    content: 'ayamnya kakak pegang dulu ya
-
-'
-  - speaker: NPC
+    content: Ayamnya kakak pegang dulu ya.
+  - speaker: Anak Hilang
     content: ....
-  - speaker: NPC
-    content: Oke kak
+  - speaker: Anak Hilang
+    content: Oke deh kak.
   responses: []

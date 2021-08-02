@@ -15,8 +15,6 @@ public class PlayerMovement : MonoBehaviour
 
     Touch touch;
     Vector2 touchPosition, whereToMove;
-    [SerializeField] private Transform movePosition;
-    bool isFirstMoveDone = true;
     bool isMoving = false;
 
     float previousDistanceToTouchPos, currentDistanceToTouchPos;
@@ -41,33 +39,6 @@ public class PlayerMovement : MonoBehaviour
         anim.speed = 1;
 
         dialogueUI = FindObjectOfType<DialogueUI>();
-
-        // buat langsung gerak pas start kalau move positionnya diisi
-        if(movePosition != null)
-        {
-            isFirstMoveDone = false;
-            touchPosition = movePosition.position;
-
-            if (touchPosition.y < 3.25f)
-            {
-                previousDistanceToTouchPos = 0;
-                currentDistanceToTouchPos = 0;
-                isMoving = true;
-                isInteracting = true;
-
-                whereToMove = (touchPosition - (Vector2)transform.position).normalized;
-                rb.velocity = new Vector2(whereToMove.x * moveSpeed, whereToMove.y * 0);
-
-                // Mengecek jika karakter harus menghadap kanan atau kiri
-                if (touchPosition.x > transform.position.x)
-                    transform.eulerAngles = new Vector3(0, 0, 0);
-                if (touchPosition.x < transform.position.x)
-                    transform.eulerAngles = new Vector3(0, -180, 0);
-            }
-
-            currentDistanceToTouchPos = (touchPosition - (Vector2)transform.position).magnitude;
-            previousDistanceToTouchPos = (touchPosition - (Vector2)transform.position).magnitude;
-        }
     }
 
     void Update()
@@ -77,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
         if (isMoving)
             currentDistanceToTouchPos = (touchPosition - (Vector2)transform.position).magnitude;
 
-        if (Input.touchCount > 0 && isFirstMoveDone)
+        if (Input.touchCount > 0)
         {
             touch = Input.GetTouch(0);
 
@@ -103,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonDown(0) && isFirstMoveDone)
+        if (Input.GetMouseButtonDown(0))
         {          
             touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if (touchPosition.y < 3.25f)

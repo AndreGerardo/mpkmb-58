@@ -17,22 +17,23 @@ MonoBehaviour:
     content: 'Ini anak ayamnya pak.
 
 '
-  - speaker: NPC
-    content: Wahh, makasih ya dekk, kirain bapak ayamnya diburu sama anjing liar
+  - speaker: Peternak Ayam
+    content: Wahh, makasih ya dekk, kirain bapak ayamnya diburu sama anjing liar.
   - speaker: Dika
     content: "Bukan pak, ternyata ayamnya dibawa main sama anaknya bu IRT.\r"
-  - speaker: NPC
-    content: 'Ngomong-ngomong bapak jadi kan ke balai desa?
+  - speaker: Peternak Ayam
+    content: 'Terimakasih ya dek. Ini kamu ambil<b>jagung</b> bapak. Masih segar
+      baru dipanen. Lumayan bisa kamu olah.
 
 '
-  - speaker: NPC
-    content: "Iya dekk, sebentar ya bapak siap-siap dulu. Nanti bapak ke balai desa\r\n\t"
   - speaker: Dika
-    content: 'Baik pak, saya tunggu ya di sana.
+    content: 'Wah terimakasih banyak pak.
 
-'
-  - speaker: NPC
-    content: 'Hati-hati di jalan dekk.
-
-'
+      (Hmm <b>jagungnya</b> bisa dikasih
+      ke <b>tengkulak</b>. Daritadi dicari gak ketemu-temu jagungnya) '
+  - speaker: Peternak Ayam
+    content: "Oh iya dek, bapak jadi kan ya ke balai desa?\nKalau begitu bapak siap-siap
+      dulu ya. Nanti bapak langsung kesana.\n\t"
+  - speaker: Dika
+    content: Iya pak, saya tunggu ya disana.
   responses: []

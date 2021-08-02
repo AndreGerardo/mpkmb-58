@@ -18,17 +18,19 @@ MonoBehaviour:
       desa tidak?
 
 '
-  - speaker: NPC
-    content: 'Bawakan saya 3 jagung yang berkualitas tinggi, mungkin nanti saya akan
-      mempertimbangkannya.
+  - speaker: Tengkulak
+    content: 'Hmmm...
+
+      Bawakan saya 3 jagung yang berkualitas tinggi, mungkin
+      nanti saya akan ikut pelatihan. mempertimbangkannya.
 
 '
   - speaker: Dika
-    content: 'Baik pak, nanti saya kembali bila saya melihat jagung yang bagus.
+    content: 'Baik pak, nanti saya kembali bila dapat jagung yang bagus.
 
 '
-  - speaker: NPC
-    content: '(coba aja cari, orang baru dipanen semua HAHA)
+  - speaker: Tengkulak
+    content: '(coba aja cari, orang baru dipanen semua HAHAHA)
 
 '
   responses: []

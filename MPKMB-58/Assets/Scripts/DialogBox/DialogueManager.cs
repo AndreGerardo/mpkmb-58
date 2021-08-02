@@ -10,7 +10,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private int currentBuildIndex;
     [Header("Scene Manajement")]
     [SerializeField] private SceneManagement sceneManagement;
-    [SerializeField] private int moveToScene;
+
     void Start()
     {
         currentBuildIndex = SceneManager.GetActiveScene().buildIndex;
@@ -20,7 +20,7 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
         if (isAllInteracted())
-            StartCoroutine(delayChangeScene(moveToScene,0.5f));
+            StartCoroutine(delayChangeScene(0.5f));
     }
 
     private bool isAllInteracted(){
@@ -36,8 +36,8 @@ public class DialogueManager : MonoBehaviour
             return false;
     }
 
-    private IEnumerator delayChangeScene(int sceneIndex, float time){
+    private IEnumerator delayChangeScene(float time){
         yield return new WaitForSeconds(time);
-        sceneManagement.MoveScene(sceneIndex);
+        sceneManagement.NextScene();
     }
 }

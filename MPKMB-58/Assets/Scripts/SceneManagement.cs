@@ -11,4 +11,9 @@ public class SceneManagement : MonoBehaviour
     {
         SceneManager.LoadScene(index);
     }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //pindah ke scene selanjutnya
+    }
 }

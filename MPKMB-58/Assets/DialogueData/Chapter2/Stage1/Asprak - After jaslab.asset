@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Asprak - After jaslab
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Dika
+    content: Nih ka <b>jas lab</b>
+  - speaker: Asprak
+    content: Nah sipp..
+  - speaker: Asprak
+    content: Lain kali kalau mau ke lab jangan lupa jas lab ya
+  - speaker: Dika
+    content: Iyaa ka
+  - speaker: Asprak
+    content: "Ini <b>pipetnya</b>\u2026.jangan lupa dikembaliin ya"
+  - speaker: Dika
+    content: Iya kaa... makasih kaa
+  responses: []

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Asprak
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Asprak
+    content: Haloo... ada perlu apa di <b>lab kimia</b>
+  - speaker: Dika
+    content: Ini saya mau minjem <b>pipet</b> buat keperluan praktikum.
+  - speaker: Asprak
+    content: Boleh kok.
+  - speaker: Asprak
+    content: tapi ada syaratnya...
+  - speaker: Asprak
+    content: kamu harus ambilkan <b>jas lab</b> sebelum masuk ke dalam lab.
+  - speaker: Asprak
+    content: karena <b>jas lab</b> itu peraturan wajib sebelum masuk lab. ITU WAJIB
+      !!!
+  - speaker: Dika
+    content: ohhh begitu, baiklah
+  - speaker: Dika
+    content: (kayaknya tdi gue liat ada yang pake <b>jaslab</b> di kantin)
+  responses: []

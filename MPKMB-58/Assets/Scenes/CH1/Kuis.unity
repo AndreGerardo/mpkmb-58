@@ -136,22 +136,17 @@ PrefabInstance:
     - target: {fileID: 2156496199504804181, guid: 71f7648441944c24a864b34647970fba,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 415
+      value: 415.7104
       objectReference: {fileID: 0}
     - target: {fileID: 2156496199504804181, guid: 71f7648441944c24a864b34647970fba,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 207.5
+      value: 207.9
       objectReference: {fileID: 0}
     - target: {fileID: 2156496199504804182, guid: 71f7648441944c24a864b34647970fba,
         type: 3}
       propertyPath: m_Spacing
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2156496199504804182, guid: 71f7648441944c24a864b34647970fba,
-        type: 3}
-      propertyPath: m_Padding.m_Top
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2156496199504804182, guid: 71f7648441944c24a864b34647970fba,
         type: 3}
@@ -175,11 +170,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2156496199504804182, guid: 71f7648441944c24a864b34647970fba,
         type: 3}
-      propertyPath: m_Padding.m_Bottom
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2156496199504804182, guid: 71f7648441944c24a864b34647970fba,
-        type: 3}
       propertyPath: m_ChildControlWidth
       value: 1
       objectReference: {fileID: 0}
@@ -191,7 +181,7 @@ PrefabInstance:
     - target: {fileID: 2156496199504804182, guid: 71f7648441944c24a864b34647970fba,
         type: 3}
       propertyPath: m_ChildForceExpandWidth
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2156496199504804182, guid: 71f7648441944c24a864b34647970fba,
         type: 3}
@@ -402,7 +392,7 @@ PrefabInstance:
         type: 3}
       propertyPath: responseButtonTemplate
       value: 
-      objectReference: {fileID: 1240617189710671908, guid: 0daa0c8ab767b9a438d829383f435ac3,
+      objectReference: {fileID: 2827860017275007521, guid: b88137d8835f8434ebecc2a569cea33d,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f7648441944c24a864b34647970fba, type: 3}

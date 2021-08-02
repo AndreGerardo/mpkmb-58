@@ -7,7 +7,10 @@ public class DialogueManager : MonoBehaviour
 {
     public List<DialogueActivator> objectsToInteract;
     public GameObject dialogueBox;
-    private int currentBuildIndex;
+    [SerializeField] private int currentBuildIndex;
+    [Header("Scene Manajement")]
+    [SerializeField] private SceneManagement sceneManagement;
+
     void Start()
     {
         currentBuildIndex = SceneManager.GetActiveScene().buildIndex;
@@ -16,8 +19,8 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isAllInteracted())
-            SceneManager.LoadScene(0);
+        if (isAllInteracted())
+            StartCoroutine(delayChangeScene(0.5f));
     }
 
     private bool isAllInteracted(){
@@ -31,5 +34,10 @@ public class DialogueManager : MonoBehaviour
             return true;
         else
             return false;
+    }
+
+    private IEnumerator delayChangeScene(float time){
+        yield return new WaitForSeconds(time);
+        sceneManagement.NextScene();
     }
 }

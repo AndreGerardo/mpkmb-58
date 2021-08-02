@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Question 2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Soal 2
+    content: Jawaban kamu benar, rektor sekarang adalah Pak Arif
+  - speaker: Soal 2
+    content: 'Apa yang banyak ditanam di desa ini?
+
+'
+  responses:
+  - responseText: Jagung
+    dialogueObject: {fileID: 11400000, guid: d6da47afad6de2a40a380bb433eec7dd, type: 2}
+  - responseText: Padi
+    dialogueObject: {fileID: 11400000, guid: 5eeaf8c96908cd649b4b3ec9a0eebd0e, type: 2}
+  - responseText: Kentang
+    dialogueObject: {fileID: 11400000, guid: 5eeaf8c96908cd649b4b3ec9a0eebd0e, type: 2}

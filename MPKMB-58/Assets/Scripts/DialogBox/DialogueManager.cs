@@ -20,7 +20,7 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
         if (isAllInteracted())
-            sceneManagement.MoveScene(moveToScene);
+            StartCoroutine(delayChangeScene(moveToScene,0.5f));
     }
 
     private bool isAllInteracted(){
@@ -34,5 +34,10 @@ public class DialogueManager : MonoBehaviour
             return true;
         else
             return false;
+    }
+
+    private IEnumerator delayChangeScene(int sceneIndex, float time){
+        yield return new WaitForSeconds(time);
+        sceneManagement.MoveScene(sceneIndex);
     }
 }

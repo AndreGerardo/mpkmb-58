@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Question 3
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Soal 3
+    content: 'Benar, jagung adalah tanaman yang paling banyak ditanam di desa ini
+
+'
+  - speaker: Soal 3
+    content: 'Apakah di desa ini ada tengkulak?
+
+'
+  responses:
+  - responseText: Ada
+    dialogueObject: {fileID: 11400000, guid: 3207ca1a6b171374a88322c2ae84676d, type: 2}
+  - responseText: Tidak
+    dialogueObject: {fileID: 11400000, guid: 71bfc3c254fa16f4290d4e59aa60e399, type: 2}

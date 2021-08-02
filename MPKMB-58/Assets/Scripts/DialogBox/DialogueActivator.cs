@@ -40,12 +40,12 @@ public class DialogueActivator : MonoBehaviour
             }
         }
         StartCoroutine(DelayShowDialogue(0.1f));
-        isInteracted = true;
     }
 
     IEnumerator DelayShowDialogue(float delayTime)
     {
         yield return new WaitForSeconds(delayTime);
         dialogueUI.ShowDialogue(dialogueObject);
+        isInteracted = true;
     }
 }

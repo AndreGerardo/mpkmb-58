@@ -22,7 +22,7 @@ MonoBehaviour:
 
 '
   - speaker: Naufal
-    content: "Aku ingin menitipkan sesuatu\r kepadamu ...\n"
+    content: Aku ingin menitipkan sesuatu.
   - speaker: Naya
     content: Nitip apaan?
   - speaker: Naufal
@@ -30,5 +30,5 @@ MonoBehaviour:
   - speaker: Naya
     content: APAAN SIH, DASAR BUAYA!!!
   - speaker: Naufal
-    content: Eh Nay, jangan ergi Nay...
+    content: Eh Nay, jangan pergi Nay...
   responses: []

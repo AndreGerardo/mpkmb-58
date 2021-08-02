@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Opening
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: 'Dika '
+    content: 'Permisi, bu, apakah ada kamar kosong?
+
+'
+  - speaker: 'NPC '
+    content: 'Ada nak, eh ngomong-ngomong kamu lagi KKN ya?
+
+'
+  - speaker: 'Dika '
+    content: 'Iya bu, saya lagi memenuhi tugas KKN dari IPB
+
+'
+  - speaker: 'NPC '
+    content: 'Ibu lihat tadi kamu nanya-nanya ke warga desa ya?
+
+'
+  - speaker: 'Dika '
+    content: 'Iya bu, kenapa?
+
+'
+  - speaker: 'NPC '
+    content: 'Ibu mau nanya beberapa hal soalnya dek, biar kamu tahu sedikit keadaan
+      di desa ini
+
+'
+  - speaker: 'Dika '
+    content: 'Boleh bu, mau nanya apa?
+
+'
+  responses:
+  - responseText: Mulai Kuiz
+    dialogueObject: {fileID: 11400000, guid: c8d19e032e2bf3b43acf9064e26a24de, type: 2}

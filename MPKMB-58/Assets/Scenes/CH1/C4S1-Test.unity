@@ -524,6 +524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361041992}
   - component: {fileID: 361041993}
+  - component: {fileID: 361041994}
   m_Layer: 0
   m_Name: EndManager
   m_TagString: Untagged
@@ -565,7 +566,19 @@ MonoBehaviour:
   - {fileID: 24658675}
   dialogueBox: {fileID: 889184126}
   currentBuildIndex: 0
-  sceneManagement: {fileID: 0}
+  sceneManagement: {fileID: 361041994}
+--- !u!114 &361041994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361041991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432c7b9acb51c4646a1722f26483014c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &567324839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -688,6 +701,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3093980275262600237, guid: 71f7648441944c24a864b34647970fba,
+        type: 3}
+      propertyPath: responseButtonTemplate
+      value: 
+      objectReference: {fileID: 1240617189710671908, guid: 0daa0c8ab767b9a438d829383f435ac3,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f7648441944c24a864b34647970fba, type: 3}
 --- !u!1 &609141401

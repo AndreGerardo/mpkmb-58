@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ResponseHandler : MonoBehaviour
+public class KuisHandler : MonoBehaviour
 {
     [SerializeField] private RectTransform responseBox;
     [SerializeField] private RectTransform responseButtonTemplate;
@@ -36,7 +36,7 @@ public class ResponseHandler : MonoBehaviour
 
             GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
             responseButton.gameObject.SetActive(true);
-            responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
+            responseButton.GetComponentInChildren<TMP_Text>().text = response.ResponseText;
             responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response, responseIndex));
 
             tempResponseButtons.Add(responseButton);
@@ -52,13 +52,13 @@ public class ResponseHandler : MonoBehaviour
     {
         responseBox.gameObject.SetActive(false);
 
-        foreach(GameObject button in tempResponseButtons)
+        foreach (GameObject button in tempResponseButtons)
         {
             Destroy(button);
         }
         tempResponseButtons.Clear();
 
-        if(responseEvents != null && responseIndex <= responseEvents.Length)
+        if (responseEvents != null && responseIndex <= responseEvents.Length)
         {
             responseEvents[responseIndex].OnPickedResponse?.Invoke();
         }

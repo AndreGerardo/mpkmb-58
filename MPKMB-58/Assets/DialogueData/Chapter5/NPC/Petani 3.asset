@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Petani 3
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Dika
+    content: "Pagi Pak\u2026\r"
+  - speaker: Petani
+    content: "Pagi...ada perlu apa\r"
+  - speaker: Dika
+    content: "Kalau boleh tau bapak disini sebagai petani apa\r"
+  - speaker: Petani
+    content: Saya sebagai petani ()
+  - speaker: Dika
+    content: "Jadi lahan seluas ini bapak garap sendiri?\r"
+  - speaker: Petani
+    content: "Jadi lahan seluas ini bapak garap sendiri?\r"
+  - speaker: Dika
+    content: "Jadi begini pak, saya ingin memperkenalkan teknologi pertanian yang
+      saya bawa yaitu drone\r"
+  - speaker: Dika
+    content: "Dengan drone ini bapak bisa melakukan semua kegiatan yang bapak lakukan
+      dengan tangan bisa menjadi otomatis dengan drone ini\r"
+  - speaker: Petani
+    content: "Serius ini?\u2026., tapi saya tidak tahu apa-apa tentang drone yang
+      kamu sebutkan tadi\r"
+  - speaker: Dika
+    content: "Tenang pak, saya ajarin dari nol\r"
+  - speaker: Dika
+    content: "Tapi sebelum itu saya kekurangan satu sparepart lagi untuk merakit
+      drone ini Saya butuh sebuah penyiram air untuk drone ini\r"
+  - speaker: Petani
+    content: 'Wah kebetulan saya punya dirumah. Kamu cari aja dibelakang rumah saya,
+      tapi kayaknya masih kotor deh jadi kamu harus bersihkan terlebih dahulu.
+
+'
+  - speaker: Dika
+    content: "Oh baik pak terima kasih\r"
+  responses: []

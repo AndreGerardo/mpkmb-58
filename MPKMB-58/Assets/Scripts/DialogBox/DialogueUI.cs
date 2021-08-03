@@ -35,7 +35,7 @@ public class DialogueUI : MonoBehaviour
         responseHandler.AddResponseEvent(responseEvents);
     }
 
-    //Munculin teks yang ada di array ke layar
+    //Munculin teks yang ada di array ke layar BANGSAT
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)

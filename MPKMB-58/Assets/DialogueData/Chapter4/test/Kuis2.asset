@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Kuis2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: AYAM
+    content: 'Soal2
+
+'
+  - speaker: LU
+    content: YES??
+  responses:
+  - responseText: Gaje
+    dialogueObject: {fileID: 11400000, guid: 4a2280095c0d3e74e8d82b0eaef913b1, type: 2}
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: 4a2280095c0d3e74e8d82b0eaef913b1, type: 2}
+  - responseText: ayam
+    dialogueObject: {fileID: 11400000, guid: 4a2280095c0d3e74e8d82b0eaef913b1, type: 2}

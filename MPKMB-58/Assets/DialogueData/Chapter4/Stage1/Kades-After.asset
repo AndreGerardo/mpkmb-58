@@ -14,16 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: 'Pak, ini proyektornya sudah ketemu
+    content: 'Pak, ini proyektornya sudah saya bawa.
 
 '
   - speaker: Kepala Desa
-    content: 'Wah, kerja bagus nak, ayo, bapak udah siap, bapak tunggu di balai desa
-      yaa
+    content: 'Terimakasih nak. Oh iya, ini kamu ambil <b>buku materi pelatihan</b>.
+      Isinya ya kurang lebih sama dengan yang dipresentasiin. Bapak pergi duluan
+      ya.
 
 '
   - speaker: Dika
-    content: 'Baik pak, terimakasih
-
-'
+    content: Terimakasih pak, saya segera kesana.
   responses: []

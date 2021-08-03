@@ -1,9 +1,11 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class DialogueActivator : MonoBehaviour
 {
     [SerializeField] private DialogueObject dialogueObject;
     [SerializeField] private DialogueUI dialogueUI;
+    public bool isInteracted;
 
     [Header("Configuration")]
     [SerializeField] private VoidEventChannelSO _voidEventChannelSO = default;
@@ -37,6 +39,13 @@ public class DialogueActivator : MonoBehaviour
                 break;
             }
         }
+        StartCoroutine(DelayShowDialogue(0.1f));
+    }
+
+    IEnumerator DelayShowDialogue(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
         dialogueUI.ShowDialogue(dialogueObject);
+        isInteracted = true;
     }
 }

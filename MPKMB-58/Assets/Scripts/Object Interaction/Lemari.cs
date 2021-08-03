@@ -11,14 +11,13 @@ public class Lemari : Item
     public Sprite itemTakenSprite;
     public string itemTaken;
 
-
-
     public override void Interact()
     {
         if (hasBeenInteracted == false)
         {
             TakeItem();
             hasBeenInteracted = true;
+            DoneInteract();
         }
     }
 

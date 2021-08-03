@@ -94,6 +94,7 @@ public class Inventory : MonoBehaviour
             child.SetParent(itemSlots[i].Slot.transform, false);
             child = itemSlots[i].Slot.transform;
             itemSlots[i].IsFull = true;
+            itemSlots[i].ItemName = itemSlots[i + 1].ItemName;
             itemSlots[i+1].IsFull = false;
             RapihkanItem(i+1);
         }

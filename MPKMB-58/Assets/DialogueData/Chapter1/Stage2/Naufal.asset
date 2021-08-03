@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Naufal
-    content: 'Nay, kamu mau pergi kemana?
+    content: 'Eh Nay, kamu mau pergi kemana?
 
 '
   - speaker: Naya
@@ -22,13 +22,11 @@ MonoBehaviour:
 
 '
   - speaker: Naufal
-    content: "Aku ingin menitipkan sesuatu\r...\n"
-  - speaker: Naufal
-    content: "yaitu hatiku padamu\r.\n"
+    content: "Aku ingin menitipkan sesuatu\r...\nyaitu hatiku padamu\r (uwu).\n"
   - speaker: Naya
-    content: IDIH BUAYA!
+    content: IHHH ADA BUAYA!
   - speaker: Naufal
-    content: 'Nay... jan pergi nay...
+    content: 'Nay... jangan pergi Nay...
 
 '
   responses: []

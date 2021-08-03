@@ -14,19 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: 'Bu, permisi, apakah ibu bisa ikut ke acara di balai desa? Acara pelatihan
-      pertanian
+    content: 'Permisi bu, apakah ibu bisa ikut ke "Acara Pelatihan Pertanian" di
+      balai desa?
 
 '
-  - speaker: NPC
-    content: 'Aduhh, de bisa cariin anak saya dulu ga? Saya mau ikut tapi anak saya
-      belum pulang..
+  - speaker: Ibu
+    content: 'Aduhh, ade bisa cariin anak saya dulu ga? Saya mau ikut tapi anak saya
+      belum pulang. Khawatir saya.
 
 '
   - speaker: Dika
-    content: 'Waduh, baik bu, Saya bantu mencari yaa, semoga saja ketemu nanti
+    content: 'Waduh, baik bu.
+
+      Saya coba bantu cari ya, semoga ketemu.
 
 '
-  - speaker: NPC
-    content: Aamiin.
+  - speaker: Ibu
+    content: Aamiin, terimakasih nak.
   responses: []

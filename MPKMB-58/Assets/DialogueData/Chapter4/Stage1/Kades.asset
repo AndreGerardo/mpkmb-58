@@ -14,15 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: 'Pak, untuk pelatihan warga desa jadi kan di balai desa dilaksanakannya?
+    content: 'Selamat siang pak, pelatihan warga desa nanti jadi kan dilaksanakan?
 
 '
   - speaker: Kepala Desa
-    content: 'Iya jadi, tapi bapak ga punya proyektor buat presentasi
-
-'
+    content: Siang dek, jadi. Tapi, bapak tidak punya <b>proyektor</b> untuk presentasinya.
   - speaker: Dika
-    content: 'Oh baik pak, sebentar saya cari dulu proyektornya
+    content: 'Oh baik pak, sebentar saya cari dulu proyektornya.
 
 '
   responses: []

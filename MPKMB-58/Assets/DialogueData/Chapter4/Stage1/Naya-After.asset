@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: 'Akhirnya ketemu juga bukunya
+    content: 'Nay, nih bukunya.
 
 '
   - speaker: Naya
-    content: 'Ok, ayo siap-siap kita ajak warga desa lain
+    content: 'Thanks dik, ayo siap-siap . Kita ajak warga desa lain.
 
 '
   responses: []

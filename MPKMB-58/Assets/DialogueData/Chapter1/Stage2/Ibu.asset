@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Ibu
-    content: Naya, kamu dicariin
+    content: "Naya!!! \nKamu dicariin tuh."
   - speaker: Naya
     content: "Sama siapa bu?\t"
   - speaker: Ibu
-    content: Temenmu tuh, si putri
+    content: Temenmu tuh, si <b>Putri</b>.
   - speaker: Naya
-    content: Oke bu!
+    content: Oke bu, Naya mau  ketemu Putri dulu.
   responses: []

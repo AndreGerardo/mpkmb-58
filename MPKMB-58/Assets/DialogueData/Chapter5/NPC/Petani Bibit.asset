@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Petani Bibit
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Petani
+    content: Selamat siang pak, ada yang bisa dibantu?
+  - speaker: Petani
+    content: Oh iya ada dek, tadi bapak pengen nanem bibit ini <i>menyodorkan bibit</i>
+      tapi bapak kehabisan pot, bisa minta tolong carikan bapak pot kecil ga dek?
+  - speaker: Dika
+    content: (Perasaan tadi gue liat ada <b>botol</b> deh di jalan)
+  - speaker: Dika
+    content: Baik pak.
+  responses: []

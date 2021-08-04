@@ -19,6 +19,6 @@ MonoBehaviour:
     content: Peternakan termasuk ke ruang lingkup pertanian.
   responses:
   - responseText: Benar
-    dialogueObject: {fileID: 11400000, guid: 34f88ae83db89b84895876cab24a38a1, type: 2}
+    dialogueObject: {fileID: 11400000, guid: b8cfff12a04e31541be10f3b5d3af2a0, type: 2}
   - responseText: Salah
     dialogueObject: {fileID: 11400000}

@@ -22,4 +22,4 @@ MonoBehaviour:
   - responseText: Benar
     dialogueObject: {fileID: 11400000}
   - responseText: Salah
-    dialogueObject: {fileID: 11400000, guid: 4aaef7c71126802499e56fad53d13977, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 6ca8c054f5eb94445aaa7f2a86713aad, type: 2}

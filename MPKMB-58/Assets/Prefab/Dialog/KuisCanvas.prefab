@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5056667281437957867}
   - component: {fileID: 7844393910639086168}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: KuisCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 8156453700899895682}
   textContent: {fileID: 8156453702127224853}
   textSpeaker: {fileID: 8156453700603565259}
-  kuisHandler: {fileID: 0}
+  kuisHandler: {fileID: 7844393910639086168}
 --- !u!114 &5056667281437957867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1001,7 +1001,7 @@ PrefabInstance:
     - target: {fileID: 3971452994620540347, guid: 60d5500fe3b7d3544bb6369589854cad,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7036164463765597861, guid: 60d5500fe3b7d3544bb6369589854cad,
         type: 3}

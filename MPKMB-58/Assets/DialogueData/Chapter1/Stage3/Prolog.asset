@@ -34,6 +34,6 @@ MonoBehaviour:
     content: Perikanan termasuk ke ruang lingkup pertanian.
   responses:
   - responseText: Benar
-    dialogueObject: {fileID: 11400000, guid: 1a380ea377f458748992a6287d77e42e, type: 2}
+    dialogueObject: {fileID: 11400000, guid: bf26de14a15182c40a64ae69fd3d3fe7, type: 2}
   - responseText: Salah
-    dialogueObject: {fileID: 11400000, guid: 28e3c0ba879fb8c41834dacf54a1bebe, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 210ea63a604b8f541a8df8013d1db8f6, type: 2}

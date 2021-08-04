@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Prolog
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Naya
+    content: Permisi pak, ada apa ya? Kok pagi-pagi sudah ramai?
+  - speaker: Kepala Desa
+    content: Tadi bapak berdebat sama tengkulak di desa ini nay, karena bapak rasa
+      dia hanya membawa kerugian buat kita semua. Yah, sayangnya warga desa hanya
+      bisa bergantung kepada jasanya, jadi bapak juga tidak dapat menyingkirkan dia.
+  - speaker: Naya
+    content: Kerugiannya bagaimana pak?
+  - speaker: Kepala Desa
+    content: Dia meminta imbalan yang terlalu tinggi kepada petani kita di desa ini,
+      padahal masalah pertanian sudah cukup banyak di desa ini.
+  - speaker: Naya
+    content: Kalau gitu naya bisa bantu ngga?
+  - speaker: Kepala Desa
+    content: Anak kemaren sore paham apa? Nih coba bapak test ya.
+  - speaker: Naya
+    content: Baik pak, saya akan coba.
+  - speaker: Kepala Desa
+    content: Perikanan termasuk ke ruang lingkup pertanian.
+  responses:
+  - responseText: Benar
+    dialogueObject: {fileID: 11400000, guid: 1a380ea377f458748992a6287d77e42e, type: 2}
+  - responseText: Salah
+    dialogueObject: {fileID: 11400000, guid: 28e3c0ba879fb8c41834dacf54a1bebe, type: 2}

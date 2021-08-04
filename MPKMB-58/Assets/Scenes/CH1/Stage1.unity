@@ -160,6 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 9e351ea87f61efa40a42e49886fb29f6, type: 2}
   dialogueUI: {fileID: 532283686}
+  isInteracted: 0
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
 --- !u!1 &146889370
@@ -237,6 +238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 3a2212e35073c294b8e03f9787432203, type: 2}
   dialogueUI: {fileID: 532283686}
+  isInteracted: 0
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
 --- !u!1 &268588632
@@ -1189,6 +1191,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437128594512159255, guid: 138f541bfea3c99429fa0a9832dec20d,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2437128594512159336, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}

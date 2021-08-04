@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Teknisi
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Teknisi
+    content: "dika seperti aku butuh drone untuk membantu pertanian ku, tetapi aku
+      hanya memiliki badan dronenya saja, apakah kamu bisa membantuku?\r"
+  - speaker: Dika
+    content: "saya bisa kok pak, tetapi sparepart yang lainnya ada dimana ya pak?\r"
+  - speaker: Teknisi
+    content: "kalau untuk sparepart lainnya kamu bisa mencarinya ke petani-petani
+      lainnya dika\r"
+  - speaker: Dika
+    content: "baiklah pak, saya akan mencoba untuk mencari sparepart lainnya\r"
+  - speaker: Teknisi
+    content: "Terima kasih ya Dika\r"
+  - speaker: Dika
+    content: "Sama- sama pak\r"
+  responses: []

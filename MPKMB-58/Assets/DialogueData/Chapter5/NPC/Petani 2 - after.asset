@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Petani 2 - after
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Dika
+    content: "sudah beres nih pak\r"
+  - speaker: Petani
+    content: "terima kasih ya nak, saya sudah bisa melanjutkan pekerjaan saya, saya
+      lihat-lihat kamu banyak inovasi juga ya, karena kamu sudah menolong saya, ini
+      kunci gudang saya, jadi kamu bisa gunakan alat-alat yang ada di dalam gudang,
+      agar kamu bisa melanjutkan inovasi-inovasi untuk pertanian desa kita ini.\r"
+  - speaker: Dika
+    content: "terima kasih pak, kebetulan saya juga mencari sparepart drone untuk
+      membantu petani 1 tadi pak. Saya lanjut ke gedung bapak ya pak\r"
+  - speaker: Petani
+    content: "baik nak silahkan\r"
+  responses: []

@@ -565,6 +565,7 @@ MonoBehaviour:
   - {fileID: 1206531060}
   - {fileID: 24658675}
   dialogueBox: {fileID: 889184126}
+  IsDialogueBoxOpen: 0
   currentBuildIndex: 0
   sceneManagement: {fileID: 361041994}
 --- !u!114 &361041994

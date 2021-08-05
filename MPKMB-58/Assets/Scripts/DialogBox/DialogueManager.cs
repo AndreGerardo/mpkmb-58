@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         currentBuildIndex = SceneManager.GetActiveScene().buildIndex;
+        dialogueBox = GameObject.Find("DialogueBox");
     }
 
     // Update is called once per frame
@@ -37,6 +38,7 @@ public class DialogueManager : MonoBehaviour
     }
 
     private IEnumerator delayChangeScene(float time){
+        Debug.Log("next scene");
         yield return new WaitForSeconds(time);
         sceneManagement.NextScene();
     }

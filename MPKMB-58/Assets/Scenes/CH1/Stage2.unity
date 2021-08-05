@@ -305,7 +305,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 319814949}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7793b1359f408d248826ddc9f925de25, type: 3}
+  m_Script: {fileID: 11500000, guid: 578d02a0dfe416a49bd3b5a76518a821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectsToInteract:
@@ -341,7 +341,7 @@ PrefabInstance:
     - target: {fileID: 2156496199009063749, guid: 71f7648441944c24a864b34647970fba,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3093980275262600214, guid: 71f7648441944c24a864b34647970fba,
         type: 3}
@@ -1976,7 +1976,7 @@ PrefabInstance:
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.8
+      value: -4.21
       objectReference: {fileID: 0}
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
@@ -2026,13 +2026,13 @@ PrefabInstance:
     - target: {fileID: 2437128594512159255, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_Size.y
-      value: 5.67
+      value: 5.68
       objectReference: {fileID: 0}
     - target: {fileID: 2437128594512159255, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3795832553811798299, guid: 9dec3322191c1ae4cb666c3e30aaf68d,
+      objectReference: {fileID: 2744914744254154627, guid: a30113bce175c284caa4e42b69d3cfcc,
         type: 3}
     - target: {fileID: 2437128594512159255, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}

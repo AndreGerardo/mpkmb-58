@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: Benar2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Kepala Desa
+    content: Boleh juga kamu, lanjut.
+  - speaker: Kepala Desa
+    content: Pertambangan termasuk ke ruang lingkup pertanian.
+  responses:
+  - responseText: Benar
+    dialogueObject: {fileID: 11400000, guid: 3b610dd6067b17b478e1d8136f308ea5, type: 2}
+  - responseText: Salah
+    dialogueObject: {fileID: 11400000, guid: 87588ea79e97b094baa823080e093018, type: 2}

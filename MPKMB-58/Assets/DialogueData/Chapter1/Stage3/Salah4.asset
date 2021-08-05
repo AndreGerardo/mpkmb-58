@@ -20,6 +20,6 @@ MonoBehaviour:
       dengan metode tradisional.
   responses:
   - responseText: Benar
-    dialogueObject: {fileID: 11400000, guid: 9851ea57a7236c04490f87b38005284c, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 703719ced9e38b14e83758369ad853aa, type: 2}
   - responseText: Salah
     dialogueObject: {fileID: 11400000}

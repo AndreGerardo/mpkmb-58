@@ -19,6 +19,6 @@ MonoBehaviour:
     content: Pertambangan termasuk ke ruang lingkup pertanian.
   responses:
   - responseText: Benar
-    dialogueObject: {fileID: 11400000, guid: 3b610dd6067b17b478e1d8136f308ea5, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 96683bb77e6251643b765e0139a2c259, type: 2}
   - responseText: Salah
-    dialogueObject: {fileID: 11400000, guid: 87588ea79e97b094baa823080e093018, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 59d71c66e061cae41bdc3e08abf9fe87, type: 2}

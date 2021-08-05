@@ -7,6 +7,7 @@ public class NPCManager : MonoBehaviour
 {
     public List<GameObject> npc;
     public GameObject dialogueBox;
+    public bool IsDialogueBoxOpen = false;
     [SerializeField] private int currentBuildIndex;
     [Header("Scene Manajement")]
     [SerializeField] private SceneManagement sceneManagement;
@@ -33,7 +34,12 @@ public class NPCManager : MonoBehaviour
             }
         }
         if (dialogueBox.activeSelf == false)
-            return true;
+        {
+            StartCoroutine(delayActiveDialogue(1f));
+            if (IsDialogueBoxOpen == true)
+                return true;
+            else return false;
+        }
         else
             return false;
     }
@@ -41,5 +47,13 @@ public class NPCManager : MonoBehaviour
     private IEnumerator delayChangeScene(float time){
         yield return new WaitForSeconds(time);
         sceneManagement.NextScene();
+    }
+    private IEnumerator delayActiveDialogue(float time){
+        yield return new WaitForSeconds(time);
+        if (dialogueBox.activeSelf == false)
+        {
+            IsDialogueBoxOpen = true;
+        }
+        yield return true;
     }
 }

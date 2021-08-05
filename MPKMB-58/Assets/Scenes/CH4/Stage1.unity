@@ -580,6 +580,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432c7b9acb51c4646a1722f26483014c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transition: {fileID: 0}
+  transitionTime: 1
 --- !u!1001 &567324839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -596,6 +598,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3093980275262600214, guid: 71f7648441944c24a864b34647970fba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3093980275262600234, guid: 71f7648441944c24a864b34647970fba,
         type: 3}
@@ -2941,7 +2948,7 @@ PrefabInstance:
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.8
+      value: -4.23
       objectReference: {fileID: 0}
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}

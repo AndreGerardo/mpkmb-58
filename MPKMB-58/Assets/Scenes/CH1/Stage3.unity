@@ -632,6 +632,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432c7b9acb51c4646a1722f26483014c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transition: {fileID: 0}
+  transitionTime: 1
 --- !u!4 &1596338576
 Transform:
   m_ObjectHideFlags: 0
@@ -787,6 +789,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432c7b9acb51c4646a1722f26483014c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transition: {fileID: 0}
+  transitionTime: 1
 --- !u!1001 &1978362463
 PrefabInstance:
   m_ObjectHideFlags: 0

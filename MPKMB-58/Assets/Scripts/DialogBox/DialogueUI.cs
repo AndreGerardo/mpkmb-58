@@ -11,13 +11,13 @@ public class DialogueUI : MonoBehaviour
 
     public bool IsOpen { get; private set; }
 
-    private ResponseHandler responseHandler;
-    private TypewriterEffect typewriterEffect;
+    [SerializeField] private KuisHandler kuisHandler;
+    [SerializeField] private TypewriterEffect typewriterEffect;
 
     private void Start()
     {
         typewriterEffect = GetComponent<TypewriterEffect>();
-        responseHandler = GetComponent<ResponseHandler>();
+        kuisHandler = GetComponent<KuisHandler>();
 
         CloseDialogueBox();
     }
@@ -32,7 +32,7 @@ public class DialogueUI : MonoBehaviour
 
     public void AddResponseEvents(ResponseEvent[] responseEvents)
     {
-        responseHandler.AddResponseEvent(responseEvents);
+        kuisHandler.AddResponseEvent(responseEvents);
     }
 
     //Munculin teks yang ada di array ke layar
@@ -60,7 +60,7 @@ public class DialogueUI : MonoBehaviour
         //Munculin opsi kalo di array dialogue punya opsi
         if (dialogueObject.HasResponses)
         {
-            responseHandler.ShowResponse(dialogueObject.Responses);
+            kuisHandler.ShowResponse(dialogueObject.Responses);
         }
         else
         {

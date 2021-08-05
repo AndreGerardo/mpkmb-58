@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Lemari-after
   m_EditorClassIdentifier: 
   dialogue:
+<<<<<<< HEAD
   - speaker: Bima
     content: Sepertinya aku harus menggunakan <b> Kunci</b> ini.
+=======
+  - speaker: Naya
+    content: Ssepertinya aku harus menggunakan <b> Kunci</b> ini.
+>>>>>>> 2fb42a7733cee5a3d245de98a54005cf1dd946f0
   responses: []

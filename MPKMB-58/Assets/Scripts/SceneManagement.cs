@@ -11,8 +11,12 @@ public class SceneManagement : MonoBehaviour
 
     private void Start()
     {
-        if(GameObject.Find("CrossFade") != null)
+        if (GameObject.Find("CrossFade") != null) 
+        {
+            GameObject.Find("CrossFade").GetComponent<CanvasGroup>().alpha = 1;
             transition = GameObject.Find("CrossFade").GetComponent<Animator>();
+        }
+            
     }
 
     public void CrossFade(int sceneIndex)

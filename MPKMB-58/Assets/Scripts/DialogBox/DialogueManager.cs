@@ -8,7 +8,7 @@ public class DialogueManager : MonoBehaviour
     public List<DialogueActivator> objectsToInteract;
     public GameObject dialogueBox;
     [SerializeField] private int currentBuildIndex;
-    [Header("Scene Manajement")]
+    [Header("Scene Management")]
     [SerializeField] private SceneManagement sceneManagement;
 
     void Start()

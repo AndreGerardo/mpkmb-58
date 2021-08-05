@@ -122,6 +122,8 @@ MonoBehaviour:
   dialogueBox: {fileID: 2156496199009063749}
   textContent: {fileID: 2156496200769086162}
   textSpeaker: {fileID: 2156496199237107212}
+  kuisHandler: {fileID: 0}
+  typewriterEffect: {fileID: 0}
 --- !u!114 &3093980275262600236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,7 +237,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5144294308329896926}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -805,6 +807,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3093980275262600234}
     m_Modifications:
+    - target: {fileID: 3971452992594162735, guid: 60d5500fe3b7d3544bb6369589854cad,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -61.71582
+      objectReference: {fileID: 0}
     - target: {fileID: 3971452993237374460, guid: 60d5500fe3b7d3544bb6369589854cad,
         type: 3}
       propertyPath: m_Type
@@ -814,6 +821,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
+      objectReference: {fileID: 21300000, guid: e3bb9623248636447abe1e43415c8113,
+        type: 3}
+    - target: {fileID: 3971452994392647933, guid: 60d5500fe3b7d3544bb6369589854cad,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -61.7157
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971452994392647933, guid: 60d5500fe3b7d3544bb6369589854cad,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -205.5229
       objectReference: {fileID: 0}
     - target: {fileID: 3971452994620540344, guid: 60d5500fe3b7d3544bb6369589854cad,
         type: 3}

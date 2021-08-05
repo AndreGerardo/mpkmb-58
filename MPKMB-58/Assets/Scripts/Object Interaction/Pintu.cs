@@ -7,16 +7,11 @@ public class Pintu : Item
     public override void Interact(){
         if(inventory.HasItem("key")){
             if (inventory.CheckActiveItem("key")){
-                NextLevel();
+                GetComponent<SceneManagement>().NextScene();
             } else {
                 Debug.Log("Aku harus menggunakan item key!");
             }
         }
-    }
-
-    private void NextLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 
 }

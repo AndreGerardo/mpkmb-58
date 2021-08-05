@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PintuTerkunci
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Bima
+  - speaker: Naya
     content: Pintunya terkunci.
   responses: []

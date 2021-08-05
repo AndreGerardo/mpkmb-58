@@ -40,8 +40,8 @@ MonoBehaviour:
     content: "<b>Branding</b> terbaru IPB yaitu\u2026"
   responses:
   - responseText: IPB University
-    dialogueObject: {fileID: 11400000, guid: b03906e2fda006e47ad31ee6bda716f3, type: 2}
+    dialogueObject: {fileID: 11400000, guid: c5af0b7b74c46874eabdd1ef2f76c86b, type: 2}
   - responseText: Institut Perbankan Bogor
-    dialogueObject: {fileID: 11400000, guid: 3d8ef3321162ce1408756ce29e1b60d4, type: 2}
+    dialogueObject: {fileID: 11400000, guid: bd6de6e9da4be5f41aa0c7dbe0a60b84, type: 2}
   - responseText: AIPIBI University
-    dialogueObject: {fileID: 11400000, guid: 3d8ef3321162ce1408756ce29e1b60d4, type: 2}
+    dialogueObject: {fileID: 11400000, guid: bd6de6e9da4be5f41aa0c7dbe0a60b84, type: 2}

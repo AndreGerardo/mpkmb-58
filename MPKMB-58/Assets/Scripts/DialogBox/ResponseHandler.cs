@@ -44,7 +44,7 @@ public class ResponseHandler : MonoBehaviour
             responseBoxHeight += responseButtonTemplate.sizeDelta.y;
         }
 
-        //responseBox.sizeDelta = new Vector2(responseBox.sizeDelta.x, responseBoxHeight);
+        responseBox.sizeDelta = new Vector2(responseBox.sizeDelta.x, responseBoxHeight);
         responseBox.gameObject.SetActive(true);
     }
 

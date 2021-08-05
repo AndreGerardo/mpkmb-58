@@ -11,6 +11,10 @@ public class Lemari : Item
     public Sprite itemTakenSprite;
     public string itemTaken;
 
+    [Header("Change Dialogue")]
+    public DialogueObject afterDialogue;
+    public DialogueActivator dialogueActivator;
+
     public override void Interact()
     {
         if (hasBeenInteracted == false)
@@ -19,6 +23,8 @@ public class Lemari : Item
             hasBeenInteracted = true;
             DoneInteract();
         }
+        else
+            StartCoroutine(ChangeDialogue(0.5f));
     }
 
     private bool TakeItem()
@@ -48,5 +54,13 @@ public class Lemari : Item
             }
         }
         return false;
+    }
+
+    IEnumerator ChangeDialogue(float delayTime)
+    {
+        /*ubah DataDialogue di DialogActivator Item / NPC dengan DataDialogue yang baru*/
+        dialogueActivator.UpdateDialogueObject(afterDialogue);
+
+        yield return new WaitForSeconds(delayTime);
     }
 }

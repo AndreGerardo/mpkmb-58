@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Bima
-    content: Ssepertinya aku harus menggunakan <b> Kunci</b> ini.
+    content: Sepertinya aku harus menggunakan <b> Kunci</b> ini.
   responses: []

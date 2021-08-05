@@ -9,17 +9,18 @@ public class EventNPC : Item
 
     public override void Interact()
     {
-        ChangeDialogue();
+        StartCoroutine(ChangeDialogue(0.5f));
         StartCoroutine(DestroyNPC());
     }
 
-    private void ChangeDialogue()
+    IEnumerator ChangeDialogue(float delayTime)
     {
         /*ubah DataDialogue di DialogActivator Item / NPC dengan DataDialogue yang baru*/
         dialogActivator.UpdateDialogueObject(afterDialogue);
         Debug.Log("Kamu mendapatkan : " + itemCollected);
 
-        dialogActivator.gameObject.tag = "Done";
+        yield return new WaitForSeconds(delayTime);
+        dialogActivator.gameObject.tag = "IRT";
     }
 
     //Hancurkan objek saat dialog selesai

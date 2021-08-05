@@ -142,7 +142,7 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueObject
       value: 
-      objectReference: {fileID: 11400000, guid: aa77a1373d16820418182e97a11a9210,
+      objectReference: {fileID: 11400000, guid: a8c01edf4f42ddb488dd7c2783f2f1ca,
         type: 2}
     - target: {fileID: 1998849208129506572, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
@@ -413,7 +413,8 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueObject
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: ea59cb4632cea1643b13bc22904ecb5e,
+        type: 2}
     - target: {fileID: 1998849208129506572, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
       propertyPath: m_Name
@@ -833,21 +834,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.52572066
-      objectReference: {fileID: 0}
-    - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.52572066
-      objectReference: {fileID: 0}
-    - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.9203185
-      objectReference: {fileID: 0}
-    - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.32
       objectReference: {fileID: 0}
@@ -896,46 +882,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2437128594512159255, guid: 138f541bfea3c99429fa0a9832dec20d,
-        type: 3}
-      propertyPath: m_FlipX
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2437128594512159255, guid: 138f541bfea3c99429fa0a9832dec20d,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 2744914744254154627, guid: c5f6812efb777da4193561e11ec42c08,
-        type: 3}
-    - target: {fileID: 2437128594512159255, guid: 138f541bfea3c99429fa0a9832dec20d,
-        type: 3}
-      propertyPath: m_SpriteSortPoint
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2437128594512159336, guid: 138f541bfea3c99429fa0a9832dec20d,
-        type: 3}
-      propertyPath: dialogueUI
-      value: 
-      objectReference: {fileID: 1349104476}
     - target: {fileID: 2437128594512159337, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5240589260005400028, guid: 138f541bfea3c99429fa0a9832dec20d,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 5.730586
-      objectReference: {fileID: 0}
-    - target: {fileID: 5240589260005400028, guid: 138f541bfea3c99429fa0a9832dec20d,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: -0.025422318
-      objectReference: {fileID: 0}
-    - target: {fileID: 5240589260005400028, guid: 138f541bfea3c99429fa0a9832dec20d,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 2.865293
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 138f541bfea3c99429fa0a9832dec20d, type: 3}
@@ -982,11 +932,23 @@ MonoBehaviour:
   itemName: 
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
-  changedSprite: {fileID: 21300000, guid: 021a19771e975d54f8913b9fac0969a8, type: 3}
-  itemTakenSprite: {fileID: 21300000, guid: d441f52e916b866479c8bccd77089ca0, type: 3}
+  changedSprite: {fileID: 21300000, guid: dcb623f7cc09dc74c85e2f56fa23a9af, type: 3}
+  itemTakenSprite: {fileID: 21300000, guid: 71bbf88719f0b4c44b146fd61239e0ab, type: 3}
   itemTaken: Jaslab
-  afterDialogue: {fileID: 0}
-  dialogueActivator: {fileID: 0}
+  afterDialogue: {fileID: 11400000, guid: e8f1f527cd3ea7d45af0680cea2936cf, type: 2}
+  dialogueActivator: {fileID: 1358136741}
+--- !u!114 &1358136741 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1998849208129506562, guid: 1adfdf08ffc91f14c8668b94469758a6,
+    type: 3}
+  m_PrefabInstance: {fileID: 329878958}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358136738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938dda69316a41f47bd2a4f3d5d8c8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1376809207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,7 +964,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1376809208
 Transform:
   m_ObjectHideFlags: 0
@@ -1069,7 +1031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1572205851
 Transform:
   m_ObjectHideFlags: 0
@@ -1307,7 +1269,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c879fa82d41d9094ba748510d08ab547, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6b37d971e7691ae49b7e8d74373d7ad6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1358,7 +1320,7 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueObject
       value: 
-      objectReference: {fileID: 11400000, guid: 9f73e26743644e44bbba5aff82e4e50b,
+      objectReference: {fileID: 11400000, guid: 2907bd3798af641459a9565165365eda,
         type: 2}
     - target: {fileID: 1998849208129506563, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
@@ -1457,7 +1419,7 @@ MonoBehaviour:
   itemName: 
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
-  afterDialogue: {fileID: 0}
+  afterDialogue: {fileID: 11400000, guid: 900906f008e7ac7418796b9274774cca, type: 2}
   dialogActivator: {fileID: 1998803366}
   collectedName: Jaslab
   isTakingItem: 0
@@ -1553,6 +1515,11 @@ PrefabInstance:
       propertyPath: designatedPos
       value: 
       objectReference: {fileID: 717518615}
+    - target: {fileID: 5035049284320749695, guid: 13d2af59b31cf5c4a9d1d2b75ab947e4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5035049285565717760, guid: 13d2af59b31cf5c4a9d1d2b75ab947e4,
         type: 3}
       propertyPath: player
@@ -1565,8 +1532,13 @@ PrefabInstance:
       objectReference: {fileID: 1471042480}
     - target: {fileID: 5876515829235458341, guid: 13d2af59b31cf5c4a9d1d2b75ab947e4,
         type: 3}
+      propertyPath: prevBGNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876515829235458341, guid: 13d2af59b31cf5c4a9d1d2b75ab947e4,
+        type: 3}
       propertyPath: BACKGROUND_NUM
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5876515829235458341, guid: 13d2af59b31cf5c4a9d1d2b75ab947e4,
         type: 3}

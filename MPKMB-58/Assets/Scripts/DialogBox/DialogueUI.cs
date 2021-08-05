@@ -8,14 +8,17 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private TMP_Text textContent;
     [SerializeField] private TMP_Text textSpeaker;
-    [SerializeField] private KuisHandler kuisHandler;
 
     public bool IsOpen { get; private set; }
+
+    private ResponseHandler responseHandler;
     private TypewriterEffect typewriterEffect;
 
     private void Start()
     {
         typewriterEffect = GetComponent<TypewriterEffect>();
+        responseHandler = GetComponent<ResponseHandler>();
+
         CloseDialogueBox();
     }
 
@@ -29,19 +32,21 @@ public class DialogueUI : MonoBehaviour
 
     public void AddResponseEvents(ResponseEvent[] responseEvents)
     {
-        kuisHandler.AddResponseEvent(responseEvents);
+        responseHandler.AddResponseEvent(responseEvents);
     }
 
-    //Munculin teks yang ada di array ke layar BANGSAT
+    //Munculin teks yang ada di array ke layar
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
+            string dialogue = dialogueObject.Dialogue[i].content;
             string speaker = dialogueObject.Dialogue[i].speaker;
+
             textSpeaker.text = "<b>" + speaker + "</b>";
 
-            string dialogue = dialogueObject.Dialogue[i].content;
             yield return RunTypingEffect(dialogue);
+
             textContent.text = dialogue;
 
             if(i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
@@ -52,10 +57,10 @@ public class DialogueUI : MonoBehaviour
             yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
         }
 
-        //Jika DataDialog ada respons, munculin ke layar
+        //Munculin opsi kalo di array dialogue punya opsi
         if (dialogueObject.HasResponses)
         {
-            kuisHandler.ShowResponse(dialogueObject.Responses);
+            responseHandler.ShowResponse(dialogueObject.Responses);
         }
         else
         {

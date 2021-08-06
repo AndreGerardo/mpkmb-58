@@ -146,6 +146,7 @@ MonoBehaviour:
   itemName: 
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
+  dialogueActivator: {fileID: 116208607}
 --- !u!114 &116208607
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19,8 +19,8 @@ MonoBehaviour:
     content: Aplikasi yang disediakan IPB untuk melakukan aktifitas mahasiswa ...
   responses:
   - responseText: IPBM
-    dialogueObject: {fileID: 11400000, guid: 9c50cf471c10e1940be28b032a77c163, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 75189cb32cbe52f4e842d0fd7d4efb9e, type: 2}
   - responseText: NewLMS
-    dialogueObject: {fileID: 11400000, guid: 755d1cbcd7a62644ebf96965ddd173c5, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 9eb4326d1772b5a45b7e47a31dc5032a, type: 2}
   - responseText: Tiktok
-    dialogueObject: {fileID: 11400000, guid: 755d1cbcd7a62644ebf96965ddd173c5, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 9eb4326d1772b5a45b7e47a31dc5032a, type: 2}

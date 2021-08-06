@@ -8,13 +8,16 @@ public class DialogueManager : MonoBehaviour
     public List<DialogueActivator> objectsToInteract;
     public GameObject dialogueBox;
     [SerializeField] private int currentBuildIndex;
-    [Header("Scene Manajement")]
+    [Header("Scene Management")]
     [SerializeField] private SceneManagement sceneManagement;
+
+    private void Awake() {
+        dialogueBox = GameObject.Find("DialogueBox");
+    }
 
     void Start()
     {
         currentBuildIndex = SceneManager.GetActiveScene().buildIndex;
-        dialogueBox = GameObject.Find("DialogueBox");
     }
 
     // Update is called once per frame

@@ -21,6 +21,6 @@ MonoBehaviour:
 '
   responses:
   - responseText: Iya
-    dialogueObject: {fileID: 11400000}
+    dialogueObject: {fileID: 11400000, guid: b7c97c520a8b3014286c39fa6eafb302, type: 2}
   - responseText: Tidak
     dialogueObject: {fileID: 11400000, guid: 21f94c66a7cc09648893d1b8edd512b7, type: 2}

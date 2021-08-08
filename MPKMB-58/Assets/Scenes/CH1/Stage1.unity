@@ -238,7 +238,7 @@ MonoBehaviour:
   changedSprite: {fileID: 21300000, guid: 607695e9689bdac488e00bb93c7435ad, type: 3}
   itemTakenSprite: {fileID: 21300000, guid: d441f52e916b866479c8bccd77089ca0, type: 3}
   itemTaken: key
-  afterDialogue: {fileID: 11400000, guid: 2bc147d688bb1114eaade7557cc42c70, type: 2}
+  afterDialogue: {fileID: 11400000, guid: f98b0cd0e1d1527469cc47f55db62282, type: 2}
   dialogueActivator: {fileID: 159663200}
 --- !u!114 &159663200
 MonoBehaviour:

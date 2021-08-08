@@ -10,9 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
-  m_Name: Lemari_After
+  m_Name: Naya
   m_EditorClassIdentifier: 
-  dialogue:
-  - speaker: Bima
-    content: Pasti ada yang dapat aku lakukan dengan <b>kunci</b> ini.
+  dialogue: []
   responses: []

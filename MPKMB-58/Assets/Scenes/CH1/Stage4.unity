@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -536,7 +536,7 @@ Transform:
   m_GameObject: {fileID: 490687160}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 10}
-  m_LocalScale: {x: 0.94450635, y: 0.94450635, z: 0.94450635}
+  m_LocalScale: {x: 0.20052667, y: 0.20052667, z: 0.20052667}
   m_Children: []
   m_Father: {fileID: 845759348}
   m_RootOrder: 0
@@ -766,11 +766,26 @@ MonoBehaviour:
   itemName: 
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
+  delayScene: 1
   stage: 0
   paddyStages:
   - {fileID: 21300000, guid: 9e72fcf3ebc443b4baad5b8e4d6a141a, type: 3}
   - {fileID: 21300000, guid: c1e171402ecad774d8af8f73b71f32ce, type: 3}
   - {fileID: 21300000, guid: f49386be6e0a027418cef5f4f66463e2, type: 3}
+--- !u!114 &647499036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647499031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432c7b9acb51c4646a1722f26483014c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transition: {fileID: 0}
+  transitionTime: 1
 --- !u!1 &845759345
 GameObject:
   m_ObjectHideFlags: 0

@@ -84,7 +84,7 @@ public class PlayerMovement : MonoBehaviour
             // Karakter bergerak menuju tujuan
             if (touch.phase == TouchPhase.Began)
             {
-                touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                touchPosition = Camera.main.ScreenToWorldPoint(Input.touches[0].position);
                 if (touchPosition.y < 3.25f)
                 {
                     previousDistanceToTouchPos = 0;

@@ -642,6 +642,7 @@ GameObject:
   - component: {fileID: 400067429}
   - component: {fileID: 400067428}
   - component: {fileID: 400067427}
+  - component: {fileID: 400067430}
   m_Layer: 5
   m_Name: ChapterButton
   m_TagString: Untagged
@@ -692,7 +693,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.1764706}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.19215687}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.21960784}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.27058825}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.27058825}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -759,6 +760,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400067425}
   m_CullTransparentMesh: 0
+--- !u!114 &400067430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400067425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37456643497c8bb42babde66b488eedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisChapter: 2
+  chapter: 0
+  _saveScriptableObject: {fileID: 11400000, guid: e2f9d4d9de7e3e149ad9d05cc01d7f86,
+    type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,6 +1459,7 @@ GameObject:
   - component: {fileID: 663015144}
   - component: {fileID: 663015143}
   - component: {fileID: 663015142}
+  - component: {fileID: 663015145}
   m_Layer: 5
   m_Name: ChapterButton
   m_TagString: Untagged
@@ -1492,7 +1510,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.1764706}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.19215687}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.21960784}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.27058825}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.27058825}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1559,6 +1577,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663015140}
   m_CullTransparentMesh: 0
+--- !u!114 &663015145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663015140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37456643497c8bb42babde66b488eedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisChapter: 5
+  chapter: 0
+  _saveScriptableObject: {fileID: 11400000, guid: e2f9d4d9de7e3e149ad9d05cc01d7f86,
+    type: 2}
 --- !u!1 &676814210
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,6 +3451,7 @@ GameObject:
   - component: {fileID: 1071480619}
   - component: {fileID: 1071480618}
   - component: {fileID: 1071480617}
+  - component: {fileID: 1071480620}
   m_Layer: 5
   m_Name: ChapterButton
   m_TagString: Untagged
@@ -3467,7 +3502,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.1764706}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.19215687}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.21960784}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.27058825}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.27058825}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3534,6 +3569,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071480615}
   m_CullTransparentMesh: 0
+--- !u!114 &1071480620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071480615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37456643497c8bb42babde66b488eedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisChapter: 4
+  chapter: 0
+  _saveScriptableObject: {fileID: 11400000, guid: e2f9d4d9de7e3e149ad9d05cc01d7f86,
+    type: 2}
 --- !u!1 &1103800690
 GameObject:
   m_ObjectHideFlags: 0
@@ -6727,6 +6778,7 @@ GameObject:
   - component: {fileID: 1862368144}
   - component: {fileID: 1862368143}
   - component: {fileID: 1862368142}
+  - component: {fileID: 1862368145}
   m_Layer: 5
   m_Name: ChapterButton
   m_TagString: Untagged
@@ -6777,7 +6829,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.1764706}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.19215687}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.21960784}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.27058825}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.27058825}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -6844,6 +6896,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862368140}
   m_CullTransparentMesh: 0
+--- !u!114 &1862368145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862368140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37456643497c8bb42babde66b488eedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisChapter: 1
+  chapter: 0
+  _saveScriptableObject: {fileID: 11400000, guid: e2f9d4d9de7e3e149ad9d05cc01d7f86,
+    type: 2}
 --- !u!1 &1909798086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6930,6 +6998,7 @@ GameObject:
   - component: {fileID: 2000182511}
   - component: {fileID: 2000182510}
   - component: {fileID: 2000182509}
+  - component: {fileID: 2000182512}
   m_Layer: 5
   m_Name: ChapterButton
   m_TagString: Untagged
@@ -6980,7 +7049,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.1764706}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.19215687}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.21960784}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.27058825}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.27058825}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -7047,6 +7116,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000182507}
   m_CullTransparentMesh: 0
+--- !u!114 &2000182512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000182507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37456643497c8bb42babde66b488eedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisChapter: 6
+  chapter: 0
+  _saveScriptableObject: {fileID: 11400000, guid: e2f9d4d9de7e3e149ad9d05cc01d7f86,
+    type: 2}
 --- !u!1 &2003399150
 GameObject:
   m_ObjectHideFlags: 0
@@ -7491,6 +7576,7 @@ GameObject:
   - component: {fileID: 2036701391}
   - component: {fileID: 2036701390}
   - component: {fileID: 2036701389}
+  - component: {fileID: 2036701392}
   m_Layer: 5
   m_Name: ChapterButton
   m_TagString: Untagged
@@ -7584,7 +7670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9058824, g: 0.854902, b: 0.5921569, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -7608,6 +7694,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036701387}
   m_CullTransparentMesh: 0
+--- !u!114 &2036701392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036701387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37456643497c8bb42babde66b488eedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisChapter: 3
+  chapter: 0
+  _saveScriptableObject: {fileID: 11400000, guid: e2f9d4d9de7e3e149ad9d05cc01d7f86,
+    type: 2}
 --- !u!1 &2111779131
 GameObject:
   m_ObjectHideFlags: 0

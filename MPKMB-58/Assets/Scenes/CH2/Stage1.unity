@@ -132,7 +132,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
+<<<<<<< HEAD
       objectReference: {fileID: 21300000, guid: 30b30fe8718979c4d97029f203b55b83,
+=======
+      objectReference: {fileID: 21300000, guid: 05fd718c2cb04804a88f6f5af90a5d05,
+>>>>>>> f8a5f470db569b1969173647fec74a070b850c30
         type: 3}
     - target: {fileID: 1998849208129506560, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
@@ -394,7 +398,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
+<<<<<<< HEAD
       objectReference: {fileID: 21300000, guid: 04b0ed60051a0b14f88cdf853a2ad33f,
+=======
+      objectReference: {fileID: 21300000, guid: 37b52f7fee2ed0e45b135271f0fc83ad,
+>>>>>>> f8a5f470db569b1969173647fec74a070b850c30
         type: 3}
     - target: {fileID: 1998849208129506560, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
@@ -1445,7 +1453,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
+<<<<<<< HEAD
       objectReference: {fileID: 21300000, guid: 47470a1fa09d7cb4d9530d536f5d191d,
+=======
+      objectReference: {fileID: 21300000, guid: ab4b540f92c4a7942a9b191bf014f340,
+>>>>>>> f8a5f470db569b1969173647fec74a070b850c30
         type: 3}
     - target: {fileID: 1998849208129506560, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
@@ -1564,7 +1576,11 @@ MonoBehaviour:
   dialogActivator: {fileID: 1998803366}
   collectedName: Jaslab
   isTakingItem: 0
+<<<<<<< HEAD
   changedSprite: {fileID: 21300000, guid: 47470a1fa09d7cb4d9530d536f5d191d, type: 3}
+=======
+  changedSprite: {fileID: 21300000, guid: ab4b540f92c4a7942a9b191bf014f340, type: 3}
+>>>>>>> f8a5f470db569b1969173647fec74a070b850c30
   itemTakenSprite: {fileID: 21300000, guid: 80d9f537bec23c14c83981701ad4e031, type: 3}
   itemTaken: Pipet
 --- !u!114 &1998803366 stripped

@@ -130,6 +130,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1998849208129506560, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 05fd718c2cb04804a88f6f5af90a5d05,
+        type: 3}
+    - target: {fileID: 1998849208129506560, guid: 1adfdf08ffc91f14c8668b94469758a6,
+        type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -386,13 +392,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1998849208129506560, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 37b52f7fee2ed0e45b135271f0fc83ad,
+        type: 3}
+    - target: {fileID: 1998849208129506560, guid: 1adfdf08ffc91f14c8668b94469758a6,
+        type: 3}
       propertyPath: m_Color.b
-      value: 0.5613208
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1998849208129506560, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.5613208
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1998849208129506560, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
@@ -1374,6 +1386,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1998849208129506560, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ab4b540f92c4a7942a9b191bf014f340,
+        type: 3}
+    - target: {fileID: 1998849208129506560, guid: 1adfdf08ffc91f14c8668b94469758a6,
+        type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -1489,8 +1507,8 @@ MonoBehaviour:
   dialogActivator: {fileID: 1998803366}
   collectedName: Jaslab
   isTakingItem: 0
-  changedSprite: {fileID: 21300000, guid: 021a19771e975d54f8913b9fac0969a8, type: 3}
-  itemTakenSprite: {fileID: 21300000, guid: 5b5a0bd72c232f34f9a0b38346b12b45, type: 3}
+  changedSprite: {fileID: 21300000, guid: ab4b540f92c4a7942a9b191bf014f340, type: 3}
+  itemTakenSprite: {fileID: 21300000, guid: 80d9f537bec23c14c83981701ad4e031, type: 3}
   itemTaken: Pipet
 --- !u!114 &1998803366 stripped
 MonoBehaviour:

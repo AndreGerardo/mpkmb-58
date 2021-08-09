@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PaddyPlot : Item
 {
-    
+    public float delayScene = 1f;
     public int stage = 0;
     public Sprite[] paddyStages;
 
@@ -19,6 +19,17 @@ public class PaddyPlot : Item
         }
 
         GetComponent<SpriteRenderer>().sprite = paddyStages[stage];
+
+        if(stage == 2)
+        {
+            StartCoroutine(PaddyNext());
+        }
+    }
+
+    private IEnumerator PaddyNext()
+    {
+        yield return new WaitForSeconds(delayScene);
+        GetComponent<SceneManagement>().NextScene();
     }
 
 }

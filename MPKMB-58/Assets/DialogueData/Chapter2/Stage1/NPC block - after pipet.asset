@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: Vio ini <b>pipetnya
+    content: Vio ini <b>pipetnya</b>
   - speaker: Vio
     content: yeyy makasih dika
   - speaker: Vio

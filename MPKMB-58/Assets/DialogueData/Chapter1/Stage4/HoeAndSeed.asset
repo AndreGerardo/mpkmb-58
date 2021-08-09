@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HoeAndSeed
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Bima
+  - speaker: Naya
     content: Ada beberapa benih dan cangkul disini.
   responses: []

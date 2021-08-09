@@ -19,6 +19,11 @@ public class MultiSceneManager : MonoBehaviour
 
     private void Update()
     {
+        SceneChange();
+    }
+
+    public virtual void SceneChange()
+    {
         if(prevBGNum != BACKGROUND_NUM)
         {
             bg.sprite = backgrounds[BACKGROUND_NUM];
@@ -49,4 +54,5 @@ public class MultiSceneManager : MonoBehaviour
             }
         }
     }
+
 }

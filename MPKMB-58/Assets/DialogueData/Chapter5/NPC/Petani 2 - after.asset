@@ -13,16 +13,8 @@ MonoBehaviour:
   m_Name: Petani 2 - after
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Dika
-    content: "sudah beres nih pak\r"
   - speaker: Petani
-    content: "terima kasih ya nak, saya sudah bisa melanjutkan pekerjaan saya, saya
-      lihat-lihat kamu banyak inovasi juga ya, karena kamu sudah menolong saya, ini
-      kunci gudang saya, jadi kamu bisa gunakan alat-alat yang ada di dalam gudang,
-      agar kamu bisa melanjutkan inovasi-inovasi untuk pertanian desa kita ini.\r"
-  - speaker: Dika
-    content: "terima kasih pak, kebetulan saya juga mencari sparepart drone untuk
-      membantu petani 1 tadi pak. Saya lanjut ke gedung bapak ya pak\r"
+    content: Sudah beres dik?
   - speaker: Petani
-    content: "baik nak silahkan\r"
+    content: Belum pak, sebentar ya.
   responses: []

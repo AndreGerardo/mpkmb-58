@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Petani
-    content: Terima kasih infonya dek. Sungguh bermanfaat
+    content: Sudah dik?
   - speaker: Dika
-    content: Iya pak, sama-sama.
+    content: Belum pak, sebentar ya.
   responses: []

@@ -10,6 +10,7 @@ public class ActionItem : Item
     [SerializeField] DialogueObject[] afterDialogue;
     public bool isDone = false;
     private int counter = 0;
+    public bool disabledAfterInteract = false;
     public override void Interact()
     {
         if(isDone)
@@ -27,6 +28,8 @@ public class ActionItem : Item
                 inventory.RemoveItem(toInteract.collectedName[i]);
             }
             isDone = true;
+            if(disabledAfterInteract)
+                GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 

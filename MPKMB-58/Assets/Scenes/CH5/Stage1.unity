@@ -404,7 +404,8 @@ GameObject:
   - component: {fileID: 183600049}
   - component: {fileID: 183600051}
   - component: {fileID: 183600050}
-  - component: {fileID: 183600052}
+  - component: {fileID: 183600053}
+  - component: {fileID: 183600054}
   m_Layer: 0
   m_Name: Pintu Gudang
   m_TagString: Untagged
@@ -443,7 +444,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 21.373333, y: 16.03}
+    oldSize: {x: 21.31, y: 15.982499}
     newSize: {x: 21.373333, y: 16.03}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -491,7 +492,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8da3e4796c79d0b4394fd64077672b18, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66078753ec5eb594ea17eff656d97ebc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -502,7 +503,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &183600052
+--- !u!114 &183600053
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -511,19 +512,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 183600048}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f8dd2243ce9d0c4cbe3848f7473b952, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fbdcca4eebf3824fbff6a50a15d5eef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canBeTouched: 0
   checkPlayer: 0
-  itemButton: {fileID: 0}
+  itemButton: {fileID: 4703931177959799844, guid: 77e9e55e9e1824a4fb21fee3c6ed46a0,
+    type: 3}
   itemName: 
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
   multiSceneManager: {fileID: 1044265811}
   designatedPos: {fileID: 906637562}
   designatedScale: {x: 0.9576718, y: 0.9576718, z: 0}
+  changedSprite: {fileID: 21300000, guid: 8da3e4796c79d0b4394fd64077672b18, type: 3}
+  afterDialog: {fileID: 11400000, guid: 307c86a4f041a1c4faa185a69ecbc853, type: 2}
   toTheRight: 1
+  isUnlocked: 0
+--- !u!114 &183600054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183600048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938dda69316a41f47bd2a4f3d5d8c8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueObject: {fileID: 11400000, guid: 9e351ea87f61efa40a42e49886fb29f6, type: 2}
+  dialogueUI: {fileID: 1152117248}
+  isInteracted: 0
+  _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
+    type: 2}
 --- !u!1001 &185337639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -905,6 +927,7 @@ MonoBehaviour:
   afterDialogue:
   - {fileID: 11400000, guid: 33628d7f83609194fa8e2048b7d89aee, type: 2}
   isDone: 0
+  disabledAfterInteract: 0
 --- !u!114 &344452313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1082,6 +1105,7 @@ MonoBehaviour:
   afterDialogue:
   - {fileID: 11400000, guid: 87d3628eddadf4f428b8ca44c8fba96b, type: 2}
   isDone: 0
+  disabledAfterInteract: 0
 --- !u!114 &434230053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1185,7 +1209,6 @@ GameObject:
   m_Component:
   - component: {fileID: 511631108}
   - component: {fileID: 511631111}
-  - component: {fileID: 511631109}
   - component: {fileID: 511631110}
   - component: {fileID: 511631113}
   - component: {fileID: 511631112}
@@ -1210,30 +1233,6 @@ Transform:
   m_Father: {fileID: 1083110665}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &511631109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511631107}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d15c1aead691f0d4fa208a951ae6a53e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canBeTouched: 0
-  checkPlayer: 0
-  itemButton: {fileID: 4703931177959799844, guid: 77e9e55e9e1824a4fb21fee3c6ed46a0,
-    type: 3}
-  itemName: 
-  _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
-    type: 2}
-  changedSprite: {fileID: 21300000, guid: c01b1445aebab8547aa320f9487a7b5d, type: 3}
-  itemTakenSprite: {fileID: 21300000, guid: cc08e036fc6c8b3459c3f79ddef6a1f1, type: 3}
-  itemTaken: alat pembersih
-  afterDialogue: {fileID: 0}
-  dialogueActivator: {fileID: 0}
 --- !u!61 &511631110
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1528,8 +1527,10 @@ MonoBehaviour:
     type: 2}
   toInteract: {fileID: 1666948456}
   dialogActivator: {fileID: 775250236}
-  afterDialogue: []
+  afterDialogue:
+  - {fileID: 11400000, guid: b6b1e02c637e3de4f9632cd2c42d9844, type: 2}
   isDone: 0
+  disabledAfterInteract: 0
 --- !u!114 &775250236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2024,7 +2025,7 @@ Transform:
   m_GameObject: {fileID: 875365835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.34, y: -4.05, z: 0}
-  m_LocalScale: {x: 0.07362484, y: 0.07362484, z: 0.07362484}
+  m_LocalScale: {x: 0.09486049, y: 0.09486049, z: 0.07362484}
   m_Children: []
   m_Father: {fileID: 76930976}
   m_RootOrder: 3
@@ -2094,7 +2095,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fe320c3a1ed7d7248a89e3c62001f52d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a47a1a7debe0d640a2a4e9f3d237d22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2504,8 +2505,10 @@ MonoBehaviour:
     type: 2}
   toInteract: {fileID: 1179521830}
   dialogActivator: {fileID: 981457603}
-  afterDialogue: []
+  afterDialogue:
+  - {fileID: 11400000, guid: c12867eb13ed02b42ae278df1bfdc084, type: 2}
   isDone: 0
+  disabledAfterInteract: 1
 --- !u!114 &981457603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2559,7 +2562,7 @@ MonoBehaviour:
   backgroundCollections:
   - {fileID: 76930975}
   - {fileID: 1083110664}
-  leftArrow: {fileID: 0}
+  leftArrow: {fileID: 1674876104}
   rightArrow: {fileID: 183600048}
   BACKGROUND_NUM: 0
   prevBGNum: 0
@@ -3249,8 +3252,9 @@ MonoBehaviour:
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
   dialogActivator: {fileID: 1179521831}
-  toInteract: {fileID: 0}
+  toInteract: {fileID: 981457602}
   afterDialogue:
+  - {fileID: 11400000, guid: e45a3bb9e9d3bd94382a94d7edc1a28a, type: 2}
   - {fileID: 11400000, guid: 66a388002d592a246901abd011aa0d53, type: 2}
   collectedName:
   - penangkap ular
@@ -3411,7 +3415,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 13.021127}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -3422,7 +3426,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25437528, y: 0.6013215}
+  m_Size: {x: 10.901949, y: 26.643572}
   m_EdgeRadius: 0
 --- !u!212 &1592548429
 SpriteRenderer:
@@ -3463,7 +3467,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0785adf0f710fb94a96e41376b958d51, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 54e3c047836de5d40ab505b411ac5b88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3552,7 +3556,7 @@ Transform:
   m_GameObject: {fileID: 1666948452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.04, y: -4.04, z: 0}
-  m_LocalScale: {x: 0.075584926, y: 0.075584926, z: 0.075584926}
+  m_LocalScale: {x: 0.09486049, y: 0.09486049, z: 0.075584926}
   m_Children: []
   m_Father: {fileID: 76930976}
   m_RootOrder: 1
@@ -3653,10 +3657,12 @@ MonoBehaviour:
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
   dialogActivator: {fileID: 1666948457}
-  toInteract: {fileID: 0}
+  toInteract: {fileID: 775250235}
   afterDialogue:
+  - {fileID: 11400000, guid: 173c420bf7fdacb4281b2402be8c5df0, type: 2}
   - {fileID: 11400000, guid: 3798b161d80c78645991cd40b74285a1, type: 2}
-  collectedName: []
+  collectedName:
+  - alat pembersih
   itemTakenSprite:
   - {fileID: 21300000, guid: 31ebbeb214af59842afde6214f4b3729, type: 3}
   itemTaken:
@@ -3735,7 +3741,7 @@ MonoBehaviour:
   multiSceneManager: {fileID: 1044265811}
   designatedPos: {fileID: 867415715}
   designatedScale: {x: 0.4080493, y: 0.4080493, z: 1}
-  toTheRight: 1
+  toTheRight: 0
 --- !u!61 &1674876107
 BoxCollider2D:
   m_ObjectHideFlags: 0

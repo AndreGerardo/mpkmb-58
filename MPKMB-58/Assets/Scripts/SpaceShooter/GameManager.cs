@@ -7,7 +7,6 @@ using TMPro;
 public class GameManager : MonoBehaviour {
 	public static GameManager GM;
 	public int playerHealth = 1;
-	int defaultHealth = 1;
 	public int score;
 	public int HiScore = 0;
 	public TMP_Text scoreText;

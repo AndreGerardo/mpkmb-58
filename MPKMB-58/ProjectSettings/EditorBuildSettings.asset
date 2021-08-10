@@ -9,30 +9,30 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/CH1/Stage1.unity
+    path: Assets/Scenes/CH1/CH1Stage1.unity
     guid: e9633a4a9a55d5c40b005533ece98767
   - enabled: 1
-    path: Assets/Scenes/CH1/Stage2.unity
+    path: Assets/Scenes/CH1/CH1Stage2.unity
     guid: 494af503b38c66d408a546d855fe8998
   - enabled: 1
-    path: Assets/Scenes/CH1/Stage3.unity
+    path: Assets/Scenes/CH1/CH1Stage3.unity
     guid: 6daea6c711c3f9a45a3352493b256575
   - enabled: 1
-    path: Assets/Scenes/CH1/Stage4.unity
+    path: Assets/Scenes/CH1/CH1Stage4.unity
     guid: 746ddcb0d35098f4ebdfbd98442929a2
   - enabled: 1
-    path: Assets/Scenes/CH2/Stage1.unity
+    path: Assets/Scenes/CH2/CH2Stage1.unity
     guid: 187f1ad7dc156724392f68dba57a8264
   - enabled: 1
-    path: Assets/Scenes/CH2/Stage2.unity
+    path: Assets/Scenes/CH2/CH2Stage2.unity
     guid: 5529032033cee0545b3496e60366e708
   - enabled: 1
-    path: Assets/Scenes/CH2/Stage3.unity
+    path: Assets/Scenes/CH2/CH2Stage3.unity
     guid: 8e62406667ac5594284608182253296d
   - enabled: 1
-    path: Assets/Scenes/CH3/Stage2.unity
+    path: Assets/Scenes/CH3/CH3Stage2.unity
     guid: e1657ebce360d184b8076a1fd6837d99
   - enabled: 1
-    path: Assets/Scenes/CH3/Stage3.unity
+    path: Assets/Scenes/CH3/CH3Stage3.unity
     guid: 191a2307f4596104893d5148de7d28ae
   m_configObjects: {}

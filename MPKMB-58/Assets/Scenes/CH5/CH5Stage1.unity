@@ -3381,6 +3381,8 @@ GameObject:
   - component: {fileID: 1592548428}
   - component: {fileID: 1592548431}
   - component: {fileID: 1592548430}
+  - component: {fileID: 1592548433}
+  - component: {fileID: 1592548432}
   m_Layer: 0
   m_Name: Teknisi
   m_TagString: Untagged
@@ -3527,6 +3529,33 @@ MonoBehaviour:
   isInteracted: 0
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
+--- !u!114 &1592548432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592548426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432c7b9acb51c4646a1722f26483014c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transition: {fileID: 0}
+  transitionTime: 1
+--- !u!114 &1592548433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592548426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f5e034b583c5e14a96027a1da3ab62a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teknisi: {fileID: 1592548430}
 --- !u!1 &1666948452
 GameObject:
   m_ObjectHideFlags: 0

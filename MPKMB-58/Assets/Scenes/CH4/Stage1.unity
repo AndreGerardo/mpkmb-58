@@ -379,7 +379,7 @@ MonoBehaviour:
     type: 2}
   changedSprite: {fileID: 3800310597756625337, guid: edcd4d036bbbd0c47bd050163cd098b4,
     type: 3}
-  itemTakenSprite: {fileID: 21300000, guid: d441f52e916b866479c8bccd77089ca0, type: 3}
+  itemTakenSprite: {fileID: 21300000, guid: d556de871bb026c459b6c676eb56a2bb, type: 3}
   itemTaken: ayam
   afterDialogue: {fileID: 0}
   dialogueActivator: {fileID: 0}
@@ -962,7 +962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778706228}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.52, y: -3.67, z: 0}
+  m_LocalPosition: {x: 0.49, y: -3.59, z: 0}
   m_LocalScale: {x: 0.095455736, y: 0.095455736, z: 0.31818578}
   m_Children: []
   m_Father: {fileID: 783235344}
@@ -1084,9 +1084,8 @@ MonoBehaviour:
   dialogActivator: {fileID: 778706230}
   collectedName: proyektor
   isTakingItem: 0
-  changedSprite: {fileID: 6474817916930609645, guid: edcd4d036bbbd0c47bd050163cd098b4,
-    type: 3}
-  itemTakenSprite: {fileID: 21300000, guid: d4a3743699baa904d8ee4a13b782b670, type: 3}
+  changedSprite: {fileID: 21300000, guid: dcb623f7cc09dc74c85e2f56fa23a9af, type: 3}
+  itemTakenSprite: {fileID: 21300000, guid: 96543f8ed9d87f6479d92d747437cf8c, type: 3}
   itemTaken: buku
 --- !u!1 &780763403
 GameObject:
@@ -1466,9 +1465,8 @@ MonoBehaviour:
   dialogActivator: {fileID: 922930915}
   collectedName: ayam
   isTakingItem: 0
-  changedSprite: {fileID: 3800310597756625337, guid: edcd4d036bbbd0c47bd050163cd098b4,
-    type: 3}
-  itemTakenSprite: {fileID: 21300000, guid: d4a3743699baa904d8ee4a13b782b670, type: 3}
+  changedSprite: {fileID: 21300000, guid: 9cde5ab6472a6ac43879ace4132bc316, type: 3}
+  itemTakenSprite: {fileID: 21300000, guid: e1da54c1391846149b0125691c81874d, type: 3}
   itemTaken: jagung
 --- !u!114 &922930915
 MonoBehaviour:
@@ -1944,8 +1942,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206531060}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 2.92, y: -3.8999999, z: 0}
-  m_LocalScale: {x: -0.1126335, y: 0.112633504, z: 0.375445}
+  m_LocalPosition: {x: 2.997, y: -3.8999999, z: 0}
+  m_LocalScale: {x: -0.1053408, y: 0.103462204, z: 0.375445}
   m_Children: []
   m_Father: {fileID: 783235344}
   m_RootOrder: 2
@@ -2120,8 +2118,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322220144}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -1.71, y: -3.54, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalPosition: {x: -2.33, y: -3.62, z: 0}
+  m_LocalScale: {x: -0.09631773, y: 0.09631773, z: 0.3210591}
   m_Children: []
   m_Father: {fileID: 783235344}
   m_RootOrder: 0
@@ -2156,18 +2154,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 4.25}
+  m_Offset: {x: -0.35094523, y: 11.50287}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 4.25, y: 8.5}
+    oldSize: {x: 21.06371, y: 26.319998}
     newSize: {x: 4.25, y: 8.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.25, y: 8.5}
+  m_Size: {x: 7.7594543, y: 23.00574}
   m_EdgeRadius: 0
 --- !u!212 &1322220148
 SpriteRenderer:
@@ -2208,9 +2206,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3800310597756625337, guid: edcd4d036bbbd0c47bd050163cd098b4,
-    type: 3}
-  m_Color: {r: 0, g: 0.39480734, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: d42c0b1fa966ee04fa68fc63f675cf7c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2930,7 +2927,7 @@ MonoBehaviour:
     type: 2}
   changedSprite: {fileID: 3800310597756625337, guid: edcd4d036bbbd0c47bd050163cd098b4,
     type: 3}
-  itemTakenSprite: {fileID: 21300000, guid: d441f52e916b866479c8bccd77089ca0, type: 3}
+  itemTakenSprite: {fileID: 21300000, guid: d556de871bb026c459b6c676eb56a2bb, type: 3}
   itemTaken: ayam
   afterDialogue: {fileID: 0}
   dialogueActivator: {fileID: 0}

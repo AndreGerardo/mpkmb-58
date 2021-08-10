@@ -14,17 +14,18 @@ public class Spawner : MonoBehaviour {
 
 		if (timer >= spawnDelay) {
 			Spawn ();
+			spawnDelay -= spawnDelay*5f/100f;
 			timer = 0;
 		}
 	}
 
 	void Spawn()
 	{
-		float mapWidth = 2.62f;
+		float mapWidth = 4f;
 
-		Vector3 posX = new Vector3 (Random.Range(-mapWidth, mapWidth), transform.position.y, transform.position.x);
+		Vector3 posY = new Vector3 (transform.position.x, Random.Range(-mapWidth, mapWidth), transform.position.y);
 
-		Instantiate (hostileObj[Random.Range(0,hostileObj.Length)], posX, Quaternion.identity);
+		Instantiate (hostileObj[Random.Range(0,hostileObj.Length)], posY, Quaternion.identity);
 	}
 
 }

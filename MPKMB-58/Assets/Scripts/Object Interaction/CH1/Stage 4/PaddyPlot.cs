@@ -7,14 +7,16 @@ public class PaddyPlot : Item
     public float delayScene = 1f;
     public int stage = 0;
     public Sprite[] paddyStages;
-
+    public DialogueObject[] dialogueObjectChanges;
     public override void Interact()
     {
         if (stage == 0 && inventory.CheckActiveItem("hoe"))
         {
+            GetComponent<DialogueActivator>().UpdateDialogueObject(dialogueObjectChanges[0]);
             stage++;
         }else if(stage == 1 && inventory.CheckActiveItem("seed"))
         {
+            GetComponent<DialogueActivator>().UpdateDialogueObject(dialogueObjectChanges[1]);
             stage++;
         }
 

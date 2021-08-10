@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
-  m_Name: PetaniNgantuk
+  m_Name: Penduduk1
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Dika
-    content: Permisi Pak?
-  - speaker: Petani Ngantuk
-    content: "H@h? Km0eH 5!aPpa? Zzz\u2026"
-  - speaker: Dika
-    content: "(Kayanya dia ngantuk banget dah, gue harus nyari <b>kopi</b> nih biar
-      dia kebangun\u2026)"
+  - speaker: NPC1
+    content: Halo Dika
+  - speaker: NPC2
+    content: Halo Dika
   responses: []

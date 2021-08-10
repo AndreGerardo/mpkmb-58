@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: PetaniNgantuk-After
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Dika
+    content: Permisi pak, boleh minta waktunya sebentar pak?
+  - speaker: Petani Ngantuk
+    content: (Meminum kopi)
+  - speaker: Petani Ngantuk
+    content: Ahhh, kamu ada perlu apa?
+  - speaker: Dika
+    content: Kalau boleh tau bapak itu sebagai petani apa ya?
+  - speaker: Petani Ngantuk
+    content: Oh saya yang menggarap jagung disini, emang ada perlu apa?
+  - speaker: Dika
+    content: Ohh pas banget, saya mau nanya untuk ngebedain jagung bersih sama yang
+      tidak gimana ya pak?
+  - speaker: Petani Ngantuk
+    content: 'Ohh nanya itu aja? '
+  - speaker: Dika
+    content: Iya pak.
+  - speaker: Pemilik Warung
+    content: Jadi tuh...
+  - speaker: Petani Ngantuk
+    content: (Menjelaskan perbedaan jagung bersih dan tidak bersih)
+  - speaker: Petani Ngantuk
+    content: Jadi begitu mas cara bedainnya.
+  - speaker: Dika
+    content: Oh begitu yaa, terimakasih penjelasannya pak.
+  - speaker: Petani Ngantuk
+    content: Iya sama-sama.
+  responses: []

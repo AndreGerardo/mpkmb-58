@@ -12,5 +12,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
   m_Name: Naya
   m_EditorClassIdentifier: 
-  dialogue: []
-  responses: []
+  dialogue:
+  - speaker: Naya
+    content: Fuhh, capek juga presentasinya! Enaknya sih kita santai dulu ga sih?
+  - speaker: Dika
+    content: Aku juga pengennya gitu Nay, tapi tugas laporan KKN punyaku harus dikerjakan
+      dulu.
+  - speaker: Naya
+    content: Yahh.. kan masih bisa besok Di!
+  - speaker: Dika
+    content: 'Eits, jangan lupa, tugas kita besok masih ada lagi. Kita masih harus
+      merakit drone,
+
+      keliling desa dan membantu warga sekitar bila ada kesulitan
+      dan kendala.'
+  - speaker: Naya
+    content: 'Hm, iya juga. Yaudah deh kalo gitu aku bantu test wawasan mu seputar
+      pertanian dulu
+
+      deh, biar laporanmu bisa lancar ngerjainnya.'
+  - speaker: Dika
+    content: 'Boleh deh! Tapi sebelumnya aku pengen baca dulu buku referensi seputar
+      quiz yang
+
+      kamu bakal kasih. Kamu punya gak Nay?'
+  - speaker: Naya
+    content: .
+  - speaker: Dika
+    content: Oke, aku siap ditest nih!
+  - speaker: Naya
+    content: 'Baik, soal pertama:
+
+      Yang mengatakan bahwa urusan persediaan
+      makanan rakyat menyangkut hidup dan mati ialah'
+  responses:
+  - responseText: Sukarno
+    dialogueObject: {fileID: 11400000, guid: a6c6d8aa7486e674d9380cb7c4d5e137, type: 2}
+  - responseText: Moh. Hatta
+    dialogueObject: {fileID: 11400000, guid: 5540aab74891369469625d1d95a1acf7, type: 2}
+  - responseText: Jokowi
+    dialogueObject: {fileID: 11400000, guid: 5540aab74891369469625d1d95a1acf7, type: 2}
+  - responseText: A.H. Nasution
+    dialogueObject: {fileID: 11400000, guid: 5540aab74891369469625d1d95a1acf7, type: 2}

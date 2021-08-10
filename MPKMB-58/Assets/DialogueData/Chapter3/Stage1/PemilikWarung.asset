@@ -22,7 +22,7 @@ MonoBehaviour:
   - speaker: Dika
     content: Buu, maaf tapi saya ga ada uang, bisa bayar pake yang lain ga bu?
   - speaker: Pemilik Warung
-    content: Wah kebetulan motor saya habis bensin, di sini agak jauh buat beli bensin.
+    content: Wah kebetulan motor saya habis bensin, di sini agak jauh buat beli <b>bensin</b>.
   - speaker: Dika
     content: Oh ok bu, sebentar yaa..
   responses: []

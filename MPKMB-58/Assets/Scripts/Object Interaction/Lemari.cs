@@ -63,4 +63,9 @@ public class Lemari : Item
 
         yield return new WaitForSeconds(delayTime);
     }
+
+    public void HasNotInteracted()
+    {
+        hasBeenInteracted = false;
+    }
 }

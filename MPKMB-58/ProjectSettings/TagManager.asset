@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Done
-  - IRT
   - Enemy
+  - SemiDone
   layers:
   - Default
   - TransparentFX

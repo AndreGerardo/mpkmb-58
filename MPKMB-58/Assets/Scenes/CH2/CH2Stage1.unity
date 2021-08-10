@@ -1025,7 +1025,7 @@ MonoBehaviour:
   itemName: 
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
-  changedSprite: {fileID: 21300000, guid: dcb623f7cc09dc74c85e2f56fa23a9af, type: 3}
+  changedSprite: {fileID: 21300000, guid: 37b52f7fee2ed0e45b135271f0fc83ad, type: 3}
   itemTakenSprite: {fileID: 21300000, guid: 71bbf88719f0b4c44b146fd61239e0ab, type: 3}
   itemTaken: Jaslab
   afterDialogue: {fileID: 11400000, guid: e8f1f527cd3ea7d45af0680cea2936cf, type: 2}
@@ -1326,9 +1326,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBeTouched: 0
   checkPlayer: 0
-  itemButton: {fileID: 0}
+  itemButton: {fileID: 4703931177959799844, guid: 77e9e55e9e1824a4fb21fee3c6ed46a0,
+    type: 3}
   itemName: 
-  _voidEventChannelSO: {fileID: 0}
+  _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
+    type: 2}
   afterDialogue: {fileID: 11400000, guid: c17a921e5aaea65438001edab2e47313, type: 2}
   dialogActivator: {fileID: 1989062962}
   collectedName: Pipet

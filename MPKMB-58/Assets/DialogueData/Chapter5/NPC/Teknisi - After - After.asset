@@ -13,12 +13,10 @@ MonoBehaviour:
   m_Name: Teknisi - After - After
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Teknisi
-    content: "ada kan alatnya?\r"
   - speaker: Dika
-    content: "Ada kok pak, makasih pak\r"
+    content: Saya sudah selesai pak.
   - speaker: Teknisi
-    content: "Bisa minta tolong rakit drone nya di meja itu dek?\r"
+    content: Wah, terima kasih banyak, Dik. Ternyata berbakat juga kamu
   - speaker: Dika
-    content: "Baik pak, saya rakit dulu drone nya\r"
+    content: Iya pak, sama-sama. Saya juga baru belajar ini.
   responses: []

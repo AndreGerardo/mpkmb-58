@@ -145,7 +145,9 @@ MonoBehaviour:
   itemName: 
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
+  multiSceneManager: {fileID: 0}
   designatedPos: {fileID: 293763431}
+  designatedScale: {x: 0, y: 0, z: 0}
   toTheRight: 1
 --- !u!1 &293763430
 GameObject:
@@ -649,7 +651,9 @@ MonoBehaviour:
   itemName: 
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
+  multiSceneManager: {fileID: 0}
   designatedPos: {fileID: 1475330650}
+  designatedScale: {x: 0, y: 0, z: 0}
   toTheRight: 0
 --- !u!1001 &969708900
 PrefabInstance:
@@ -1892,7 +1896,7 @@ PrefabInstance:
     - target: {fileID: 2156496199009063749, guid: 71f7648441944c24a864b34647970fba,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3093980275262600214, guid: 71f7648441944c24a864b34647970fba,
         type: 3}

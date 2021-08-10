@@ -38,14 +38,14 @@ public class PlayerController : MonoBehaviour {
 
 	}
 
-	void OnCollisionEnter2D(Collision2D coll)
+	void OnTriggerEnter2D(Collider2D coll)
 	{
-		if (coll.collider.tag == "Enemy") {
+		if (coll.tag == "Enemy") {
 			GameManager.GM.playerHealth -= 1;
 			// explosion.Play ();
 			Destroy (coll.gameObject);
 		}
-		if (coll.collider.tag == "Obstacle") {
+		if (coll.tag == "Obstacle") {
 			GameManager.GM.playerHealth -= 1;
 			// explosion.Play ();
 			Destroy (coll.gameObject);

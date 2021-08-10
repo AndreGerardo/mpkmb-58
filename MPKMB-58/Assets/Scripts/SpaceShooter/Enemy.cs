@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float enemySpeed;
+	public float lifeTime = 3f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	void OnEnable()
+	{
+		Invoke ("SwitchBullet", lifeTime);
+	}
+
+	void Update()
+	{
+		transform.Translate (Vector2.left * enemySpeed * Time.deltaTime);
+	}
+
+	void SwitchBullet()
+	{
+		//Instantiate explosion
+		Destroy(gameObject);
+	}
+
+	void OnDisable()
+	{
+		CancelInvoke ();
+	}
 }

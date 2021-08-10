@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour {
 	public static GameManager GM;
@@ -9,6 +10,12 @@ public class GameManager : MonoBehaviour {
 	int defaultHealth = 1;
 	public int score;
 	public int HiScore = 0;
+	public TMP_Text scoreText;
+	public TMP_Text highScoreText;
+	public TMP_Text scoreRealText;
+	public TMP_Text timerText;
+	public GameObject gameOverCanvas;
+	private float gameTime = 60f;
 
 	void Awake()
 	{
@@ -28,9 +35,14 @@ public class GameManager : MonoBehaviour {
 
 	void Update()
 	{
-		if (playerHealth <= 0) {
-			StartCoroutine (GameOver());
+		if (playerHealth <= 0 || gameTime == 0) {
+			GameOver();
+			playerHealth = 1;
 		}
+
+		gameTime -= Time.deltaTime;
+		timerText.text = "Timer : " + (int)gameTime;
+		scoreRealText.text = "SCORE : " + score;
 	}
 
 	void HiScoreManager()
@@ -41,13 +53,23 @@ public class GameManager : MonoBehaviour {
 		}
 	}
 
-	IEnumerator GameOver()
+	void GameOver()
 	{
 		GameObject.FindGameObjectWithTag ("Player").SetActive(false);
-		yield return new WaitForSeconds (1.25f);
-		SceneManager.LoadScene (2);
-		playerHealth = defaultHealth;
 		HiScoreManager ();
+		scoreText.text = "Score : " + score.ToString();
+		highScoreText.text = "High Score : " + HiScore.ToString();
+		gameOverCanvas.SetActive(true);
+	}
+
+	public void Retry()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+	}
+
+	public void Next()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
 	}
 
 }

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: GembalaIntro 1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Dika
+    content: Permisi, bapak terlihat sedang kebingungan. Ada apa pak?
+  - speaker: Penggembala
+    content: Halo nak, bapak ingin menyebrang sungai bersama hewan-hewan saya. Tetapi
+      perahu yang tersedia hanya satu dan bapak hanya bisa membawa satu hewan ke
+      atas perahu.
+  - speaker: Dika
+    content: Jika serigala saya ditinggal, dia akan memakan domba-domba saya. Serigalanya
+      harus saya yang menjaganya, tidak bisa orang lain. Bisakah kamu menolongku?
+  responses: []

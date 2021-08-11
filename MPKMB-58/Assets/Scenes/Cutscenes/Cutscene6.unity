@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -452,14 +452,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87227ffbd5d49b04bbad1d37ac5fbcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _saveScriptableObject: {fileID: 11400000, guid: e2f9d4d9de7e3e149ad9d05cc01d7f86,
+    type: 2}
+  chapter: 6
   isInteractable: 1
+  isLastScene: 0
   transition: {fileID: 0}
   transitionTime: 1
   currentStory: 0
   stories:
   - {fileID: 21300000, guid: 23d95c4d3cede4041bbc39d905081e25, type: 3}
-  - {fileID: 21300000, guid: 93d163a47a330c74984e942b82cf2a66, type: 3}
-  - {fileID: 21300000, guid: 95b9ad627f7d2384a82713d4fd211dae, type: 3}
   storyScene: {fileID: 1855893149}
 --- !u!1 &1855893147
 GameObject:

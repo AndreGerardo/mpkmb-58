@@ -145,7 +145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105782396}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.66, y: -2.75, z: -1.0008764}
+  m_LocalPosition: {x: 1.29, y: -2.75, z: -1.0008764}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -617,7 +617,7 @@ Transform:
   m_GameObject: {fileID: 1295578452}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 10}
-  m_LocalScale: {x: 0.9664452, y: 0.9664452, z: 0.9664452}
+  m_LocalScale: {x: 0.23597342, y: 0.23597342, z: 0.23597342}
   m_Children: []
   m_Father: {fileID: 125694223}
   m_RootOrder: 0
@@ -661,7 +661,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -3
-  m_Sprite: {fileID: 21300000, guid: e58e1743b6aef9b4f9b37b14de4205f4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3e43cb8fef1039342a1e32128bda9c40, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 1311851594}
   - component: {fileID: 1311851593}
   m_Layer: 0
-  m_Name: mahasiswa
+  m_Name: Petani
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 938dda69316a41f47bd2a4f3d5d8c8e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 11400000, guid: 2dd5efe6298412b4f9b3a158144eafd6, type: 2}
+  dialogueObject: {fileID: 11400000, guid: f0774547de11a904ca96025d21b0b649, type: 2}
   dialogueUI: {fileID: 1138304485}
   isInteracted: 0
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
@@ -773,7 +773,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8a47a1a7debe0d640a2a4e9f3d237d22, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dcb623f7cc09dc74c85e2f56fa23a9af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -792,8 +792,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311851592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.947, y: -3.94, z: 0}
-  m_LocalScale: {x: 0.21073705, y: 0.21073705, z: 0.21073705}
+  m_LocalPosition: {x: 3.2200003, y: -4.45, z: 0}
+  m_LocalScale: {x: 0.14138766, y: 0.14138766, z: 0.14138766}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -1004,27 +1004,27 @@ PrefabInstance:
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8620476
+      value: 0.6257874
       objectReference: {fileID: 0}
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8620476
+      value: 0.6257874
       objectReference: {fileID: 0}
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0563611
+      value: 0.76684564
       objectReference: {fileID: 0}
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.049
+      value: -8.23
       objectReference: {fileID: 0}
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.88
+      value: -4.39
       objectReference: {fileID: 0}
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}

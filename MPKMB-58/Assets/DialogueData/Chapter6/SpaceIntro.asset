@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
+  m_Name: SpaceIntro
+  m_EditorClassIdentifier: 
+  dialogue:
+  - speaker: Ki Cepu
+    content: Naya! Naya!
+  - speaker: Naya
+    content: "\rEh iya, ada apa Ki? Kenapa ribut sekali? Masih pagi loh hahaha"
+  - speaker: Ki Cepu
+    content: "Drone yang Dika sudah rancang tiba-tiba tidak bekerja sama sekali!
+      Padahal kemarin masih berjalan dengan lancar, tapi tadi pagi drone-nya malah
+      tidak mau dikendalikan! Tolong pak petani Naya!\r"
+  - speaker: Naya
+    content: "Waduh, sebenarnya yang paham urusan drone itu Dika pak, Tapi dika sedang
+      tidak ada. Tapi\u2026 Oke deh, Naya bakal bantu bapak petani sebisa mungkin.\r"
+  - speaker: Ki Cepu
+    content: "Terimakasih banyak Naya!\r"
+  responses: []

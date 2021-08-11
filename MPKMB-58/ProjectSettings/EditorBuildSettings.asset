@@ -8,4 +8,76 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene1.unity
+    guid: 62e41453e8aecb1448b0e2fc7265322f
+  - enabled: 1
+    path: Assets/Scenes/CH1/CH1Stage1.unity
+    guid: e9633a4a9a55d5c40b005533ece98767
+  - enabled: 1
+    path: Assets/Scenes/CH1/CH1Stage2.unity
+    guid: 494af503b38c66d408a546d855fe8998
+  - enabled: 1
+    path: Assets/Scenes/CH1/CH1Stage3.unity
+    guid: 6daea6c711c3f9a45a3352493b256575
+  - enabled: 1
+    path: Assets/Scenes/CH1/CH1Stage4.unity
+    guid: 746ddcb0d35098f4ebdfbd98442929a2
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene2.unity
+    guid: 69ee63d4cef470a4a8612192f104abe0
+  - enabled: 1
+    path: Assets/Scenes/CH2/CH2Stage1.unity
+    guid: 187f1ad7dc156724392f68dba57a8264
+  - enabled: 1
+    path: Assets/Scenes/CH2/CH2Stage2.unity
+    guid: 5529032033cee0545b3496e60366e708
+  - enabled: 1
+    path: Assets/Scenes/CH2/CH2Stage3.unity
+    guid: 8e62406667ac5594284608182253296d
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene3.unity
+    guid: f4ccaa8a7b2ba3a40ae8b2fb60e972a7
+  - enabled: 1
+    path: Assets/Scenes/CH3/CH3Stage1.unity
+    guid: f2aaf40dfe94b644a83bfdce2c761958
+  - enabled: 1
+    path: Assets/Scenes/CH3/CH3Stage2.unity
+    guid: e1657ebce360d184b8076a1fd6837d99
+  - enabled: 1
+    path: Assets/Scenes/CH3/CH3Stage3.unity
+    guid: 191a2307f4596104893d5148de7d28ae
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene4.unity
+    guid: 6dbb1aeedc7f711418feb2807cc56826
+  - enabled: 1
+    path: Assets/Scenes/CH4/CH4Stage1.unity
+    guid: 8bbce217293fa714e9cac436a7cbc42d
+  - enabled: 1
+    path: Assets/Scenes/CH4/CH4Stage2.unity
+    guid: 7df1bf4756bf31e46aa8a154fae35d26
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene5.unity
+    guid: aa6ff4cbafe90b248a41386eff8030b3
+  - enabled: 1
+    path: Assets/Scenes/CH5/CH5Stage1.unity
+    guid: 8b50e21e3ed0d504d874d5a75083cf63
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene6.unity
+    guid: 8dd51e97a2127564e901c1af7f749986
+  - enabled: 1
+    path: Assets/Scenes/CH6/Inbetween1.unity
+    guid: cc1f25b6fe6936947922e629325a6c77
+  - enabled: 1
+    path: Assets/Scenes/CH6/CH6Stage1.unity
+    guid: f23676d249c079449b2e3ff3bf0202a9
+  - enabled: 1
+    path: Assets/Scenes/CH6/Inbetween2.unity
+    guid: c63c1a4c414351344abf6c336c98aad4
+  - enabled: 1
+    path: Assets/Scenes/CH6/CH6Stage2.unity
+    guid: 5265fdee6f2a4fb4b94e72404278b6ad
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene7.unity
+    guid: ee10008ce65b699479f4902a9eea489e
   m_configObjects: {}

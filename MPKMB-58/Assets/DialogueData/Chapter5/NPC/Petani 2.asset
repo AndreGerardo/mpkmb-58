@@ -14,17 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: "halo pak, boleh saya bertanya?\r"
+    content: "Halo pak, bolehkah saya bertanya?\r"
   - speaker: Petani
-    content: "iya nak ada apa?\r"
+    content: "Boleh nak, ada apa?\r"
   - speaker: Dika
-    content: "kelihatannya bapak mengalami kendala ya? Kira-kira bapak kenapa ya
-      pak?\r"
+    content: "Kelihatannya bapak mengalami kendala ya? \r\nBapak terlihat cemas."
   - speaker: Petani
-    content: "iya nih, saluran irigasi saya terhalang sama ular yang disana nak,
+    content: "Iya nih, saluran irigasi saya terhalang sama ular yang disana nak,
       jadi sawah saya tidak bisa melanjutkan pekerjaan saya nak\r"
   - speaker: Dika
-    content: "oalah ada ular ya pak, saya bisa mengatasinya pak\r"
+    content: "Oalah ada ular ya pak, saya bisa mengatasinya pak\r."
   - speaker: Dika
     content: "(sepertinya butuh alat untung ngambil ular ni)\r"
   responses: []

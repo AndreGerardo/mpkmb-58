@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: Wah ternyata gunting disini.
+    content: Wah ternyata ada <b>gunting</b> disini.
   responses: []

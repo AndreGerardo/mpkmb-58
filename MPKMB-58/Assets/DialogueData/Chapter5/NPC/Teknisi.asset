@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Teknisi
-    content: "dika seperti aku butuh drone untuk membantu pertanian ku, tetapi aku
-      hanya memiliki badan dronenya saja, apakah kamu bisa membantuku?\r"
+    content: "Dika, sepertinya aku butuh drone untuk membantu pertanian ku, tetapi
+      aku hanya memiliki badan dronenya saja, apakah kamu bisa membantuku?\r"
   - speaker: Dika
-    content: "saya bisa kok pak, tetapi sparepart yang lainnya ada dimana ya pak?\r"
+    content: "Saya bisa kok pak, tapi sparepart yang lainnya ada dimana ya pak?\r"
   - speaker: Teknisi
-    content: "kalau untuk sparepart lainnya kamu bisa mencarinya ke petani-petani
+    content: "Kalau untuk sparepart lainnya, kamu bisa mencarinya ke petani-petani
       lainnya dika\r"
   - speaker: Dika
-    content: "baiklah pak, saya akan mencoba untuk mencari sparepart lainnya\r"
+    content: "Baiklah pak, saya akan mencoba untuk mencari sparepart lainnya\r."
   - speaker: Teknisi
     content: "Terima kasih ya Dika\r"
   - speaker: Dika

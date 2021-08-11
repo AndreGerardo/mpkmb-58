@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Lemari
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Bima
+  - speaker: Naya
     content: Aku menemukan sebuah kunci.
   responses: []

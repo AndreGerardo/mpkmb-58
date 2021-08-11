@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: Disini tadi ada ular.
+    content: Ok ularnya sudah kuambil.
   responses: []

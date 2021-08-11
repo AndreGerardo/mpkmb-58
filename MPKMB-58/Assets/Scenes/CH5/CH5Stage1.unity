@@ -547,7 +547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 938dda69316a41f47bd2a4f3d5d8c8e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 11400000, guid: 9e351ea87f61efa40a42e49886fb29f6, type: 2}
+  dialogueObject: {fileID: 11400000, guid: dd46640fdba6e804f86aadd46455bd7a, type: 2}
   dialogueUI: {fileID: 1152117248}
   isInteracted: 0
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,

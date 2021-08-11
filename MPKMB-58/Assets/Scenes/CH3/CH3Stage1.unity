@@ -332,6 +332,11 @@ PrefabInstance:
       propertyPath: dialogueUI
       value: 
       objectReference: {fileID: 436712518}
+    - target: {fileID: 2437128594512159336, guid: 138f541bfea3c99429fa0a9832dec20d,
+        type: 3}
+      propertyPath: movePosition
+      value: 
+      objectReference: {fileID: 1795272985}
     - target: {fileID: 2437128594512159337, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_Name
@@ -768,13 +773,13 @@ PrefabInstance:
         type: 3}
       propertyPath: backgrounds.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 13e500fae64d57940ae5b911203737a8,
+      objectReference: {fileID: 21300000, guid: bf77d95365a575e40bc5babd9cad7482,
         type: 3}
     - target: {fileID: 5876515829235458341, guid: 13d2af59b31cf5c4a9d1d2b75ab947e4,
         type: 3}
       propertyPath: backgrounds.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: bf77d95365a575e40bc5babd9cad7482,
+      objectReference: {fileID: 21300000, guid: 13e500fae64d57940ae5b911203737a8,
         type: 3}
     - target: {fileID: 5876515829235458341, guid: 13d2af59b31cf5c4a9d1d2b75ab947e4,
         type: 3}
@@ -1133,6 +1138,36 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2124650275}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1795272984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1795272985}
+  m_Layer: 0
+  m_Name: intromove
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1795272985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795272984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.52, y: -2.08, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1821294487
 GameObject:
   m_ObjectHideFlags: 0

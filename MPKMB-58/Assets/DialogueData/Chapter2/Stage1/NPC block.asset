@@ -14,18 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Vio
-    content: Eh dika boleh minta bantuannya ga?
-  - speaker: Vio
-    content: gua butuh <b>pipet</b> nih dari <b>lab kimia</b>, boleh minta tolong
-      ambilin??
+    content: Ambilin <b>pipet</b> di <b>lab kimia</b> dik
   - speaker: Dika
-    content: aduh gua buru-buru nih harus ke <b>Ruang Dosen</b>.
+    content: Iye iyee sabar
   - speaker: Vio
-    content: "Sebentar aja\u2026."
-  - speaker: Vio
-    content: Ini gua praktikum terus pipetnya gak ada
-  - speaker: Vio
-    content: nah gua mau minta tolong ambilin <b>pipet</b> di <b>lab kimia</b>.
-  - speaker: Dika
-    content: "Ohhh ambil <b>pipet</b> aja nih \u2026. Hmmmm baiklah"
+    content: Makasih dik
   responses: []

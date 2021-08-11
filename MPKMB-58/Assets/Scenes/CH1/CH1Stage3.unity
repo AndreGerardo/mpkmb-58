@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -930,6 +930,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.106432244
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.106432244
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.21737173
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437128594512159254, guid: 138f541bfea3c99429fa0a9832dec20d,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.4
       objectReference: {fileID: 0}
@@ -978,10 +993,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2437128594512159255, guid: 138f541bfea3c99429fa0a9832dec20d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d42c0b1fa966ee04fa68fc63f675cf7c,
+        type: 3}
     - target: {fileID: 2437128594512159337, guid: 138f541bfea3c99429fa0a9832dec20d,
         type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5240589260005400028, guid: 138f541bfea3c99429fa0a9832dec20d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 6.7192917
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240589260005400028, guid: 138f541bfea3c99429fa0a9832dec20d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 24.255997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240589260005400028, guid: 138f541bfea3c99429fa0a9832dec20d,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.025422303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5240589260005400028, guid: 138f541bfea3c99429fa0a9832dec20d,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 12.127998
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062525056759745775, guid: 138f541bfea3c99429fa0a9832dec20d,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5c18dcde215ba1e41a08c5458698935e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 138f541bfea3c99429fa0a9832dec20d, type: 3}

@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
-  m_Name: PintuTerkunci
+  m_Name: Petani_tutorial
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Naya
-    content: Pintunya terkunci.
-  - speaker: Naya
-    content: Keknya kuncinya ada di lemari deh
+  - speaker: Petani
+    content: 'Pertama, gali tanah yang sudah disediakan menggunakan cangkul
+
+'
+  - speaker: Petani
+    content: Masukkan bibit ke dalam tanah
   responses: []

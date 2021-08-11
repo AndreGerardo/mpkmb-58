@@ -52,7 +52,7 @@ public class Inventory : MonoBehaviour
     }
     
     // Struct untuk representasi slot di inventory
-    public ItemSlots[] itemSlots;   
+    public ItemSlots[] itemSlots;
     public ActiveItem activeItem;
 
     /// <summary>
@@ -76,7 +76,7 @@ public class Inventory : MonoBehaviour
                 foreach(Transform child in itemSlots[i].Slot.transform){
                     GameObject.Destroy(child.gameObject); 
                 }
-                RapihkanItem(i);
+                RapihkanItem();
                 Debug.Log($"Item {itemName} sukses dihapus!");
                 return true;
             }
@@ -85,18 +85,28 @@ public class Inventory : MonoBehaviour
         return false;
     }
 
-    public void RapihkanItem(int i){
-        if (i == itemSlots.Length-1 || !itemSlots[i+1].IsFull){
-            return;
-        } else {
-            Transform child = itemSlots[i+1].Slot.transform.GetChild(0);
-            child.gameObject.GetComponent<Slot>().ID--;
-            child.SetParent(itemSlots[i].Slot.transform, false);
-            child = itemSlots[i].Slot.transform;
-            itemSlots[i].IsFull = true;
-            itemSlots[i].ItemName = itemSlots[i + 1].ItemName;
-            itemSlots[i+1].IsFull = false;
-            RapihkanItem(i+1);
+    public void RapihkanItem(){
+        for(int i = 0; i < itemSlots.Length; i++)
+        {
+            if(i == itemSlots.Length-1)
+            {
+                return;
+            }
+
+            if(itemSlots[i].IsFull){
+                continue;
+            } else if(itemSlots[i+1].IsFull) {
+                // Debug.Log($"item next : {itemSlots[i+1].ItemName} {i+1}");
+                Transform child = itemSlots[i+1].Slot.transform.GetChild(0);
+                child.gameObject.GetComponent<Slot>().ID--;
+                child.SetParent(itemSlots[i].Slot.transform, false);
+                child = itemSlots[i].Slot.transform;
+                itemSlots[i].IsFull = true;
+                itemSlots[i].ItemName = itemSlots[i + 1].ItemName;
+                itemSlots[i+1].ItemName = "";
+                itemSlots[i+1].IsFull = false;
+                // Debug.Log($"rapihin {itemSlots[i].ItemName} {i}");
+            }
         }
     }
 

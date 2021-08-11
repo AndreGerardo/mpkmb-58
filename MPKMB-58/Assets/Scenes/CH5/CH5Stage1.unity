@@ -935,11 +935,15 @@ MonoBehaviour:
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
   toInteract: {fileID: 1592548430}
+  changedSprite: {fileID: 0}
+  designatedScale: {x: 0, y: 0, z: 0}
+  designatedPosition: {x: 0, y: 0, z: 0}
   dialogActivator: {fileID: 344452313}
   afterDialogue:
   - {fileID: 11400000, guid: 33628d7f83609194fa8e2048b7d89aee, type: 2}
   isDone: 0
   disabledAfterInteract: 0
+  changeSpriteAfterAction: 0
 --- !u!114 &344452313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1136,11 +1140,15 @@ MonoBehaviour:
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
   toInteract: {fileID: 1097166801}
+  changedSprite: {fileID: 21300000, guid: a19d2d1bd0a6fbd4da8434361db18b27, type: 3}
+  designatedScale: {x: 0.1430104, y: 0.1430104, z: 0}
+  designatedPosition: {x: -2.28, y: -3.38, z: 0}
   dialogActivator: {fileID: 434230053}
   afterDialogue:
   - {fileID: 11400000, guid: 87d3628eddadf4f428b8ca44c8fba96b, type: 2}
   isDone: 0
   disabledAfterInteract: 0
+  changeSpriteAfterAction: 1
 --- !u!114 &434230053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1561,11 +1569,15 @@ MonoBehaviour:
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
   toInteract: {fileID: 1666948456}
+  changedSprite: {fileID: 0}
+  designatedScale: {x: 0, y: 0, z: 0}
+  designatedPosition: {x: 0, y: 0, z: 0}
   dialogActivator: {fileID: 775250236}
   afterDialogue:
   - {fileID: 11400000, guid: b6b1e02c637e3de4f9632cd2c42d9844, type: 2}
   isDone: 0
   disabledAfterInteract: 0
+  changeSpriteAfterAction: 0
 --- !u!114 &775250236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2458,8 +2470,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 4.25}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 4.25, y: 8.5}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.4, y: 7.79}
     newSize: {x: 4.25, y: 8.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2507,9 +2519,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6474817916930609645, guid: edcd4d036bbbd0c47bd050163cd098b4,
-    type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 9a7eb9246564ef0438c6dcd5ce9e7952, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2539,11 +2550,15 @@ MonoBehaviour:
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
   toInteract: {fileID: 1179521830}
+  changedSprite: {fileID: 0}
+  designatedScale: {x: 0, y: 0, z: 0}
+  designatedPosition: {x: 0, y: 0, z: 0}
   dialogActivator: {fileID: 981457603}
   afterDialogue:
   - {fileID: 11400000, guid: c12867eb13ed02b42ae278df1bfdc084, type: 2}
   isDone: 0
   disabledAfterInteract: 1
+  changeSpriteAfterAction: 0
 --- !u!114 &981457603
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -42,6 +42,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CH3/CH3Stage1.unity
     guid: f2aaf40dfe94b644a83bfdce2c761958
   - enabled: 1
+    path: Assets/Scenes/CH3/Interclude.unity
+    guid: eaff9e82f40628d46a0edc760cdc3a9f
+  - enabled: 1
     path: Assets/Scenes/CH3/CH3Stage2.unity
     guid: e1657ebce360d184b8076a1fd6837d99
   - enabled: 1

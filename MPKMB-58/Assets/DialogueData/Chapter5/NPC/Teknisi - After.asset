@@ -16,9 +16,9 @@ MonoBehaviour:
   - speaker: Teknisi
     content: "ada kan alatnya?\r"
   - speaker: Dika
-    content: "Ada kok pak, makasih pak\r"
+    content: Ada kok pak, makasih pak.
   - speaker: Teknisi
     content: "Bisa minta tolong rakit drone nya di meja itu dek?\r"
   - speaker: Dika
-    content: "Baik pak, saya rakit dulu drone nya\r"
+    content: "Baik pak, saya rakit dulu drone nya\r."
   responses: []

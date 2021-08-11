@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Badrun
-    content: Hei dek. Sini.
+    content: Hei dek, sini-sini.
   - speaker: Dika
     content: Iya pak, kenapa?
   - speaker: Badrun
-    content: Ini saya ada alat, <i>menyodorkan alat penangkap ular</i>
+    content: Ini saya ada alat, <i>menyodorkan alat penangkap ular</i>.
   - speaker: Badrun
-    content: Saya ga tau mau dipake buat apa ini, jadi buat ade aja
+    content: Saya ga tau mau dipake buat apa ini, jadi buat adek aja.
   - speaker: Dika
-    content: '(ko aneh..)
+    content: '(ehh...)
 
       Oh, oke pak. Terima kasih.'
   responses: []

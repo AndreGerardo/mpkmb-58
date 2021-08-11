@@ -24,7 +24,8 @@ public class PaddyPlot : Item
 
         if(stage == 2)
         {
-            StartCoroutine(PaddyNext());
+            gameObject.tag = "SemiDone";
+            //StartCoroutine(PaddyNext());
         }
     }
 

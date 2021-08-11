@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Oray
-    content: SSSSSSHHHHHHH.
+    content: SSSSSSHHHHHHH
   responses: []

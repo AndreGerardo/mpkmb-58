@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: "Ini pak sudah saya tanam\r"
+    content: Ini pak sudah saya tanam.
   - speaker: Petani
     content: "Wah terimakasih ya dek, bibit ini butuh waktu lama buat tumbuh, untuk
       seterusnya biar bapak saja yang rawat.\r"
   - speaker: Dika
     content: "Baik pak, saya pamit dulu yaa?\r"
   - speaker: Petani
-    content: "Hati-hati di jalan dek\r"
+    content: "Hati-hati di jalan dek\r."
   responses: []

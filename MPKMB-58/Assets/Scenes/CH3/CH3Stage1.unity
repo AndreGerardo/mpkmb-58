@@ -939,7 +939,7 @@ MonoBehaviour:
   itemName: 
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
-  changedSprite: {fileID: 0}
+  changedSprite: {fileID: 21300000, guid: a6d9e33f8fdba4643bcb33618d513454, type: 3}
   itemTakenSprite: {fileID: 21300000, guid: 4b795ac11bfcc4048b15ec6413e1a30f, type: 3}
   itemTaken: bensin
   afterDialogue: {fileID: 11400000, guid: 8fc49308e662c5c42acf8bedf7afbf34, type: 2}

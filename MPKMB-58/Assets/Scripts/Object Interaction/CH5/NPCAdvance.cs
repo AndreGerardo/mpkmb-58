@@ -48,7 +48,8 @@ public class NPCAdvance : Item
         {
             if(toInteract != null && toInteract.isDone)
             {
-                ChangeDialog(counter++);
+                counter += (!allItemCollected) ? 1 : 0;
+                ChangeDialog(counter);
                 isDone = true;
                 if(!isItemTaken)
                 {
@@ -77,7 +78,7 @@ public class NPCAdvance : Item
         }
     }   
 
-    private bool CheckItem()
+    public bool CheckItem()
     {
         bool collected;
         Debug.Log(collectedName.Length);

@@ -85,7 +85,7 @@ public class Inventory : MonoBehaviour
         return false;
     }
 
-    private void RapihkanItem(int i){
+    public void RapihkanItem(int i){
         if (i == itemSlots.Length-1 || !itemSlots[i+1].IsFull){
             return;
         } else {

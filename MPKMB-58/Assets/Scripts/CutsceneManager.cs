@@ -36,14 +36,20 @@ public class CutsceneManager : MonoBehaviour
             if(Input.GetTouch(0).phase == TouchPhase.Began)
             {
                 if(currentStory != stories.Length-1 && isInteractable)
-                {
-                    currentStory++;
-                    StartCoroutine(loadStory(currentStory));
-                }else
+            {
+                currentStory++;
+                StartCoroutine(loadStory(currentStory));
+            }else
+            {
+                if(!isLastScene)
                 {
                     isInteractable = false;
                     GetComponent<SceneManagement>().NextScene();
+                }else
+                {
+                    GetComponent<SceneManagement>().MoveScene(0);
                 }
+            }
             }
         }else if(Input.GetMouseButtonDown(0))
         {

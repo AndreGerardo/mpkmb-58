@@ -20,7 +20,7 @@ public class ActionItem : Item
             return;
         }
 
-        if(toInteract.allItemCollected)
+        if(toInteract.CheckItem())
         {
             ChangeDialog(counter++);
             for(int i = 0; i < toInteract.collectedName.Length; i++)
@@ -28,6 +28,7 @@ public class ActionItem : Item
                 inventory.RemoveItem(toInteract.collectedName[i]);
             }
             isDone = true;
+            RapihinItem();
             if(disabledAfterInteract)
                 GetComponent<SpriteRenderer>().enabled = false;
         }
@@ -37,5 +38,11 @@ public class ActionItem : Item
     {
         Debug.Log(i);
         dialogActivator.UpdateDialogueObject(afterDialogue[i]);
+    }
+
+    private void RapihinItem()
+    {
+        for(int i = 0; i < 4; i++)
+            inventory.RapihkanItem(i);
     }
 }

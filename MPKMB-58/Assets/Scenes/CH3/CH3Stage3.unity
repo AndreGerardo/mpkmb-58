@@ -518,7 +518,6 @@ GameObject:
   - component: {fileID: 735617602}
   - component: {fileID: 735617604}
   - component: {fileID: 735617605}
-  - component: {fileID: 735617606}
   m_Layer: 0
   m_Name: Pemilik Penginapan
   m_TagString: Untagged
@@ -623,30 +622,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.2197189, y: 11.832463}
   m_Size: {x: 8.771562, y: 23.664927}
   m_Direction: 0
---- !u!114 &735617606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735617601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d15c1aead691f0d4fa208a951ae6a53e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canBeTouched: 0
-  checkPlayer: 0
-  itemButton: {fileID: 4703931177959799844, guid: 77e9e55e9e1824a4fb21fee3c6ed46a0,
-    type: 3}
-  itemName: 
-  _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
-    type: 2}
-  changedSprite: {fileID: 21300000, guid: 197106c901a58284594f12a06b3adef6, type: 3}
-  itemTakenSprite: {fileID: 21300000, guid: 860111f35aa6b7f45a9b7239b4e7ed95, type: 3}
-  itemTaken: key
-  afterDialogue: {fileID: 0}
-  dialogueActivator: {fileID: 0}
 --- !u!1 &1380362798
 GameObject:
   m_ObjectHideFlags: 0

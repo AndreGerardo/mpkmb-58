@@ -17,7 +17,7 @@ MonoBehaviour:
     content: 'Permisi, bu, apakah ada kamar kosong?
 
 '
-  - speaker: 'NPC '
+  - speaker: Pemilik Penginapan
     content: 'Ada nak, eh ngomong-ngomong kamu lagi KKN ya?
 
 '
@@ -25,7 +25,7 @@ MonoBehaviour:
     content: 'Iya bu, saya lagi memenuhi tugas KKN dari IPB
 
 '
-  - speaker: 'NPC '
+  - speaker: Pemilik Penginapan
     content: 'Ibu lihat tadi kamu nanya-nanya ke warga desa ya?
 
 '
@@ -33,7 +33,7 @@ MonoBehaviour:
     content: 'Iya bu, kenapa?
 
 '
-  - speaker: 'NPC '
+  - speaker: 'Pemilik Penginapan '
     content: 'Ibu mau nanya beberapa hal soalnya dek, biar kamu tahu sedikit keadaan
       di desa ini
 

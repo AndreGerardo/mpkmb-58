@@ -15,18 +15,18 @@ MonoBehaviour:
   dialogue:
   - speaker: Dika
     content: Kenapa dek?
-  - speaker: Anak Petani
+  - speaker: Susan
     content: Bang boleh minta tolong ga?
-  - speaker: Anak Petani
+  - speaker: Susan
     content: Aku harus bawa panen jagung aku ke rumah tapi tadi aku kesandung batu
       terus jagungnya berserakan..
   - speaker: Dika
     content: Ohh boleh boleh
-  - speaker: Anak Petani
+  - speaker: Susan
     content: Tapi harus dipisahkan ka mana yang muda sama yang tua
   - speaker: Dika
     content: "\rCara bedainnya gimana dek?"
-  - speaker: Anak Petani
+  - speaker: Susan
     content: "\rKurang tau ka, saya cuma bawa hasil panennya aja"
   - speaker: Dika
     content: (Duh gimana ya gua ga tau lagi cara bedainnya)

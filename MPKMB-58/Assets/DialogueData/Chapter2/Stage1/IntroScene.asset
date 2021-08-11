@@ -10,17 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
-  m_Name: AnakPetani-After
+  m_Name: IntroScene
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Susan
-    content: Gimana ka, udah tau?
   - speaker: Dika
-    content: Udah kok.
+    content: Duh harus keruang dosen lagi
   - speaker: Dika
-    content: Ayo kita beresin.
-  - speaker: Susan
-    content: Makasih ka udah bantuin.
+    content: Harus Buru Buru nih
   - speaker: Dika
-    content: Sama-sama dek.
+    content: 
   responses: []

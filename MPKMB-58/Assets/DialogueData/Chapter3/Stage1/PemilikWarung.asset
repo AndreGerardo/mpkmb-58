@@ -25,4 +25,6 @@ MonoBehaviour:
     content: Wah kebetulan motor saya habis bensin, di sini agak jauh buat beli <b>bensin</b>.
   - speaker: Dika
     content: Oh ok bu, sebentar yaa..
+  - speaker: Dika
+    content: (keknya ada bensin di mobil)
   responses: []

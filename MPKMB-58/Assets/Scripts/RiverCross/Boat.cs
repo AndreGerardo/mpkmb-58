@@ -153,6 +153,9 @@ public class Boat : MonoBehaviour
         RG.leftBankSheepCount = RG.leftBankWolfCount = 3;
         RG.rightBankSheepCount = RG.rightBankWolfCount = 0;
 
+        passengerPos[0].sprite = null;
+        passengerPos[1].sprite = null;
+
         GetComponent<Animator>().Rebind();
         GetComponent<Animator>().Play("New State", -1, 0f);
 

@@ -15,29 +15,29 @@ MonoBehaviour:
   dialogue:
   - speaker: Dika
     content: Permisi pak, boleh minta waktunya sebentar pak?
-  - speaker: Petani Ngantuk
+  - speaker: Pak Sudirman
     content: (Meminum kopi)
-  - speaker: Petani Ngantuk
+  - speaker: Pak Sudirman
     content: Ahhh, kamu ada perlu apa?
   - speaker: Dika
     content: Kalau boleh tau bapak itu sebagai petani apa ya?
-  - speaker: Petani Ngantuk
+  - speaker: Pak Sudirman
     content: Oh saya yang menggarap jagung disini, emang ada perlu apa?
   - speaker: Dika
     content: Ohh pas banget, saya mau nanya untuk ngebedain jagung bersih sama yang
       tidak gimana ya pak?
-  - speaker: Petani Ngantuk
+  - speaker: Pak Sudirman
     content: 'Ohh nanya itu aja? '
   - speaker: Dika
     content: Iya pak.
-  - speaker: Pemilik Warung
+  - speaker: Pak Sudirman
     content: Jadi tuh...
-  - speaker: Petani Ngantuk
+  - speaker: Pak Sudirman
     content: (Menjelaskan perbedaan jagung bersih dan tidak bersih)
-  - speaker: Petani Ngantuk
+  - speaker: Pak Sudirman
     content: Jadi begitu mas cara bedainnya.
   - speaker: Dika
     content: Oh begitu yaa, terimakasih penjelasannya pak.
-  - speaker: Petani Ngantuk
+  - speaker: Pak Sudirman
     content: Iya sama-sama.
   responses: []

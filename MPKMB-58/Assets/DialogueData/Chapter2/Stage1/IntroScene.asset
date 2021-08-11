@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
-  m_Name: Salah4
+  m_Name: IntroScene
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Kepala Desa
-    content: Salah, coba lagi.
-  - speaker: Kepala Desa
-    content: "Kebutuhan pangan berbanding lurus dengan peningkatan jumlah penduduk.\r"
-  responses:
-  - responseText: Benar
-    dialogueObject: {fileID: 11400000, guid: 703719ced9e38b14e83758369ad853aa, type: 2}
-  - responseText: Salah
-    dialogueObject: {fileID: 11400000}
+  - speaker: Dika
+    content: Duh harus keruang dosen lagi
+  - speaker: Dika
+    content: Harus Buru Buru nih
+  - speaker: Dika
+    content: 
+  responses: []

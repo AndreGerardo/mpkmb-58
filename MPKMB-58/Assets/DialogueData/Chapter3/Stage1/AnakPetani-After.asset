@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: AnakPetani-After
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Anak Petani
+  - speaker: Susan
     content: Gimana ka, udah tau?
   - speaker: Dika
     content: Udah kok.
   - speaker: Dika
     content: Ayo kita beresin.
-  - speaker: Anak Petani
+  - speaker: Susan
     content: Makasih ka udah bantuin.
   - speaker: Dika
     content: Sama-sama dek.

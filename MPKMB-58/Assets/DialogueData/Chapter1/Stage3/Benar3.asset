@@ -16,8 +16,7 @@ MonoBehaviour:
   - speaker: Kepala Desa
     content: (tidak terkecoh juga ternyata)
   - speaker: Kepala Desa
-    content: Pertumbuhan jumlah manusia dapat dikejar oleh pertumbuhan hasil pangan
-      dengan metode tradisional.
+    content: "Kebutuhan pangan berbanding lurus dengan peningkatan jumlah penduduk.\r"
   responses:
   - responseText: Benar
     dialogueObject: {fileID: 11400000, guid: 703719ced9e38b14e83758369ad853aa, type: 2}

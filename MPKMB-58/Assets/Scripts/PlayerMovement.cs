@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 touchPosition, whereToMove;
     bool isMoving = false;
     [SerializeField] private Transform movePosition;
-    bool isFirstMoveDone = true;
+    [SerializeField] private bool isFirstMoveDone = true;
 
     float previousDistanceToTouchPos, currentDistanceToTouchPos;
     /// <summary>
@@ -80,6 +80,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.touchCount > 0 && isFirstMoveDone)
         {
             touch = Input.GetTouch(0);
+            Debug.Log("klikl");
 
             // Karakter bergerak menuju tujuan
             if (touch.phase == TouchPhase.Began)
@@ -104,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (Input.GetMouseButtonDown(0) && isFirstMoveDone)
-        {          
+        {
             touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if (touchPosition.y < 3.25f)
             {
@@ -131,6 +132,8 @@ public class PlayerMovement : MonoBehaviour
             isMoving = false;
             rb.velocity = Vector2.zero;
             anim.SetInteger("Direction", 0);
+            
+            isFirstMoveDone = true; //benerin bug kalau ignin lanjut jalan setelah firstmove
         }
 
         // Mengecek jika karakter bergerak

@@ -15,6 +15,8 @@ public class SaveGame : MonoBehaviour
     {
         GetComponent<Button>().interactable = false;
         chapter = _saveScriptableObject.Chapter;
+        if(PlayerPrefs.HasKey("CH"))
+            chapter = PlayerPrefs.GetInt("CH");
         CheckChapter();
     }
     

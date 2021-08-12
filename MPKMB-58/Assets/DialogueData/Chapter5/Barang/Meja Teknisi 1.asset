@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: Ini tempat untuk merakit sesuatu.
+    content: Ini tempat untuk merakit <b>Drone</b>.
   responses: []

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Petani 3 - after - after
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Petani
+  - speaker: Pak Arham
     content: Terima kasih infonya dek. Sungguh bermanfaat
   - speaker: Dika
     content: Iya pak, sama-sama.

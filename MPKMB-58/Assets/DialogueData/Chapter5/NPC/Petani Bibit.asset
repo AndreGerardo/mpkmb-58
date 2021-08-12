@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Petani Bibit
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Petani
+  - speaker: Dika
     content: Selamat siang pak, ada yang bisa dibantu?
-  - speaker: Petani
+  - speaker: Pak Soleh
     content: Oh iya ada dek, tadi bapak pengen nanem bibit ini, tapi bapak kehabisan
       pot, bisa minta tolong carikan bapak pot kecil ga dek?
   - speaker: Dika
-    content: (Perasaan tadi gue liat ada <b>botol</b> deh di jalan)
+    content: (Harusnya ada <b>botol</b> deh di tempat sampah)
   - speaker: Dika
     content: Baik pak.
   responses: []

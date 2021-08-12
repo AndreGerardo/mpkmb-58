@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Petani Bibit not met item
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Petani
+  - speaker: Pak Soleh
     content: Gimana dek, udah nemu ?
   - speaker: Dika
     content: Belum pak. Hehe.

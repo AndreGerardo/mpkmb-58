@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Petani 2 - after
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Petani
+  - speaker: Pak Samsul
     content: Sudah beres dik?
-  - speaker: Petani
+  - speaker: Dika
     content: Belum pak, sebentar ya.
   responses: []

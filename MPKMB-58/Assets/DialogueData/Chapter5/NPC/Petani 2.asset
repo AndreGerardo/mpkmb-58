@@ -15,11 +15,11 @@ MonoBehaviour:
   dialogue:
   - speaker: Dika
     content: "Halo pak, bolehkah saya bertanya?\r"
-  - speaker: Petani
+  - speaker: Pak Samsul
     content: "Boleh nak, ada apa?\r"
   - speaker: Dika
     content: "Kelihatannya bapak mengalami kendala ya? \r\nBapak terlihat cemas."
-  - speaker: Petani
+  - speaker: Pak Samsul
     content: "Iya nih, saluran irigasi saya terhalang sama ular yang disana nak,
       jadi sawah saya tidak bisa melanjutkan pekerjaan saya nak\r"
   - speaker: Dika

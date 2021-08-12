@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Teknisi
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Teknisi
+  - speaker: Pak Andre
     content: "Dika, sepertinya aku butuh drone untuk membantu pertanian ku, tetapi
       aku hanya memiliki badan dronenya saja, apakah kamu bisa membantuku?\r"
   - speaker: Dika
     content: "Saya bisa kok pak, tapi sparepart yang lainnya ada dimana ya pak?\r"
-  - speaker: Teknisi
+  - speaker: Pak Andre
     content: "Kalau untuk sparepart lainnya, kamu bisa mencarinya ke petani-petani
       lainnya dika\r"
   - speaker: Dika
     content: "Baiklah pak, saya akan mencoba untuk mencari sparepart lainnya\r."
-  - speaker: Teknisi
+  - speaker: Pak Andre
     content: "Terima kasih ya Dika\r"
   - speaker: Dika
     content: "Sama- sama pak\r"

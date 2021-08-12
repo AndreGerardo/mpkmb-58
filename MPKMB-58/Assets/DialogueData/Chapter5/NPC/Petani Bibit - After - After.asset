@@ -15,11 +15,11 @@ MonoBehaviour:
   dialogue:
   - speaker: Dika
     content: Ini pak sudah saya tanam.
-  - speaker: Petani
+  - speaker: Pak Soleh
     content: "Wah terimakasih ya dek, bibit ini butuh waktu lama buat tumbuh, untuk
       seterusnya biar bapak saja yang rawat.\r"
   - speaker: Dika
     content: "Baik pak, saya pamit dulu yaa?\r"
-  - speaker: Petani
+  - speaker: Pak Soleh
     content: "Hati-hati di jalan dek\r."
   responses: []

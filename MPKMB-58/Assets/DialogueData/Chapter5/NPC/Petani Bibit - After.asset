@@ -15,20 +15,22 @@ MonoBehaviour:
   dialogue:
   - speaker: Dika
     content: "Pak ini potnya dari botol plastik.\r"
-  - speaker: Petani
+  - speaker: Pak Soleh
     content: Wah kreatif ya kamu, kalau orang-orang punya inisiatif seperti kamu,
       bumi ini bakal lebih bersih.
   - speaker: Dika
     content: "Terimakasih pak pujiannya, jadi ini mau diapakan bibitnya?\r"
-  - speaker: Petani
+  - speaker: Pak Soleh
     content: 'Kamu tanam saja, ambil tanah, masukkan ke pot lalu masukkan bibitnya
       ke tanah, setelah itu jangan lupa disiram dengan air secukupnya.
 
 '
   - speaker: Dika
     content: "Oh ditanam biasa saja ya pak?\r"
-  - speaker: Petani
+  - speaker: Pak Soleh
     content: Iya benar dek.
   - speaker: Dika
     content: "Baik pak, sebentar ya\r"
+  - speaker: Dika
+    content: (harus dikerjakan di meja sebelah tempat sampah nih)
   responses: []

@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogue:
   - speaker: Dika
     content: Saya sudah selesai pak.
-  - speaker: Teknisi
+  - speaker: Pak Andre
     content: Wah, terima kasih banyak, Dik. Ternyata berbakat juga kamu.
   - speaker: Dika
     content: Iya pak, sama-sama. Saya juga baru belajar ini.

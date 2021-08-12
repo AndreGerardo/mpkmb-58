@@ -15,11 +15,11 @@ MonoBehaviour:
   dialogue:
   - speaker: Dika
     content: Selamat siang dek, lagi ngapain?
-  - speaker: Adit
+  - speaker: Susi
     content: Lagi mau ke warung kak, kakak lagi ngapain?
   - speaker: Dika
     content: KKN dek, Kuliah Kerja Nyata gitu dek, jadi kita memvisualisasikan ilmu
       yang dipelajari.
-  - speaker: Adit
+  - speaker: Susi
     content: Wahh keren banget kak, semoga sukses ya kakk.
   responses: []

@@ -1201,7 +1201,7 @@ MonoBehaviour:
   _voidEventChannelSO: {fileID: 11400000, guid: f11ca98bba1065f4f992f4f38bdbbf5a,
     type: 2}
   changedSprite: {fileID: 21300000, guid: 4e0c2bb810a01fe45991caee8a69e7ef, type: 3}
-  itemTakenSprite: {fileID: 21300000, guid: a9693a5fc65b75c41a122b3c2c6d5995, type: 3}
+  itemTakenSprite: {fileID: 21300000, guid: d365e43defc8b4144af75148a5ca49e3, type: 3}
   itemTaken: biji
   afterDialogue: {fileID: 0}
   dialogueActivator: {fileID: 0}

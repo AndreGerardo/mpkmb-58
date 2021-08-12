@@ -18,9 +18,9 @@ MonoBehaviour:
   - speaker: Soal 1
     content: "<b>Branding</b> terbaru IPB yaitu\u2026"
   responses:
-  - responseText: IPB University
-    dialogueObject: {fileID: 11400000, guid: c5af0b7b74c46874eabdd1ef2f76c86b, type: 2}
-  - responseText: Institut Perbankan Bogor
-    dialogueObject: {fileID: 11400000}
   - responseText: AIPIBI University
     dialogueObject: {fileID: 11400000}
+  - responseText: Institut Perbankan Bogor
+    dialogueObject: {fileID: 11400000}
+  - responseText: IPB University
+    dialogueObject: {fileID: 11400000, guid: c5af0b7b74c46874eabdd1ef2f76c86b, type: 2}

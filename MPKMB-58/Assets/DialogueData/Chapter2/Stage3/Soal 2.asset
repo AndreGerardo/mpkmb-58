@@ -18,7 +18,7 @@ MonoBehaviour:
   - speaker: Soal 2
     content: Berpakah total fakultas yang ada di IPB?
   responses:
-  - responseText: 9 Fakultas
-    dialogueObject: {fileID: 11400000, guid: 8e552163c27a3d94291a1496e53d85bf, type: 2}
   - responseText: 11 Fakultas
     dialogueObject: {fileID: 11400000, guid: b77fcdcce227f7442813f8b3894b4fed, type: 2}
+  - responseText: 9 Fakultas
+    dialogueObject: {fileID: 11400000, guid: 8e552163c27a3d94291a1496e53d85bf, type: 2}

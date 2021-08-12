@@ -19,7 +19,7 @@ MonoBehaviour:
     content: "Ohh IPB, kebetulan saya penasaran sama nama pak rektornya, namanya
       Pak Arif Satria atau Pak Arief Satria ya dek??\r"
   responses:
-  - responseText: Pak Arif
-    dialogueObject: {fileID: 11400000, guid: 976dc5527a0ef5c4e8a0c0ec7d6a2eba, type: 2}
   - responseText: Pak Arief
     dialogueObject: {fileID: 11400000}
+  - responseText: Pak Arif
+    dialogueObject: {fileID: 11400000, guid: 976dc5527a0ef5c4e8a0c0ec7d6a2eba, type: 2}

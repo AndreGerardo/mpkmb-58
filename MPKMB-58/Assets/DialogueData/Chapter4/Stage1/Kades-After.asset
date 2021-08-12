@@ -25,4 +25,6 @@ MonoBehaviour:
 '
   - speaker: Dika
     content: Terimakasih pak, saya segera kesana.
+  - speaker: Dika
+    content: (ini kan buku yang dicari Naya)
   responses: []

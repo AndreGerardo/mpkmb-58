@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Soal 2
-    content: Bukan itu dek yang kami tanam
+    content: Sepertinya bukan itu dek yang kami tanam.
   - speaker: Soal 2
     content: 'Apa yang banyak ditanam di desa ini?
 

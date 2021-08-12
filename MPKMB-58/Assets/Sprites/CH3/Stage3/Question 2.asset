@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Soal 2
-    content: Jawaban kamu benar, rektor sekarang adalah Pak Arif
+    content: Jawaban kamu benar, rektor sekarang adalah Pak Arif.
   - speaker: Soal 2
     content: 'Apa yang banyak ditanam di desa ini?
 

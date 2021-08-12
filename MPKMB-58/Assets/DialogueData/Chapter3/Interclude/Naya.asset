@@ -14,16 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Naya
-    content: hai, ada apa? Nampaknya kamu bukan wagra sini.
+    content: "Hai, ada apa? Nampaknya kamu bukan warga sini.\r"
   - speaker: Naya
     content: Seragammu? Apakah kamu mahasiswa IPB?
   - speaker: Dika
-    content: "wah kebetulan sekali, aku dika. Aku butuh bantuanmu, jadi begini\u2026."
+    content: "Wah kebetulan sekali, aku Dika. Aku butuh bantuanmu, jadi begini\u2026.\r\n"
   - speaker: Dika
-    content: (Menjelaskan Apa yang terjadi)
+    content: (Menjelaskan apa yang terjadi)
   - speaker: Naya
-    content: Baiklah, aku percaya ko
+    content: Baiklah, aku percaya kok.
   - speaker: Naya
-    content: Oh iya. Selamat datang yaa di Desa Ilmi Trengginas atau yang biasa disebut
-      Desa IT. nih untuk menjelaskan sedikit tentang desa ini (give note)
+    content: Oh iya. selamat datang yaa di Desa Ilmi Trengginas atau yang biasa disebut
+      Desa IT. nih untuk menjelaskan sedikit tentang desa ini (memberikan note kepada
+      dika)
   responses: []

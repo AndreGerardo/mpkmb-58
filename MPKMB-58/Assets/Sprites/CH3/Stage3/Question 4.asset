@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Soal 4
-    content: Benar, di desa ini ada tengkulak
+    content: Benar, di desa ini ada tengkulak.
   - speaker: Soal 4
     content: 'Apakah kepala desa sekarang lagi keluar desa?
 

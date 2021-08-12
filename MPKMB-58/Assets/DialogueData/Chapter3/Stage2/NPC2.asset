@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Bu Lilis
-    content: Lucu ya desa ini. Desa it, tapi masih banyak yang gaptek...
+    content: "Lucu ya desa ini. Desa IT, tapi masih banyak yang gaptek\u2026.\r\n"
   - speaker: Bu Lilis
     content: Salah satunya saya..
   - speaker: Dika

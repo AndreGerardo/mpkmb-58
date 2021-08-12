@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Soal 1
-    content: Perasaan saya bukan itu deh dek
+    content: Perasaan saya bukan itu deh dek.
   - speaker: Soal 1
     content: "Ohh IPB, kebetulan saya penasaran sama nama pak rektornya, namanya
       Pak Arif Satria atau Pak Arief Satria ya dek??\r"

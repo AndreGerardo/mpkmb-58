@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Petani
-    content: 'Pertama, gali tanah yang sudah disediakan menggunakan cangkul
+    content: 'Pertama, gali tanah yang sudah disediakan menggunakan cangkul.
 
 '
   - speaker: Petani
-    content: Masukkan bibit ke dalam tanah
+    content: Masukkan bibit ke dalam tanah.
   responses: []

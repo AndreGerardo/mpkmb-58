@@ -18,11 +18,11 @@ MonoBehaviour:
   - speaker: Pak Salam
     content: Oke Naya, kamu lihat tanah kosong di sebelah saya?
   - speaker: Pak Salam
-    content: Kamu harus menanam di tanah tersebut
+    content: Kamu harus menanam di tanah tersebut.
   - speaker: Pak Salam
-    content: Ambil bibit dan cangkul disana
+    content: Ambil bibit dan cangkul disana.
   - speaker: Pak Salam
-    content: Pertama, gali tanah yang sudah disediakan menggunakan cangkul
+    content: Pertama, gali tanah yang sudah disediakan menggunakan cangkul.
   - speaker: Pak Salam
-    content: Masukkan bibit ke dalam tanah
+    content: Masukkan bibit ke dalam tanah.
   responses: []

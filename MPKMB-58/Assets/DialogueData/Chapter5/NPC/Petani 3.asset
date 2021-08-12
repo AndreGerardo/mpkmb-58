@@ -22,25 +22,25 @@ MonoBehaviour:
   - speaker: Dika
     content: Kalau boleh tau bapak disini sebagai petani apa?
   - speaker: Pak Arham
-    content: Saya sebagai petani bayam
+    content: Saya sebagai petani bayam.
   - speaker: Dika
     content: "Jadi lahan seluas ini bapak garap sendiri?\r"
   - speaker: Pak Arham
     content: Iya nak.
   - speaker: Dika
     content: "Jadi begini pak, saya ingin memperkenalkan teknologi pertanian yang
-      saya bawa yaitu drone\r"
+      saya bawa yaitu drone\r."
   - speaker: Dika
     content: "Dengan drone ini bapak bisa melakukan semua kegiatan yang bapak lakukan
-      dengan tangan bisa menjadi otomatis dengan drone ini\r"
+      dengan tangan bisa menjadi otomatis dengan drone ini\r."
   - speaker: Pak Arham
     content: "Serius ini?\u2026., tapi saya tidak tahu apa-apa tentang drone yang
-      kamu sebutkan tadi\r"
+      kamu sebutkan tadi."
   - speaker: Dika
-    content: "Tenang pak, saya ajarin dari nol\r"
+    content: Tenang pak, saya ajarin dari nol.
   - speaker: Dika
-    content: "Tapi sebelum itu saya kekurangan satu sparepart lagi untuk merakit
-      drone ini Saya butuh sebuah penyiram air untuk drone ini\r"
+    content: Tapi sebelum itu saya kekurangan satu sparepart lagi untuk merakit drone
+      ini Saya butuh sebuah penyiram air untuk drone ini.
   - speaker: Pak Arham
     content: 'Wah kebetulan saya punya di <b>meja sebelah saya</b> ini.  tapi kayaknya
       masih kotor deh jadi kamu harus <b>bersihkan</b> terlebih dahulu.

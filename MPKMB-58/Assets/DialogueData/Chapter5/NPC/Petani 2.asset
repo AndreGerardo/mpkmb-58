@@ -20,8 +20,8 @@ MonoBehaviour:
   - speaker: Dika
     content: "Kelihatannya bapak mengalami kendala ya? \r\nBapak terlihat cemas."
   - speaker: Pak Samsul
-    content: "Iya nih, saluran irigasi saya terhalang sama ular yang disana nak,
-      jadi sawah saya tidak bisa melanjutkan pekerjaan saya nak\r"
+    content: Iya nih, saluran irigasi saya terhalang sama ular yang disana nak, jadi
+      sawah saya tidak bisa melanjutkan pekerjaan saya nak.
   - speaker: Dika
     content: "Oalah ada ular ya pak, saya bisa mengatasinya pak\r."
   - speaker: Dika

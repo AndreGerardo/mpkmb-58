@@ -20,11 +20,11 @@ MonoBehaviour:
     content: "Saya bisa kok pak, tapi sparepart yang lainnya ada dimana ya pak?\r"
   - speaker: Pak Andre
     content: "Kalau untuk sparepart lainnya, kamu bisa <b>mencarinya ke petani-petani
-      </b>lainnya dika\r"
+      </b>lainnya Dika\r."
   - speaker: Dika
     content: "Baiklah pak, saya akan mencoba untuk mencari sparepart lainnya\r."
   - speaker: Pak Andre
-    content: "Terima kasih ya Dika\r"
+    content: "Terima kasih ya Dika\r."
   - speaker: Dika
-    content: "Sama- sama pak\r"
+    content: "Sama-sama pak\r."
   responses: []

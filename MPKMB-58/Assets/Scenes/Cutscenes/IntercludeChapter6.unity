@@ -461,8 +461,7 @@ MonoBehaviour:
   transitionTime: 1
   currentStory: 0
   stories:
-  - {fileID: 21300000, guid: c4e9828672f0ec34ea55713b047cf470, type: 3}
-  - {fileID: 21300000, guid: 1291b039437e8c74b867fe23b8ecf835, type: 3}
+  - {fileID: 21300000, guid: 350950063e11e83429c572a87fe69d9e, type: 3}
   storyScene: {fileID: 1855893149}
 --- !u!1 &1855893147
 GameObject:

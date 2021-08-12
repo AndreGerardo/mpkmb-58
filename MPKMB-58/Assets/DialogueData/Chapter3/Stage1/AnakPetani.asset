@@ -21,13 +21,13 @@ MonoBehaviour:
     content: Aku harus bawa panen jagung aku ke rumah tapi tadi aku kesandung batu
       terus jagungnya berserakan..
   - speaker: Dika
-    content: Ohh boleh boleh
+    content: Ohh boleh boleh.
   - speaker: Susan
-    content: Tapi harus dipisahkan ka mana yang muda sama yang tua
+    content: "Tapi harus dipisahkan mana yang bersih dan yang kotor.\r"
   - speaker: Dika
     content: "\rCara bedainnya gimana dek?"
   - speaker: Susan
-    content: "\rKurang tau ka, saya cuma bawa hasil panennya aja"
+    content: "\rKurang tau ka, saya cuma bawa hasil panennya aja."
   - speaker: Dika
     content: (Duh gimana ya gua ga tau lagi cara bedainnya)
   responses: []

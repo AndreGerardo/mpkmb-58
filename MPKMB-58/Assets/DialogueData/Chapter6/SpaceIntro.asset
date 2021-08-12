@@ -16,14 +16,14 @@ MonoBehaviour:
   - speaker: Ki Cepu
     content: Naya! Naya!
   - speaker: Naya
-    content: "\rEh iya, ada apa Ki? Kenapa ribut sekali? Masih pagi loh hahaha"
+    content: "\rEh iya, ada apa Ki? Kenapa ribut sekali? Masih pagi loh, hahaha."
   - speaker: Ki Cepu
     content: "Drone yang Dika sudah rancang tiba-tiba tidak bekerja sama sekali!
       Padahal kemarin masih berjalan dengan lancar, tapi tadi pagi drone-nya malah
-      tidak mau dikendalikan! Tolong pak petani Naya!\r"
+      tidak mau dikendalikan! Tolong. pak petani Naya!\r"
   - speaker: Naya
-    content: "Waduh, sebenarnya yang paham urusan drone itu Dika pak, Tapi dika sedang
-      tidak ada. Tapi\u2026 Oke deh, Naya bakal bantu bapak petani sebisa mungkin.\r"
+    content: "Waduh, sebenernya yang paham urusan drone itu Dika pak, tapi Dika sedang
+      tidak ada. Tapi\u2026 Oke deh, Naya bakal bantu bapak petani sebisa mungkin."
   - speaker: Ki Cepu
     content: "Terimakasih banyak Naya!\r"
   responses: []

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: ' '
-    content: Selamat! kamu berhasil menjawab semua
+    content: Selamat! kamu berhasil menjawab semua.
   responses: []

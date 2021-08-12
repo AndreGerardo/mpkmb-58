@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: belum, masih mau baca bukunya
+    content: Belum, masih mau baca bukunya.
   responses: []

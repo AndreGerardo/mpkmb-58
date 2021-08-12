@@ -30,7 +30,7 @@ MonoBehaviour:
   - speaker: Pak Soleh
     content: Iya benar dek.
   - speaker: Dika
-    content: "Baik pak, sebentar ya\r"
+    content: Baik pak, sebentar ya.
   - speaker: Dika
     content: (harus dikerjakan di meja sebelah tempat sampah nih)
   responses: []

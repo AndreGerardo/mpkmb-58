@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Naya
-    content: huaaaaaaaa
+    content: "Huaaaa\u2026\u2026"
   - speaker: Naya
-    content: Ngapain ya hari ini
+    content: Ngapain ya hari ini?
   - speaker: Naya
-    content: Keluar aja deh
+    content: Keluar aja kali ya?
   responses: []

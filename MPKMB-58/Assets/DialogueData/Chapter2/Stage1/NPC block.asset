@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Vio
-    content: Ambilin <b>pipet</b> di <b>lab kimia</b> dik
+    content: Ambilin <b>pipet</b> di <b>lab kimia</b> dik.
   - speaker: Dika
-    content: Iye iyee sabar
+    content: Iye iyee sabar.
   - speaker: Vio
-    content: Makasih dik
+    content: Makasih dik.
   responses: []

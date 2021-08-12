@@ -19,19 +19,15 @@ MonoBehaviour:
 
 '
   - speaker: Pemilik Penginapan
-    content: 'Iya boleh kok dek, ini kunci kamarnya ya, selamat malam
-
-'
+    content: Iya boleh kok dek, ini kunci kamarnya ya, selamat malam.
   - speaker: 'Dika '
     content: 'Kamarnya yang mana ya bu?
 
 '
   - speaker: 'Pemilik Penginapan '
-    content: 'Itu ada di kunci nomornya
+    content: 'Itu ada di kunci nomornya.
 
 '
   - speaker: 'Dika '
-    content: 'Baik bu, terimakasih, selamat malam
-
-'
+    content: Baik bu, terimakasih, selamat malam.
   responses: []

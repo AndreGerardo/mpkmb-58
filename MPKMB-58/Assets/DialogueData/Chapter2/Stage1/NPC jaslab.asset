@@ -16,9 +16,9 @@ MonoBehaviour:
   - speaker: Dika
     content: Dap!
   - speaker: Daffa
-    content: eh dika
+    content: Eh dika!
   - speaker: Daffa
-    content: kenapa kok lu lari-lari gitu?
+    content: Kenapa kok lu lari-lari gitu?
   - speaker: Dika
     content: Lu udah beres kan praktikumnya?
   - speaker: Dika
@@ -28,9 +28,9 @@ MonoBehaviour:
   - speaker: Dika
     content: Iyaa
   - speaker: Daffa
-    content: Ya udah nih
+    content: Ya udah, nih.
   - speaker: Dika
-    content: Makasih banget ya dap.. emang temen terbaik lu
+    content: Makasih banget ya dap.. emang temen terbaik lu!
   - speaker: Daffa
-    content: "Hahaha iya\u2026. sama-sama"
+    content: "Hahaha iya\u2026. sama-sama."
   responses: []

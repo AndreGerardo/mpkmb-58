@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: 'Dosen B '
-    content: "Kamu main game EVEV ga? Mabar skuy\r"
+    content: "Kamu main game EVEV ga? Mabar skuy\r."
   - speaker: 'Dika '
     content: "(Nampaknya ini bukan dosen yang kutuju)\r"
   responses: []

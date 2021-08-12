@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Soal 3
-    content: 'Benar, jagung adalah tanaman yang paling banyak ditanam di desa ini
+    content: 'Benar, jagung adalah tanaman yang paling banyak ditanam di desa ini.
 
 '
   - speaker: Soal 3

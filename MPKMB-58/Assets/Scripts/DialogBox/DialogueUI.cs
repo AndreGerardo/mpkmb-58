@@ -50,13 +50,14 @@ public class DialogueUI : MonoBehaviour
             textContent.text = dialogue;
             typewriterEffect.ResetTypeSpeed();
 
-            if(i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
+            if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
 
             yield return null;
 
             //Tombol untuk next dialogue 
             yield return new WaitUntil(() => Input.GetMouseButtonDown(0) && Time.timeScale!=0);
         }
+        
 
         //Munculin opsi kalo di array dialogue punya opsi
         if (dialogueObject.HasResponses)

@@ -18,9 +18,7 @@ MonoBehaviour:
 
 '
   - speaker: Naya
-    content: 'Eh kepala desa? ada apa?
-
-'
+    content: Eh kepala desa? Ada apa?
   - speaker: Putri
     content: 'Iya, kayaknya dia butuh bantuan kamu tuh.
 

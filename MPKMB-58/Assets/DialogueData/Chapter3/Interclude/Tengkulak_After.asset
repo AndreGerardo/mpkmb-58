@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Tengkulak
-    content: Baik, Masuk.
+    content: Baik, silahkan masuk.
   responses: []

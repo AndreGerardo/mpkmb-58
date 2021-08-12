@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Soal 3
-    content: Bukan itu kayaknya deh mas jawabannya
+    content: Bukan itu kayaknya deh mas jawabannya.
   - speaker: Soal 3
     content: 'Apakah di desa ini ada tengkulak?
 

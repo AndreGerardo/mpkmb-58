@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogue:
   - speaker: 'Dosen PI '
     content: "Dika ya? Saya sudah menunggu kamu. Saya ingin memberikan tugas untuk
-      kamu melakukan KKN. saya akan jelaskan detailnya\r"
+      kamu melakukan KKN. saya akan jelaskan detailnya\r."
   - speaker: 
     content: "*Dosen Berbicara Dengan Panjang Lebar\r*\n"
   - speaker: 'Dosen PI '
@@ -23,7 +23,7 @@ MonoBehaviour:
 
 '
   - speaker: Dika
-    content: 'Baik pak, Saya sudah mengerti
+    content: 'Baik pak, Saya sudah mengerti.
 
 '
   responses: []

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Soal 4
-    content: Kemarin saya baru ketemu kok mas sama orangnya
+    content: Kemarin saya baru ketemu kok mas sama orangnya.
   - speaker: Soal 4
     content: 'Apakah kepala desa sekarang lagi keluar desa?
 

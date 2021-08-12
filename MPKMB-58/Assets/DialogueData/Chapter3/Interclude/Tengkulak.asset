@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Tengkulak
-    content: Siapa kamu? Selain penduduk desa, atau keluarganya. Dilarang masuk
+    content: "Siapa kamu? Selain penduduk desa atau keluarganya, dilarang masuk.\r"
   - speaker: Dika
     content: (waduh nampaknya butuh bantuan warga sekitar nih)
   responses: []

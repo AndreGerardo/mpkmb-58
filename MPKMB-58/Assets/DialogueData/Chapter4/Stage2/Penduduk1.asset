@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Pak Sudi
-    content: Halo Dika
+    content: Halo Dika.
   - speaker: Pak Sulman
-    content: Halo Dika
+    content: Halo Dika.
   responses: []

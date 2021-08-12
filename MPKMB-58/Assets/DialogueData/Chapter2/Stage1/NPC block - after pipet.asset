@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: Vio ini <b>pipetnya</b>
+    content: Vio, ini <b>pipetnya</b>.
   - speaker: Vio
-    content: yeyy makasih dika
+    content: Yey! Makasih Dika!
   - speaker: Vio
-    content: nih buat lu susu kotak
+    content: Nih buat lu susu kotak.
   - speaker: Dika
-    content: Iya sama-samaa
+    content: Iya, sama-sama.
   - speaker: Dika
-    content: Jangan lupa dibalikin <b>pipetnya</b>
+    content: Jangan lupa dibalikin ya <b>pipetnya</b>...
   responses: []

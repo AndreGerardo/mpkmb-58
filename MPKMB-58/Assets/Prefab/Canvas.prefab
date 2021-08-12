@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 849a980294ff3f8488d9f75ec2de64b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typewriterSpeed: 30
+  typewriterSpeed: 20
 --- !u!114 &3093980275262600237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1124,6 +1124,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3093980275262600234}
     m_Modifications:
+    - target: {fileID: 1271384298, guid: a9c7bb258c24acc4ba91bdc9db393fe0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5175618532934440202}
     - target: {fileID: 1807703332733081971, guid: a9c7bb258c24acc4ba91bdc9db393fe0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

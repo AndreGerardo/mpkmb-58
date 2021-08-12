@@ -6,6 +6,7 @@ using UnityEngine;
 public class TypewriterEffect : MonoBehaviour
 {
     [SerializeField] private float typewriterSpeed = 75f;
+    private float startSpeed;
 
     public bool IsRunning { get; set; }
 
@@ -16,6 +17,21 @@ public class TypewriterEffect : MonoBehaviour
     };
 
     private Coroutine typingCoroutine;
+
+    private void Start()
+    {
+        startSpeed = typewriterSpeed;
+    }
+
+    public void ResetTypeSpeed()
+    {
+        typewriterSpeed = startSpeed;
+    }
+
+    public void ChangeTypeSpeed(float newSpeed)
+    {
+        typewriterSpeed = startSpeed + newSpeed;
+    }
 
     //Jalanin efek
     public void Run(string textToType, TMP_Text textLabel)

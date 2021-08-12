@@ -48,6 +48,7 @@ public class DialogueUI : MonoBehaviour
             yield return RunTypingEffect(dialogue);
 
             textContent.text = dialogue;
+            typewriterEffect.ResetTypeSpeed();
 
             if(i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
 
@@ -79,7 +80,8 @@ public class DialogueUI : MonoBehaviour
             //Stop efek typewriter, kalimat langsung keluar semua
             if (Input.GetMouseButtonDown(0) && Time.timeScale!=0)
             {
-                typewriterEffect.Stop();
+                //typewriterEffect.Stop();
+                typewriterEffect.ChangeTypeSpeed(25f);
             }
         }
     }

@@ -34,7 +34,7 @@ public class Boat : MonoBehaviour
         if (isFull == false)
         {
 
-            if (isLeft && RG.leftBankSheepCount > 0)
+            if (isLeft && RG.leftBankSheepCount > sheep)
             {
                 foreach (var sip in leftBankSheep)
                 {
@@ -56,7 +56,7 @@ public class Boat : MonoBehaviour
 
                 sheep++;
             }
-            else if (!isLeft && RG.rightBankSheepCount > 0)
+            else if (!isLeft && RG.rightBankSheepCount > sheep)
             {
                 foreach (var sip in rightBankSheep)
                 {
@@ -85,7 +85,7 @@ public class Boat : MonoBehaviour
     {
         if (isFull == false)
         {
-            if (isLeft && RG.leftBankWolfCount > 0)
+            if (isLeft && RG.leftBankWolfCount > wolf)
             {
                 foreach (var sip in leftBankWolf)
                 {
@@ -107,7 +107,7 @@ public class Boat : MonoBehaviour
 
                 wolf++;
             }
-            else if (!isLeft && RG.rightBankWolfCount > 0)
+            else if (!isLeft && RG.rightBankWolfCount > wolf)
             {
                 foreach (var sip in rightBankWolf)
                 {

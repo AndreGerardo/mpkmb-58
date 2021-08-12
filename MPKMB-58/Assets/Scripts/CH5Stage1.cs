@@ -11,7 +11,8 @@ public class CH5Stage1 : MonoBehaviour
     {
         if(teknisi.isDone && trigger)
         {
-            StartCoroutine(nextDelay());
+            gameObject.tag = "Done";
+            //StartCoroutine(nextDelay());
             trigger = false;
         }
         

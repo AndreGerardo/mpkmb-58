@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Penduduk-Desa
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: NPC1
+  - speaker: Pak Sudi
     content: Halo Dika! Makasih atas penyuluhan tadi siang ya.
-  - speaker: NPC2
+  - speaker: Pak Sulman
     content: Iya betul, terimakasih banyak loh! Berkatmu saya jadi lebih paham solusi
       apa yang dapat dilakukan kepada permasalahan pertanian di desa kita!
   - speaker: Dika
     content: Ah, iya sama-sama bapak bapak sekalian. Sudah menjadi tugas saya juga
       sebagai seorang mahasiswa untuk membantu warga di desa ini.
-  - speaker: NPC1
+  - speaker: Pak Sudi
     content: Penting adanya orang sepertimu di desa-desa seperti ini Dika, keadaan
       desa yang awalnya kacau dapat diperbaiki oleh orang semacammu. Oleh karena
       itu terimalah hadiah kecil dari kami!
@@ -29,6 +29,6 @@ MonoBehaviour:
     content: (Kamu mendapatkan bibit spesial)
   - speaker: Dika
     content: "\rTerimakasih pak!"
-  - speaker: NPC2
+  - speaker: Pak Sulman
     content: "\rSama-sama, kamu memang pantas mendapatkannya kok."
   responses: []

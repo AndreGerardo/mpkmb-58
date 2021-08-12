@@ -19,7 +19,7 @@ MonoBehaviour:
     content: Yang mengatakan bahwa urusan persediaan makanan rakyat menyangkut hidup
       dan mati ialah
   responses:
-  - responseText: Sukarno
+  - responseText: soekarno
     dialogueObject: {fileID: 11400000, guid: a6c6d8aa7486e674d9380cb7c4d5e137, type: 2}
   - responseText: Moh. Hatta
     dialogueObject: {fileID: 11400000}

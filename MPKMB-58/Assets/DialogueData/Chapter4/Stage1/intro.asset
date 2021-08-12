@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43357f6ebaec3e145a0b8b2c89b59bac, type: 3}
-  m_Name: Penduduk1
+  m_Name: intro
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Pak Sudi
-    content: Halo Dika
-  - speaker: Pak Sulman
-    content: Halo Dika
+  - speaker: Dika
+    content: Pelatihan masih siang nanti
+  - speaker: Dika
+    content: Harus ingatkan warga tentang pelatihan nih
   responses: []

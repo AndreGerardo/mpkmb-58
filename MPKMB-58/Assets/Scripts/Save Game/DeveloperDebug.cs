@@ -8,6 +8,5 @@ public class DeveloperDebug : MonoBehaviour
     {
         PlayerPrefs.SetInt("CH", 1);
         Debug.LogWarning("chapter reset to : " + PlayerPrefs.GetInt("CH"));
-
     }
 }

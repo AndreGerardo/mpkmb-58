@@ -18,12 +18,12 @@ MonoBehaviour:
 
 '
   - speaker: Ibu
-    content: "Iya lagi di dalam rumah, katanya kamu yang manggil dia ya? Terima kasih
-      banyak ya nak. \nOh iya ibu mau siap-siap dulu ya.\n"
-  - speaker: Dika
-    content: 'Iya bu, sama-sama.
+    content: 'Iya lagi di dalam rumah, katanya kamu yang manggil dia ya? Terima kasih
+      banyak ya nak. Oh iya ibu mau siap-siap dulu ya.
 
-      Saya tunggu di balai desa ya buu.'
+'
+  - speaker: Dika
+    content: Iya bu, sama-sama. Saya tunggu di balai desa ya buu.
   - speaker: Ibu
     content: 'Iya nak, hati-hati dijalan.
 

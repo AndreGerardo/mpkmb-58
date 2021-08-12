@@ -77,7 +77,7 @@ public class PlayerMovement : MonoBehaviour
         if (isMoving)
             currentDistanceToTouchPos = (touchPosition - (Vector2)transform.position).magnitude;
 
-        if (Input.touchCount > 0 && isFirstMoveDone)
+        if (Input.touchCount > 0 && isFirstMoveDone && Time.timeScale != 0)
         {
             touch = Input.GetTouch(0);
             Debug.Log("klikl");
@@ -104,7 +104,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonDown(0) && isFirstMoveDone)
+        if (Input.GetMouseButtonDown(0) && isFirstMoveDone && Time.timeScale != 0)
         {
             touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if (touchPosition.y < 3.25f)

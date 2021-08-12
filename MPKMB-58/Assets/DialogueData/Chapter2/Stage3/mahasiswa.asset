@@ -15,23 +15,23 @@ MonoBehaviour:
   dialogue:
   - speaker: Dika
     content: Eh puyu, lagi ngapain ?
-  - speaker: Mahasiswa
+  - speaker: puyu
     content: 'Kamu tau ga, kenapa mata hati sama mata kaki ga punya bola mata ?
 
       xixixixi'
   - speaker: Dika
     content: (Efek begadang buat laprak nih pasti)
-  - speaker: Mahasiswa
+  - speaker: puyu
     content: Kejarlah mimpimu, tapi jangan lupa bangun untuk hadapi kenyataan
   - speaker: Dika
     content: Oke.
-  - speaker: Mahasiswa
+  - speaker: puyu
     content: Dik, jangan lupa. Absen di aplikasi IPB Mobile
   - speaker: Dika
     content: Okee
-  - speaker: Mahasiswa
+  - speaker: puyu
     content: Dik, gue minta tolong dong.
-  - speaker: Mahasiswa
+  - speaker: puyu
     content: Nih soal pengetahuan umum, gua kebelet mau kamar mandi. Tolong jawab
       dulu ya
   - speaker: Dika

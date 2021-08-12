@@ -93,8 +93,14 @@ EditorBuildSettings:
     path: Assets/Scenes/CH6/CH6Stage1.unity
     guid: f23676d249c079449b2e3ff3bf0202a9
   - enabled: 1
+    path: Assets/Scenes/Cutscenes/IntercludeChapter6.unity
+    guid: 5cc4eaad4d769f04fb4e044fe9cf5592
+  - enabled: 1
     path: Assets/Scenes/CH6/Inbetween2.unity
     guid: c63c1a4c414351344abf6c336c98aad4
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/IntercludeChapter6_1.unity
+    guid: f92432a564b25354e88e7328cc2bcd25
   - enabled: 1
     path: Assets/Scenes/CH6/CH6Stage2.unity
     guid: 5265fdee6f2a4fb4b94e72404278b6ad

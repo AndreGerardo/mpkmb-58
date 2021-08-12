@@ -17,14 +17,14 @@ MonoBehaviour:
     content: 'Ibu anaknya sudah pulang ya?
 
 '
-  - speaker: Ibu
+  - speaker: Bu Linda
     content: 'Iya lagi di dalam rumah, katanya kamu yang manggil dia ya? Terima kasih
       banyak ya nak. Oh iya ibu mau siap-siap dulu ya.
 
 '
   - speaker: Dika
     content: Iya bu, sama-sama. Saya tunggu di balai desa ya buu.
-  - speaker: Ibu
+  - speaker: Bu Linda
     content: 'Iya nak, hati-hati dijalan.
 
 '

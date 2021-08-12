@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dosen 1
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: 'Dosen A '
+  - speaker: Pak Sulaiman
     content: Apakah kamu tahu IPB membranding kan diri menjadi IPB University?
   - speaker: 'Dika '
     content: '(Nampaknya ini bukan dosen yang kutuju)

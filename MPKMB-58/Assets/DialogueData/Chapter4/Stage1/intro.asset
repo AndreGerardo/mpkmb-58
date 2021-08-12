@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: Pelatihan masih siang nanti
+    content: Pelatihan masih siang nanti.
   - speaker: Dika
-    content: Harus ingatkan warga tentang pelatihan nih
+    content: Harus ingatkan warga tentang pelatihan nih.
   responses: []

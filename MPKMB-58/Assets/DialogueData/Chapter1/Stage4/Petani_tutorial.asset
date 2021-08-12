@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Petani_tutorial
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Petani
+  - speaker: Pak Salam
     content: 'Pertama, gali tanah yang sudah disediakan menggunakan cangkul.
 
 '
-  - speaker: Petani
+  - speaker: Pak Salam
     content: Masukkan bibit ke dalam tanah.
   responses: []

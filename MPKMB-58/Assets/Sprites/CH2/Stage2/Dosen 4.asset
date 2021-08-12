@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Dosen 4
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: 'Dosen PI '
+  - speaker: Pak Auriza
     content: "Dika ya? Saya sudah menunggu kamu. Saya ingin memberikan tugas untuk
       kamu melakukan KKN. saya akan jelaskan detailnya\r."
   - speaker: 
     content: "*Dosen Berbicara Dengan Panjang Lebar\r*\n"
-  - speaker: 'Dosen PI '
+  - speaker: Pak Auriza
     content: 'Jadi kamu sudah mengerti kan Dika?
 
 '

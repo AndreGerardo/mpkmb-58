@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dosen 3
   m_EditorClassIdentifier: 
   dialogue:
-  - speaker: Dosen C
+  - speaker: Bu Ade
     content: "Saat ini IPB memiliki 9 fakultas dan 2 sekolah. Keren yaa...\r"
   - speaker: Dika
     content: '(Nampaknya ini bukan dosen yang kutuju)

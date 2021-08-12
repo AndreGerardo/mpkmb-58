@@ -18,7 +18,7 @@ MonoBehaviour:
       balai desa?
 
 '
-  - speaker: Ibu
+  - speaker: Bu Linda
     content: 'Aduhh, ade bisa cariin anak saya dulu ga? Saya mau ikut tapi anak saya
       belum pulang. Khawatir saya.
 
@@ -29,6 +29,6 @@ MonoBehaviour:
       Saya coba bantu cari ya, semoga ketemu.
 
 '
-  - speaker: Ibu
+  - speaker: Bu Linda
     content: Aamiin, terimakasih nak.
   responses: []

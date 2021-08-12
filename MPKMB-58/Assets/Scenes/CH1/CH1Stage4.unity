@@ -528,6 +528,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 92121e965bf78e744bb21c0d2f230454,
         type: 3}
+    - target: {fileID: 1998849208129506562, guid: 1adfdf08ffc91f14c8668b94469758a6,
+        type: 3}
+      propertyPath: dialogueUI
+      value: 
+      objectReference: {fileID: 948047020}
+    - target: {fileID: 1998849208129506562, guid: 1adfdf08ffc91f14c8668b94469758a6,
+        type: 3}
+      propertyPath: dialogueObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 283fc6bea2834e448af25d9b6989ef0e,
+        type: 2}
     - target: {fileID: 1998849208129506572, guid: 1adfdf08ffc91f14c8668b94469758a6,
         type: 3}
       propertyPath: m_Name

@@ -19,8 +19,8 @@ MonoBehaviour:
   - speaker: Dika
     content: "Saya bisa kok pak, tapi sparepart yang lainnya ada dimana ya pak?\r"
   - speaker: Pak Andre
-    content: "Kalau untuk sparepart lainnya, kamu bisa <b>mencarinya ke petani-petani
-      </b>lainnya Dika\r."
+    content: "Kalau untuk sparepart lainnya, kamu bisa <b>mencari 3 sparepart ke
+      petani-petani </b>lainnya Dika\r."
   - speaker: Dika
     content: "Baiklah pak, saya akan mencoba untuk mencari sparepart lainnya\r."
   - speaker: Pak Andre

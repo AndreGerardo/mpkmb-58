@@ -14,28 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: Eh puyu, lagi ngapain ?
+    content: Eh Puyu, lagi ngapain?
   - speaker: puyu
-    content: 'Kamu tau ga, kenapa mata hati sama mata kaki ga punya bola mata ?
+    content: 'Kamu tau ga, kenapa mata hati sama mata kaki ga punya bola mata?
 
       xixixixi'
   - speaker: Dika
     content: (Efek begadang buat laprak nih pasti)
   - speaker: puyu
-    content: Kejarlah mimpimu, tapi jangan lupa bangun untuk hadapi kenyataan
+    content: Kejarlah mimpimu, tapi jangan lupa bangun untuk hadapi kenyataan.
   - speaker: Dika
     content: Oke.
   - speaker: puyu
-    content: Dik, jangan lupa. Absen di aplikasi IPB Mobile
+    content: Dik, jangan lupa. Absen di aplikasi IPB Mobile.
   - speaker: Dika
-    content: Okee
+    content: Okee.
   - speaker: puyu
     content: Dik, gue minta tolong dong.
   - speaker: puyu
     content: Nih soal pengetahuan umum, gua kebelet mau kamar mandi. Tolong jawab
-      dulu ya
+      dulu ya.
   - speaker: Dika
-    content: Yaelaaaaa
+    content: "Yaelaaa\u2026..."
   - speaker: Soal 1
     content: "<b>Branding</b> terbaru IPB yaitu\u2026"
   responses:

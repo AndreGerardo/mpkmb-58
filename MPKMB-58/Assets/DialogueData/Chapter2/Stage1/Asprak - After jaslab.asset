@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Dika
-    content: Nih ka <b>jas lab</b>
+    content: Nih ka <b>Jas Lab</b>-nya
   - speaker: Asprak
     content: Nah sipp..
   - speaker: Asprak
-    content: Lain kali kalau mau ke lab jangan lupa jas lab ya
+    content: Bagus! Lain kali kalau mau ke lab jangan lupa Jas Lab ya!
   - speaker: Dika
-    content: Iyaa ka
+    content: Iyaa kak..
   - speaker: Asprak
-    content: "Ini <b>pipetnya</b>\u2026.jangan lupa dikembaliin ya"
+    content: "Ini <b>pipetnya</b>\u2026.Jangan lupa dikembalikan ya."
   - speaker: Dika
-    content: Iya kaa... makasih kaa
+    content: "Iya kaa\u2026 Makasih kaa."
   responses: []

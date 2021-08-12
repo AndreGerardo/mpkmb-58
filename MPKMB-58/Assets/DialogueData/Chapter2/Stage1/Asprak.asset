@@ -14,20 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Asprak
-    content: Haloo... ada perlu apa di <b>lab kimia</b>
+    content: "Haloo\u2026 Ada perlu apa di <b>lab kimia</b>?"
   - speaker: Dika
     content: Ini saya mau minjem <b>pipet</b> buat keperluan praktikum.
   - speaker: Asprak
     content: Boleh kok.
   - speaker: Asprak
-    content: tapi ada syaratnya...
+    content: Tapi ada syaratnya...
   - speaker: Asprak
-    content: kamu harus ambilkan <b>jas lab</b> sebelum masuk ke dalam lab.
+    content: Kamu harus ambilkan <b>Jas Lab</b> sebelum masuk ke dalam lab.
   - speaker: Asprak
-    content: karena <b>jas lab</b> itu peraturan wajib sebelum masuk lab. ITU WAJIB
-      !!!
+    content: Karena <b>Jas Lab</b> itu peraturan wajib sebelum masuk lab. ITU WAJIB!!!
   - speaker: Dika
-    content: ohhh begitu, baiklah
+    content: Ohhh begitu, baiklah.
   - speaker: Dika
-    content: (kayaknya tdi gue liat ada yang pake <b>jaslab</b> di kantin)
+    content: (Kayaknya tdi gue liat ada yang pake <b>Jas Lab</b> di kantin)
   responses: []

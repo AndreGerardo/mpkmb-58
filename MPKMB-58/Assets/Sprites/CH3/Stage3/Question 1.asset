@@ -20,4 +20,4 @@ MonoBehaviour:
   - responseText: Pak Arief
     dialogueObject: {fileID: 11400000, guid: 1ae59593a775429469f4c8668f53155f, type: 2}
   - responseText: Pak Arif
-    dialogueObject: {fileID: 11400000, guid: 5eeaf8c96908cd649b4b3ec9a0eebd0e, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 976dc5527a0ef5c4e8a0c0ec7d6a2eba, type: 2}

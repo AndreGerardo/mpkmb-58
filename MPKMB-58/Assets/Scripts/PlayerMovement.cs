@@ -145,7 +145,7 @@ public class PlayerMovement : MonoBehaviour
 
 
         //player melakukan interaksi ketika berhenti
-        if (isInteracting && !isMoving)
+        if (isInteracting && !isMoving && Time.timeScale!=0)
         {
             Interact();
             isInteracting = false;

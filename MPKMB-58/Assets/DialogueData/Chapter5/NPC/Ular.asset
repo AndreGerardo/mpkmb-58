@@ -15,4 +15,6 @@ MonoBehaviour:
   dialogue:
   - speaker: Oray
     content: SSSSSSHHHHHHH
+  - speaker: Dika
+    content: hih sereeem
   responses: []

@@ -40,10 +40,14 @@ MonoBehaviour:
     content: "Tapi sebelum itu saya kekurangan satu sparepart lagi untuk merakit
       drone ini Saya butuh sebuah penyiram air untuk drone ini\r"
   - speaker: Pak Arham
-    content: 'Wah kebetulan saya punya dirumah. Kamu cari aja dibelakang rumah saya,
-      tapi kayaknya masih kotor deh jadi kamu harus bersihkan terlebih dahulu.
+    content: 'Wah kebetulan saya punya di <b>meja sebelah saya</b> ini.  tapi kayaknya
+      masih kotor deh jadi kamu harus <b>bersihkan</b> terlebih dahulu.
 
 '
   - speaker: Dika
     content: "Oh baik pak terima kasih\r"
+  - speaker: Dika
+    content: (dapet permbersih darimana ya?)
+  - speaker: Dika
+    content: (kayaknya ada di garasi)
   responses: []

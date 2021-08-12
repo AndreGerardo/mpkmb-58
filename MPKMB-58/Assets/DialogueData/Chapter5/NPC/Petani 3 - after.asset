@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - speaker: Pak Arham
-    content: Sudah dik?
+    content: Sudah dibersihkan dik?
   - speaker: Dika
     content: Belum pak, sebentar ya.
+  - speaker: Dika
+    content: (harus bersihin <b>meja kotor</b> di sebelah)
   responses: []

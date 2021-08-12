@@ -54,7 +54,7 @@ public class DialogueUI : MonoBehaviour
             yield return null;
 
             //Tombol untuk next dialogue 
-            yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+            yield return new WaitUntil(() => Input.GetMouseButtonDown(0) && Time.timeScale!=0);
         }
 
         //Munculin opsi kalo di array dialogue punya opsi
@@ -77,7 +77,7 @@ public class DialogueUI : MonoBehaviour
             yield return null;
 
             //Stop efek typewriter, kalimat langsung keluar semua
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && Time.timeScale!=0)
             {
                 typewriterEffect.Stop();
             }

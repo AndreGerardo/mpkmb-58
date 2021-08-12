@@ -21,5 +21,9 @@ MonoBehaviour:
   - speaker: Dika
     content: (Harusnya ada <b>botol</b> deh di tempat sampah)
   - speaker: Dika
+    content: (<b>Gunting</b> harusnya ada dikamar....)
+  - speaker: Dika
+    content: (harus masuk ke <b> Rumah </b> lagi nih)
+  - speaker: Dika
     content: Baik pak.
   responses: []

@@ -15,4 +15,6 @@ MonoBehaviour:
   dialogue:
   - speaker: Dika
     content: Aku menemukan sparepart dan alat pembersih.
+  - speaker: Dika
+    content: (wah bisa dipake buat bersihin meja nih)
   responses: []

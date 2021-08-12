@@ -15,4 +15,6 @@ MonoBehaviour:
   dialogue:
   - speaker: Dika
     content: Ok ularnya sudah kuambil.
+  - speaker: Dika
+    content: (harus kasih tahu Pak Samsul)
   responses: []

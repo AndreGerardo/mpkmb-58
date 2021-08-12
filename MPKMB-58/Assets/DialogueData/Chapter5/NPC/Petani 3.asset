@@ -16,7 +16,9 @@ MonoBehaviour:
   - speaker: Dika
     content: "Pagi Pak\u2026\r"
   - speaker: Pak Arham
-    content: "Pagi...ada perlu apa\r?"
+    content: 'Pagi...
+
+      Ada perlu apa?'
   - speaker: Dika
     content: Kalau boleh tau bapak disini sebagai petani apa?
   - speaker: Pak Arham
@@ -24,7 +26,7 @@ MonoBehaviour:
   - speaker: Dika
     content: "Jadi lahan seluas ini bapak garap sendiri?\r"
   - speaker: Pak Arham
-    content: "Jadi lahan seluas ini bapak garap sendiri?\r"
+    content: Iya nak.
   - speaker: Dika
     content: "Jadi begini pak, saya ingin memperkenalkan teknologi pertanian yang
       saya bawa yaitu drone\r"

@@ -78,9 +78,6 @@ EditorBuildSettings:
     path: Assets/Scenes/CH4/CH4Stage2.unity
     guid: 7df1bf4756bf31e46aa8a154fae35d26
   - enabled: 1
-    path: Assets/Scenes/CH4/CH4Stage2_1.unity
-    guid: f8a92501b4cbb0046bf14f92d1b2b1e8
-  - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene5.unity
     guid: aa6ff4cbafe90b248a41386eff8030b3
   - enabled: 1
